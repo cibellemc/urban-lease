@@ -1,0 +1,63 @@
+/* Estilos personalizados para Urban Lease */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Cores personalizadas */
+.bg-brown {
+    background-color: #58381a;
+}
+
+.text-brown {
+    color: #58381a;
+}
+
+.bg-cream {
+    background-color: #f4ebd7;
+}
+
+.text-cream {
+    color: #f4ebd7;
+}
+
+/* Estilos para carrossel */
+.carousel-container {
+    transition: transform 0.5s ease;
+}
+
+.carousel-indicators button.active {
+    background-color: white;
+    opacity: 1;
+}
+
+/* Estilos para formulários */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #58381a;
+    box-shadow: 0 0 0 1px #58381a;
+}
+
+/* Estilos para botões */
+button:focus {
+    outline: none;
+}
+
+/* Estilos para links */
+a:hover {
+    transition: all 0.3s ease;
+}
+
+/* Estilos para cards */
+.property-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para WhatsApp flutuante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
