@@ -181,150 +181,183 @@
       <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 class="text-2xl font-bold mb-8">Para você</h2>
 
-        <div class="bg-cream rounded-lg p-10">
+        <div class="bg-cream rounded-lg p-6 md:p-8">
           <!-- Tabs -->
           <div class="flex mb-6">
-            <button class="py-4 px-6 rounded-full bg-brown text-white mr-2">
+            <button class="py-2 px-4 rounded-full bg-brown text-white mr-2">
               Buscar imóveis
             </button>
-            <button class="py-4 px-6 rounded-full bg-white text-gray-700">
+            <button class="py-2 px-4 rounded-full bg-white text-gray-700">
               Anunciar imóveis
             </button>
           </div>
 
           <!-- Tabs Content -->
           <div class="tab-content">
-            <div class="flex mb-10">
-              <button class="mr-4 text-sm text-gray-700">Para alugar</button>
-              <button class="text-sm text-gray-700">Para comprar</button>
-            </div>
+            <form id="search-form" action="search-results.html" method="get">
+              <div class="flex mb-4">
+                <label class="mr-4 inline-flex items-center cursor-pointer">
+                  <input
+                    type="radio"
+                    name="transaction_type"
+                    value="rent"
+                    class="hidden peer"
+                    checked
+                  />
+                  <span
+                    class="py-1 px-3 border border-brown text-brown rounded-full text-sm peer-checked:bg-brown peer-checked:text-white transition"
+                    >Para alugar</span
+                  >
+                </label>
+                <label class="inline-flex items-center cursor-pointer">
+                  <input
+                    type="radio"
+                    name="transaction_type"
+                    value="buy"
+                    class="hidden peer"
+                  />
+                  <span
+                    class="py-1 px-3 border border-gray-300 text-gray-700 rounded-full text-sm peer-checked:bg-brown peer-checked:text-white peer-checked:border-brown transition"
+                    >Para comprar</span
+                  >
+                </label>
+              </div>
 
-            <!-- Search Form -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-              <div class="relative">
-                <select
-                  class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                >
-                  <option selected disabled>Cidade</option>
-                  <option>São Paulo</option>
-                  <option>Rio de Janeiro</option>
-                  <option>Belo Horizonte</option>
-                </select>
-                <div
-                  class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                >
-                  <svg
-                    class="w-4 h-4 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
+              <!-- Search Form -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="relative">
+                  <select
+                    name="city"
+                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
+                    <option value="" selected disabled>Cidade</option>
+                    <option value="sao_paulo">São Paulo</option>
+                    <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    <option value="belo_horizonte">Belo Horizonte</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="relative">
+                  <select
+                    name="neighborhood"
+                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                  >
+                    <option value="" selected disabled>Bairro</option>
+                    <option value="all">Todos</option>
+                    <option value="centro">Centro</option>
+                    <option value="jardins">Jardins</option>
+                    <option value="perdizes">Perdizes</option>
+                    <option value="vila_madalena">Vila Madalena</option>
+                    <option value="moema">Moema</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
               </div>
-              <div class="relative">
-                <select
-                  class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                >
-                  <option selected disabled>Bairro</option>
-                  <option>Centro</option>
-                  <option>Jardins</option>
-                  <option>Pinheiros</option>
-                </select>
-                <div
-                  class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                >
-                  <svg
-                    class="w-4 h-4 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <div class="relative">
-                <select
-                  class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                >
-                  <option selected disabled>Valor estimado</option>
-                  <option>Até R$ 1.000</option>
-                  <option>R$ 1.000 - R$ 2.000</option>
-                  <option>R$ 2.000 - R$ 3.000</option>
-                  <option>Acima de R$ 3.000</option>
-                </select>
-                <div
-                  class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                >
-                  <svg
-                    class="w-4 h-4 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <div class="relative">
+                  <select
+                    name="price_range"
+                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
+                    <option value="" selected disabled>Valor estimado</option>
+                    <option value="0-1000">Até R$ 1.000</option>
+                    <option value="1000-2000">R$ 1.000 - R$ 2.000</option>
+                    <option value="2000-3000">R$ 2.000 - R$ 3.000</option>
+                    <option value="3000-999999">Acima de R$ 3.000</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="relative">
+                  <select
+                    name="bedrooms"
+                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                  >
+                    <option value="" selected disabled>Nº de quartos</option>
+                    <option value="1">1 quarto</option>
+                    <option value="2">2 quartos</option>
+                    <option value="3">3 quartos</option>
+                    <option value="4+">4+ quartos</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
               </div>
-              <div class="relative">
-                <select
-                  class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                >
-                  <option selected disabled>Nº de quartos</option>
-                  <option>1 quarto</option>
-                  <option>2 quartos</option>
-                  <option>3 quartos</option>
-                  <option>4+ quartos</option>
-                </select>
-                <div
-                  class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                >
-                  <svg
-                    class="w-4 h-4 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
 
-            <button
-              class="w-full py-3 bg-brown text-white rounded-md hover:bg-opacity-90 transition"
-            >
-              Buscar
-            </button>
+              <button
+                type="submit"
+                class="w-full py-3 bg-brown text-white rounded-md hover:bg-opacity-90 transition"
+              >
+                Buscar
+              </button>
+            </form>
           </div>
         </div>
       </div>
