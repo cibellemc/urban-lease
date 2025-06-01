@@ -8,7 +8,7 @@
     "type": "Condomínio",
     "parking": 1,
     "area": "65m²",
-    "image": "images/apto.png",
+    "image": "images/apto.webp",
     "status": "À venda",
     "featured": true
   },
@@ -21,7 +21,7 @@
     "type": "Casa",
     "parking": 2,
     "area": "120m²",
-    "image": "images/casa.png",
+    "image": "images/casa.webp",
     "status": "Para alugar",
     "featured": true
   },
@@ -60,7 +60,7 @@
     "type": "Apartamento",
     "parking": 1,
     "area": "85m²",
-    "image": "images/apto.png",
+    "image": "images/apto.webp",
     "status": "Para alugar",
     "featured": false
   },
@@ -73,7 +73,7 @@
     "type": "Casa",
     "parking": 2,
     "area": "220m²",
-    "image": "images/casa.png",
+    "image": "images/casa.webp",
     "status": "À venda",
     "featured": false
   },
@@ -99,7 +99,7 @@
     "type": "Apartamento",
     "parking": 1,
     "area": "75m²",
-    "image": "images/apto.png",
+    "image": "images/apto.webp",
     "status": "À venda",
     "featured": false
   },
@@ -151,7 +151,7 @@
     "type": "Casa",
     "parking": 1,
     "area": "110m²",
-    "image": "images/casa.png",
+    "image": "images/casa.webp",
     "status": "À venda",
     "featured": false
   }

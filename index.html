@@ -8,6 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="images/logo-com-fundo.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -33,19 +35,37 @@
         class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 py-3 flex justify-between items-center"
       >
         <div class="logo">
-          <a href="#"
-            ><img src="images/logo.png" alt="Urban Lease" class="h-[4rem]"
+          <a href="#" aria-label="Urban Lease - Página inicial"
+            ><img src="images/logo.webp" alt="Urban Lease" class="h-[4rem]"
           /></a>
         </div>
-        <nav class="hidden md:flex space-x-6 text-sm">
-          <a href="#" class="text-black-700 hover:text-brown">Comprar</a>
-          <a href="#" class="text-black-700 hover:text-brown">Alugar</a>
-          <a href="#" class="text-black-700 hover:text-brown">Destaques</a>
-          <a href="#" class="text-black-700 hover:text-brown">Saiba mais</a>
+        <nav
+          aria-label="Menu principal"
+          class="hidden md:flex space-x-6 text-sm"
+        >
+          <a href="#buscar-imoveis" class="text-black-700 hover:text-brown"
+            >Comprar</a
+          >
+          <a href="#buscar-imoveis" class="text-black-700 hover:text-brown"
+            >Alugar</a
+          >
+          <a href="#destaques" class="text-black-700 hover:text-brown"
+            >Destaques</a
+          >
+          <a href="#quem-somos" class="text-black-700 hover:text-brown"
+            >Saiba mais</a
+          >
         </nav>
         <div class="md:hidden">
-          <button id="mobile-menu-button" class="text-gray-700">
+          <button
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Abrir menu de navegação"
+            id="mobile-menu-button"
+            class="text-gray-700"
+          >
             <svg
+              role="img"
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
               fill="none"
@@ -64,692 +84,73 @@
       </div>
     </header>
 
-    <!-- Hero Carousel Section -->
-    <section class="relative overflow-hidden">
-      <div id="hero-carousel" class="relative w-full h-[400px] md:h-[500px]">
-        <div
-          class="carousel-container flex transition-transform duration-500 h-full"
-        >
+    <main>
+      <!-- Hero Carousel Section -->
+      <section class="relative overflow-hidden">
+        <div id="hero-carousel" class="relative w-full h-[400px] md:h-[500px]">
           <div
-            class="carousel-slide min-w-full h-full relative bg-cover bg-center"
-            style="background-image: url('images/predios.png')"
+            class="carousel-container flex transition-transform duration-500 h-full"
           >
             <div
-              class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
+              class="carousel-slide min-w-full h-full relative bg-cover bg-center"
+              style="background-image: url('images/predios.webp')"
             >
-              <div class="container mx-auto px-16 text-white">
-                <h1 class="text-3xl md:text-4xl font-bold mb-2">
-                  Encontre o lar perfeito com<br />a Urban Lease
-                </h1>
-                <p class="text-lg md:text-xl mb-6">
-                  A Urban Lease oferece imóveis exclusivos, encontre o<br />lar
-                  ideal para você e sua família
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-slide min-w-full h-full relative bg-cover bg-center"
-            style="background-image: url('images/casa_piscina.png')"
-          >
-            <div
-              class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
-            >
-              <div class="container mx-auto px-16 text-white">
-                <h1 class="text-3xl md:text-4xl font-bold mb-2">
-                  Apartamentos modernos<br />e confortáveis
-                </h1>
-                <p class="text-lg md:text-xl mb-6">
-                  Encontre o imóvel dos seus sonhos com<br />localização
-                  privilegiada
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="carousel-slide min-w-full h-full relative bg-cover bg-center"
-            style="background-image: url('images/casa.png')"
-          >
-            <div
-              class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
-            >
-              <div class="container mx-auto px-16 text-white">
-                <h1 class="text-3xl md:text-4xl font-bold mb-2">
-                  Casas espaçosas para<br />toda a família
-                </h1>
-                <p class="text-lg md:text-xl mb-6">
-                  Conforto e qualidade em cada detalhe<br />para seu bem-estar
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Carousel Controls -->
-        <button
-          class="carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-brown"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-        </button>
-        <button
-          class="carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-brown"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </button>
-
-        <!-- Carousel Indicators -->
-        <div
-          class="carousel-indicators absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"
-        >
-          <button
-            class="w-2 h-2 rounded-full bg-white bg-opacity-50 active"
-          ></button>
-          <button class="w-2 h-2 rounded-full bg-white bg-opacity-50"></button>
-          <button class="w-2 h-2 rounded-full bg-white bg-opacity-50"></button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Para você Section -->
-    <section class="py-12">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <h2 class="text-2xl font-bold mb-8">Para você</h2>
-
-        <div class="bg-cream rounded-lg p-6 md:p-8">
-          <!-- Tabs -->
-          <div class="flex mb-6">
-            <button class="py-2 px-4 rounded-full bg-brown text-white mr-2">
-              Buscar imóveis
-            </button>
-            <button class="py-2 px-4 rounded-full bg-white text-gray-700">
-              Anunciar imóveis
-            </button>
-          </div>
-
-          <!-- Tabs Content -->
-          <div class="tab-content">
-            <form id="search-form" action="search-results.html" method="get">
-              <div class="flex mb-4">
-                <label class="mr-4 inline-flex items-center cursor-pointer">
-                  <input
-                    type="radio"
-                    name="transaction_type"
-                    value="rent"
-                    class="hidden peer"
-                    checked
-                  />
-                  <span
-                    class="py-1 px-3 border border-brown text-brown rounded-full text-sm peer-checked:bg-brown peer-checked:text-white transition"
-                    >Para alugar</span
-                  >
-                </label>
-                <label class="inline-flex items-center cursor-pointer">
-                  <input
-                    type="radio"
-                    name="transaction_type"
-                    value="buy"
-                    class="hidden peer"
-                  />
-                  <span
-                    class="py-1 px-3 border border-gray-400 text-gray-700 rounded-full text-sm peer-checked:bg-brown peer-checked:text-white peer-checked:border-brown transition"
-                    >Para comprar</span
-                  >
-                </label>
-              </div>
-
-              <!-- Search Form -->
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                <div class="relative">
-                  <select
-                    name="city"
-                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                  >
-                    <option value="" selected disabled>Cidade</option>
-                    <option value="sao_paulo">São Paulo</option>
-                    <option value="rio_de_janeiro">Rio de Janeiro</option>
-                    <option value="belo_horizonte">Belo Horizonte</option>
-                  </select>
-                  <div
-                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                  >
-                    <svg
-                      class="w-4 h-4 text-gray-400"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="relative">
-                  <select
-                    name="neighborhood"
-                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                  >
-                    <option value="" selected disabled>Bairro</option>
-                    <option value="all">Todos</option>
-                    <option value="centro">Centro</option>
-                    <option value="jardins">Jardins</option>
-                    <option value="perdizes">Perdizes</option>
-                    <option value="vila_madalena">Vila Madalena</option>
-                    <option value="moema">Moema</option>
-                  </select>
-                  <div
-                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                  >
-                    <svg
-                      class="w-4 h-4 text-gray-400"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                <div class="relative">
-                  <select
-                    name="price_range"
-                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                  >
-                    <option value="" selected disabled>Valor estimado</option>
-                    <option value="0-1000">Até R$ 1.000</option>
-                    <option value="1000-2000">R$ 1.000 - R$ 2.000</option>
-                    <option value="2000-3000">R$ 2.000 - R$ 3.000</option>
-                    <option value="3000-999999">Acima de R$ 3.000</option>
-                  </select>
-                  <div
-                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                  >
-                    <svg
-                      class="w-4 h-4 text-gray-400"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="relative">
-                  <select
-                    name="bedrooms"
-                    class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
-                  >
-                    <option value="" selected disabled>Nº de quartos</option>
-                    <option value="1">1 quarto</option>
-                    <option value="2">2 quartos</option>
-                    <option value="3">3 quartos</option>
-                    <option value="4+">4+ quartos</option>
-                  </select>
-                  <div
-                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
-                  >
-                    <svg
-                      class="w-4 h-4 text-gray-400"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-
-              <button
-                type="submit"
-                class="w-full py-3 bg-brown text-white rounded-md hover:bg-opacity-90 transition"
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
               >
-                Buscar
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Destaques Section -->
-    <section class="py-12">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <div class="flex justify-center mb-2">
-          <div class="w-12 h-0.5 bg-gray-300"></div>
-        </div>
-        <h2 class="text-2xl font-bold text-center mb-2">Destaques</h2>
-        <p class="text-center text-gray-600 mb-8">
-          Veja nossos imóveis mais procurados
-        </p>
-
-        <div id="destaques-carousel" class="relative">
-          <div
-            class="carousel-container flex transition-transform duration-500 gap-6 overflow-hidden pb-6"
-          >
-            <!-- Property Card 1 -->
-            <div
-              class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
-            >
-              <div class="relative">
-                <img
-                  src="images/apto.png"
-                  alt="Apartamento moderno"
-                  class="w-full h-48 object-cover"
-                />
-                <span
-                  class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
-                  >À venda</span
-                >
-              </div>
-              <div class="p-4">
-                <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
-                <p class="text-sm text-gray-600 mb-3">Perdizes • Condomínio</p>
-                <div class="flex justify-between mb-4">
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
-                    <span class="text-xs">2 quartos</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span class="text-xs">Condomínio</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                    <span class="text-xs">1 vaga</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
-                      />
-                    </svg>
-                    <span class="text-xs">65m²</span>
-                  </div>
+                <div class="container mx-auto px-16 text-white">
+                  <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                    Encontre o lar perfeito com<br />a Urban Lease
+                  </h1>
+                  <p class="text-lg md:text-xl mb-6">
+                    A Urban Lease oferece imóveis exclusivos, encontre o<br />lar
+                    ideal para você e sua família
+                  </p>
                 </div>
-                <p class="font-bold text-lg text-brown">R$3.500/mês</p>
               </div>
             </div>
-
-            <!-- Property Card 1 -->
             <div
-              class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              class="carousel-slide min-w-full h-full relative bg-cover bg-center"
+              style="background-image: url('images/casa_piscina.webp')"
             >
-              <div class="relative">
-                <img
-                  src="images/apto.png"
-                  alt="Apartamento moderno"
-                  class="w-full h-48 object-cover"
-                />
-                <span
-                  class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
-                  >À venda</span
-                >
-              </div>
-              <div class="p-4">
-                <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
-                <p class="text-sm text-gray-600 mb-3">Perdizes • Condomínio</p>
-                <div class="flex justify-between mb-4">
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
-                    <span class="text-xs">2 quartos</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span class="text-xs">Condomínio</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                    <span class="text-xs">1 vaga</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
-                      />
-                    </svg>
-                    <span class="text-xs">65m²</span>
-                  </div>
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
+              >
+                <div class="container mx-auto px-16 text-white">
+                  <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                    Apartamentos modernos<br />e confortáveis
+                  </h1>
+                  <p class="text-lg md:text-xl mb-6">
+                    Encontre o imóvel dos seus sonhos com<br />localização
+                    privilegiada
+                  </p>
                 </div>
-                <p class="font-bold text-lg text-brown">R$3.500/mês</p>
               </div>
             </div>
-
-            <!-- Property Card 2 -->
             <div
-              class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              class="carousel-slide min-w-full h-full relative bg-cover bg-center"
+              style="background-image: url('images/casa.webp')"
             >
-              <div class="relative">
-                <img
-                  src="images/apto.png"
-                  alt="Apartamento moderno"
-                  class="w-full h-48 object-cover"
-                />
-                <span
-                  class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
-                  >À venda</span
-                >
-              </div>
-              <div class="p-4">
-                <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
-                <p class="text-sm text-gray-600 mb-3">Perdizes • Condomínio</p>
-                <div class="flex justify-between mb-4">
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
-                    <span class="text-xs">2 quartos</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span class="text-xs">Condomínio</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                    <span class="text-xs">1 vaga</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
-                      />
-                    </svg>
-                    <span class="text-xs">65m²</span>
-                  </div>
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center"
+              >
+                <div class="container mx-auto px-16 text-white">
+                  <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                    Casas espaçosas para<br />toda a família
+                  </h1>
+                  <p class="text-lg md:text-xl mb-6">
+                    Conforto e qualidade em cada detalhe<br />para seu bem-estar
+                  </p>
                 </div>
-                <p class="font-bold text-lg text-brown">R$3.500/mês</p>
-              </div>
-            </div>
-
-            <!-- Property Card 3 -->
-            <div
-              class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
-            >
-              <div class="relative">
-                <img
-                  src="images/apto.png"
-                  alt="Apartamento moderno"
-                  class="w-full h-48 object-cover"
-                />
-                <span
-                  class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
-                  >À venda</span
-                >
-              </div>
-              <div class="p-4">
-                <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
-                <p class="text-sm text-gray-600 mb-3">Perdizes • Condomínio</p>
-                <div class="flex justify-between mb-4">
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
-                    <span class="text-xs">2 quartos</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <span class="text-xs">Condomínio</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                    <span class="text-xs">1 vaga</span>
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-500 mr-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
-                      />
-                    </svg>
-                    <span class="text-xs">65m²</span>
-                  </div>
-                </div>
-                <p class="font-bold text-lg text-brown">R$3.500/mês</p>
               </div>
             </div>
           </div>
 
           <!-- Carousel Controls -->
           <button
-            class="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            type="button"
+            aria-label="Slide anterior"
+            class="carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -766,9 +167,10 @@
               />
             </svg>
           </button>
-
           <button
-            class="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            type="button"
+            aria-label="Próximo slide"
+            class="carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -785,534 +187,1203 @@
               />
             </svg>
           </button>
-        </div>
-      </div>
-    </section>
 
-    <!-- Quem somos Section -->
-    <section class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <div
-          class="flex flex-col md:flex-row items-center md:items-start gap-8"
-        >
-          <div class="md:w-1/2">
-            <h2 class="text-2xl font-bold mb-8">Quem somos?</h2>
-            <p class="text-gray-600 mb-8">Conheça nossa história</p>
-            <p class="text-gray-700 mb-6">
-              A Urban Lease é uma imobiliária com mais de 40 anos de experiência
-              no mercado, especializada na compra, venda e aluguel de imóveis de
-              alto padrão.
-            </p>
+          <!-- Carousel Indicators -->
+          <div
+            class="carousel-indicators absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"
+          >
             <button
-              class="py-2 px-4 border border-brown text-brown rounded hover:bg-brown hover:text-white transition"
+              class="w-2 h-2 rounded-full bg-white bg-opacity-50 active"
+            ></button>
+            <button
+              class="w-2 h-2 rounded-full bg-white bg-opacity-50"
+            ></button>
+            <button
+              class="w-2 h-2 rounded-full bg-white bg-opacity-50"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Para você Section -->
+      <section class="py-12" id="buscar-imoveis">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <h2 class="text-2xl font-bold mb-8">Para você</h2>
+
+          <div class="bg-cream rounded-lg p-6 md:p-8">
+            <!-- Tabs -->
+            <div class="flex mb-6">
+              <button class="py-2 px-4 rounded-full bg-brown text-white mr-2">
+                Buscar imóveis
+              </button>
+              <button class="py-2 px-4 rounded-full bg-white text-gray-700">
+                Anunciar imóveis
+              </button>
+            </div>
+
+            <!-- Tabs Content -->
+            <div class="tab-content">
+              <form id="search-form" action="search-results.html" method="get">
+                <div class="flex mb-4">
+                  <label class="mr-4 inline-flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="transaction_type"
+                      value="rent"
+                      class="hidden peer"
+                      checked
+                    />
+                    <span
+                      class="py-1 px-3 border border-brown text-brown rounded-full text-sm peer-checked:bg-brown peer-checked:text-white transition"
+                      >Para alugar</span
+                    >
+                  </label>
+                  <label class="inline-flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="transaction_type"
+                      value="buy"
+                      class="hidden peer"
+                    />
+                    <span
+                      class="py-1 px-3 border border-gray-400 text-gray-700 rounded-full text-sm peer-checked:bg-brown peer-checked:text-white peer-checked:border-brown transition"
+                      >Para comprar</span
+                    >
+                  </label>
+                </div>
+
+                <!-- Search Form -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                  <div class="relative">
+                    <select
+                      name="city"
+                      class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                    >
+                      <option value="" selected disabled>Cidade</option>
+                      <option value="sao_paulo">São Paulo</option>
+                      <option value="rio_de_janeiro">Rio de Janeiro</option>
+                      <option value="belo_horizonte">Belo Horizonte</option>
+                    </select>
+                    <div
+                      class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                    >
+                      <svg
+                        role="img"
+                        class="w-4 h-4 text-gray-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="relative">
+                    <select
+                      name="neighborhood"
+                      class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                    >
+                      <option value="" selected disabled>Bairro</option>
+                      <option value="all">Todos</option>
+                      <option value="centro">Centro</option>
+                      <option value="jardins">Jardins</option>
+                      <option value="perdizes">Perdizes</option>
+                      <option value="vila_madalena">Vila Madalena</option>
+                      <option value="moema">Moema</option>
+                    </select>
+                    <div
+                      class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                    >
+                      <svg
+                        role="img"
+                        class="w-4 h-4 text-gray-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  <div class="relative">
+                    <select
+                      name="price_range"
+                      class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                    >
+                      <option value="" selected disabled>Valor estimado</option>
+                      <option value="0-1000">Até R$ 1.000</option>
+                      <option value="1000-2000">R$ 1.000 - R$ 2.000</option>
+                      <option value="2000-3000">R$ 2.000 - R$ 3.000</option>
+                      <option value="3000-999999">Acima de R$ 3.000</option>
+                    </select>
+                    <div
+                      class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                    >
+                      <svg
+                        role="img"
+                        class="w-4 h-4 text-gray-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="relative">
+                    <select
+                      name="bedrooms"
+                      class="w-full p-3 bg-white rounded-md appearance-none pr-10 border border-gray-200"
+                    >
+                      <option value="" selected disabled>Nº de quartos</option>
+                      <option value="1">1 quarto</option>
+                      <option value="2">2 quartos</option>
+                      <option value="3">3 quartos</option>
+                      <option value="4+">4+ quartos</option>
+                    </select>
+                    <div
+                      class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                    >
+                      <svg
+                        role="img"
+                        class="w-4 h-4 text-gray-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19 9l-7 7-7-7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  aria-label="Buscar imóveis"
+                  type="submit"
+                  class="w-full py-3 bg-brown text-white rounded-md hover:bg-opacity-90 transition"
+                >
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destaques Section -->
+      <section class="py-12" id="destaques">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div class="flex justify-center mb-2">
+            <div class="w-12 h-0.5 bg-gray-300"></div>
+          </div>
+          <h2 class="text-2xl font-bold text-center mb-2">Destaques</h2>
+          <p class="text-center text-gray-600 mb-8">
+            Veja nossos imóveis mais procurados
+          </p>
+
+          <div id="destaques-carousel" class="relative">
+            <div
+              class="carousel-container flex transition-transform duration-500 gap-6 overflow-hidden pb-6"
             >
-              Saiba mais
+              <!-- Property Card 1 -->
+              <div
+                class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div class="relative">
+                  <img
+                    src="images/apto.webp"
+                    alt="Apartamento moderno"
+                    class="w-full h-48 object-cover"
+                  />
+                  <span
+                    class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
+                    >À venda</span
+                  >
+                </div>
+                <div class="p-4">
+                  <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
+                  <p class="text-sm text-gray-600 mb-3">
+                    Perdizes • Condomínio
+                  </p>
+                  <div class="flex justify-between mb-4">
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                      <span class="text-xs">2 quartos</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        aria-label="icone"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      <span class="text-xs">Condomínio</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        />
+                      </svg>
+                      <span class="text-xs">1 vaga</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                        />
+                      </svg>
+                      <span class="text-xs">65m²</span>
+                    </div>
+                  </div>
+                  <p class="font-bold text-lg text-brown">R$3.500/mês</p>
+                </div>
+              </div>
+
+              <!-- Property Card 1 -->
+              <div
+                class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div class="relative">
+                  <img
+                    src="images/apto.webp"
+                    alt="Apartamento moderno"
+                    class="w-full h-48 object-cover"
+                  />
+                  <span
+                    class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
+                    >À venda</span
+                  >
+                </div>
+                <div class="p-4">
+                  <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
+                  <p class="text-sm text-gray-600 mb-3">
+                    Perdizes • Condomínio
+                  </p>
+                  <div class="flex justify-between mb-4">
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                      <span class="text-xs">2 quartos</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      <span class="text-xs">Condomínio</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        />
+                      </svg>
+                      <span class="text-xs">1 vaga</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                        />
+                      </svg>
+                      <span class="text-xs">65m²</span>
+                    </div>
+                  </div>
+                  <p class="font-bold text-lg text-brown">R$3.500/mês</p>
+                </div>
+              </div>
+
+              <!-- Property Card 2 -->
+              <div
+                class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div class="relative">
+                  <img
+                    src="images/apto.webp"
+                    alt="Apartamento moderno"
+                    class="w-full h-48 object-cover"
+                  />
+                  <span
+                    class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
+                    >À venda</span
+                  >
+                </div>
+                <div class="p-4">
+                  <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
+                  <p class="text-sm text-gray-600 mb-3">
+                    Perdizes • Condomínio
+                  </p>
+                  <div class="flex justify-between mb-4">
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                      <span class="text-xs">2 quartos</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      <span class="text-xs">Condomínio</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        />
+                      </svg>
+                      <span class="text-xs">1 vaga</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                        />
+                      </svg>
+                      <span class="text-xs">65m²</span>
+                    </div>
+                  </div>
+                  <p class="font-bold text-lg text-brown">R$3.500/mês</p>
+                </div>
+              </div>
+
+              <!-- Property Card 3 -->
+              <div
+                class="carousel-slide min-w-[300px] md:min-w-[350px] bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div class="relative">
+                  <img
+                    src="images/apto.webp"
+                    alt="Apartamento moderno"
+                    class="w-full h-48 object-cover"
+                  />
+                  <span
+                    class="absolute top-2 right-4 text-xs font-medium px-2 py-1 rounded bg-white text-black"
+                    >À venda</span
+                  >
+                </div>
+                <div class="p-4">
+                  <h3 class="font-bold text-lg mb-1">Apartamento moderno</h3>
+                  <p class="text-sm text-gray-600 mb-3">
+                    Perdizes • Condomínio
+                  </p>
+                  <div class="flex justify-between mb-4">
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        />
+                      </svg>
+                      <span class="text-xs">2 quartos</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      <span class="text-xs">Condomínio</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        />
+                      </svg>
+                      <span class="text-xs">1 vaga</span>
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 text-gray-500 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                        />
+                      </svg>
+                      <span class="text-xs">65m²</span>
+                    </div>
+                  </div>
+                  <p class="font-bold text-lg text-brown">R$3.500/mês</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button
+              type="button"
+              aria-label="Slide anterior"
+              class="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-brown"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+
+            <button
+              type="button"
+              aria-label="Próximo slide"
+              class="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-brown"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
             </button>
           </div>
-          <div class="flex justify-end rounded-lg md:w-1/2">
-            <img src="images/quem_somos.png" alt="Quem somos" class="w-50" />
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Depoimentos Section -->
-    <section class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <div class="flex justify-center mb-2">
-          <div class="w-12 h-0.5 bg-gray-300"></div>
-        </div>
-        <h2 class="text-2xl font-bold text-center mb-2">Depoimentos</h2>
-        <p class="text-center text-gray-600 mb-8">
-          O que nossos clientes dizem
-        </p>
-
-        <div id="depoimentos-carousel" class="relative">
+      <!-- Quem somos Section -->
+      <section class="py-12 bg-white" id="quem-somos">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
           <div
-            class="carousel-container flex transition-transform duration-500 gap-6 overflow-hidden pb-6"
+            class="flex flex-col md:flex-row items-center md:items-start gap-8"
           >
-            <!-- Testimonial 1 -->
-            <div
-              class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md"
-            >
-              <div class="flex items-center mb-4">
-                <img
-                  src="images/avatar.png"
-                  alt="Avatar"
-                  class="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h4 class="font-bold">Sandra Almeida</h4>
-                  <p class="text-sm text-gray-600">Proprietária</p>
-                </div>
-              </div>
-              <div class="flex mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-              </div>
-              <p class="text-sm text-gray-700">
-                A Urban Lease me ajudou a encontrar o apartamento dos meus
-                sonhos em tempo recorde!
+            <div class="md:w-1/2">
+              <h2 class="text-2xl font-bold mb-8">Quem somos?</h2>
+              <p class="text-gray-600 mb-8">Conheça nossa história</p>
+              <p class="text-gray-700 mb-6">
+                A Urban Lease é uma imobiliária com mais de 40 anos de
+                experiência no mercado, especializada na compra, venda e aluguel
+                de imóveis de alto padrão.
               </p>
+              <button
+                class="py-2 px-4 border border-brown text-brown rounded hover:bg-brown hover:text-white transition"
+              >
+                Saiba mais
+              </button>
             </div>
-
-            <!-- Testimonial 2 -->
-            <div
-              class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
-            >
-              <div class="flex items-center mb-4">
-                <img
-                  src="images/male-avatar.png"
-                  alt="Avatar"
-                  class="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h4 class="font-bold">Lucas Pereira</h4>
-                  <p class="text-sm text-gray-600">Inquilino</p>
-                </div>
-              </div>
-              <div class="flex mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-              </div>
-              <p class="text-sm text-gray-700">
-                A Urban Lease me ajudou a encontrar o apartamento dos meus
-                sonhos em tempo recorde!
-              </p>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div
-              class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
-            >
-              <div class="flex items-center mb-4">
-                <img
-                  src="images/avatar.png"
-                  alt="Avatar"
-                  class="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h4 class="font-bold">Isabela Costa</h4>
-                  <p class="text-sm text-gray-600">Proprietária</p>
-                </div>
-              </div>
-              <div class="flex mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-              </div>
-              <p class="text-sm text-gray-700">
-                A Urban Lease me ajudou a encontrar o apartamento dos meus
-                sonhos em tempo recorde!
-              </p>
-            </div>
-
-            <!-- Testimonial 4 -->
-            <div
-              class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
-            >
-              <div class="flex items-center mb-4">
-                <img
-                  src="images/avatar.png"
-                  alt="Avatar"
-                  class="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h4 class="font-bold">Maria Silva</h4>
-                  <p class="text-sm text-gray-600">Compradora</p>
-                </div>
-              </div>
-              <div class="flex mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 text-yellow-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                  />
-                </svg>
-              </div>
-              <p class="text-sm text-gray-700">
-                A Urban Lease me ajudou a encontrar o apartamento dos meus
-                sonhos em tempo recorde!
-              </p>
+            <div class="flex justify-end rounded-lg md:w-1/2">
+              <img src="images/quem_somos.webp" alt="Quem somos" class="w-50" />
             </div>
           </div>
+        </div>
+      </section>
 
-          <!-- Carousel Controls -->
-          <button
-            class="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 text-brown"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+      <!-- Depoimentos Section -->
+      <section class="py-12 bg-white" id="depoimentos">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div class="flex justify-center mb-2">
+            <div class="w-12 h-0.5 bg-gray-300"></div>
+          </div>
+          <h2 class="text-2xl font-bold text-center mb-2">Depoimentos</h2>
+          <p class="text-center text-gray-600 mb-8">
+            O que nossos clientes dizem
+          </p>
+
+          <div id="depoimentos-carousel" class="relative">
+            <div
+              class="carousel-container flex transition-transform duration-500 gap-6 overflow-hidden pb-6"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M15 19l-7-7 7-7"
+              <!-- Testimonial 1 -->
+              <div
+                class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
+              >
+                <div class="flex items-center mb-4">
+                  <img
+                    src="images/avatar.webp"
+                    alt="Avatar de uma menina com cabelo rosa"
+                    class="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <h4 class="font-bold">Sandra Almeida</h4>
+                    <p class="text-sm text-gray-600">Proprietária</p>
+                  </div>
+                </div>
+                <div class="flex mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-sm text-gray-700">
+                  A Urban Lease me ajudou a encontrar o apartamento dos meus
+                  sonhos em tempo recorde!
+                </p>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div
+                class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
+              >
+                <div class="flex items-center mb-4">
+                  <img
+                    src="images/male-avatar.webp"
+                    alt="Avatar de um homem com cabelo preto"
+                    class="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <h4 class="font-bold">Lucas Pereira</h4>
+                    <p class="text-sm text-gray-600">Inquilino</p>
+                  </div>
+                </div>
+                <div class="flex mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-sm text-gray-700">
+                  A Urban Lease me ajudou a encontrar o apartamento dos meus
+                  sonhos em tempo recorde!
+                </p>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div
+                class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
+              >
+                <div class="flex items-center mb-4">
+                  <img
+                    src="images/avatar.webp"
+                    alt="Avatar de uma menina com cabelo rosa"
+                    class="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <h4 class="font-bold">Isabela Costa</h4>
+                    <p class="text-sm text-gray-600">Proprietária</p>
+                  </div>
+                </div>
+                <div class="flex mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-sm text-gray-700">
+                  A Urban Lease me ajudou a encontrar o apartamento dos meus
+                  sonhos em tempo recorde!
+                </p>
+              </div>
+
+              <!-- Testimonial 4 -->
+              <div
+                class="carousel-slide min-w-[280px] md:min-w-[280px] bg-white rounded-lg shadow-md p-6"
+              >
+                <div class="flex items-center mb-4">
+                  <img
+                    src="images/avatar.webp"
+                    alt="Avatar de uma menina com cabelo rosa"
+                    class="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <h4 class="font-bold">Maria Silva</h4>
+                    <p class="text-sm text-gray-600">Compradora</p>
+                  </div>
+                </div>
+                <div class="flex mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 text-yellow-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-sm text-gray-700">
+                  A Urban Lease me ajudou a encontrar o apartamento dos meus
+                  sonhos em tempo recorde!
+                </p>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button
+              type="button"
+              aria-label="Slide anterior"
+              class="carousel-prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-brown"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              aria-label="Próximo slide"
+              class="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-brown"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brands Section -->
+      <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div
+            class="flex flex-wrap justify-center items-center gap-8 md:gap-16"
+          >
+            <img src="images/brand_adidas.svg" alt="Brand Adidas" />
+            <img src="images/brand_nike.svg" alt="Brand Nike" />
+            <img src="images/brand_netflix.svg" alt="Brand Netflix" />
+            <img src="images/brand_prime.svg" alt="Brand Prime" />
+            <img src="images/brand_pepsi.svg" alt="Brand Pepsi" />
+            <img src="images/brand_coca.svg" alt="Brand Coca" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Fale Conosco Section -->
+      <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="md:w-1/2">
+              <h2 class="text-2xl font-bold mb-2">Fale conosco</h2>
+              <p class="text-gray-600 mb-8">Entre em contato</p>
+              <p class="text-gray-700 mb-4">
+                Preencha o formulário ao lado com suas informações e entraremos
+                em contato o mais breve possível.
+              </p>
+              <p class="text-gray-700 mb-6">
+                Você pode agendar uma visita, esclarecer dúvidas ou acessar o
+                conteúdo exclusivo para clientes.
+              </p>
+              <img
+                src="images/contato.webp"
+                alt="Contato"
+                class="rounded-lg w-full"
               />
-            </svg>
-          </button>
-          <button
-            class="carousel-next absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 text-brown"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </section>
+            </div>
 
-    <!-- Brands Section -->
-    <section class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-          <img src="images/brand_adidas.svg" alt="Brand Adidas" />
-          <img src="images/brand_nike.svg" alt="Brand Nike" />
-          <img src="images/brand_netflix.svg" alt="Brand Netflix" />
-          <img src="images/brand_prime.svg" alt="Brand Prime" />
-          <img src="images/brand_pepsi.svg" alt="Brand Pepsi" />
-          <img src="images/brand_coca.svg" alt="Brand Coca" />
-        </div>
-      </div>
-    </section>
+            <div class="md:w-1/2">
+              <form class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Nome *</label
+                    >
+                    <input
+                      type="text"
+                      class="w-full p-3 border border-gray-300 rounded-md"
+                    />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Sobrenome</label
+                    >
+                    <input
+                      type="text"
+                      class="w-full p-3 border border-gray-300 rounded-md"
+                    />
+                  </div>
+                </div>
 
-    <!-- Fale Conosco Section -->
-    <section class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-        <div class="flex flex-col md:flex-row gap-8">
-          <div class="md:w-1/2">
-            <h2 class="text-2xl font-bold mb-2">Fale conosco</h2>
-            <p class="text-gray-600 mb-8">Entre em contato</p>
-            <p class="text-gray-700 mb-4">
-              Preencha o formulário ao lado com suas informações e entraremos em
-              contato o mais breve possível.
-            </p>
-            <p class="text-gray-700 mb-6">
-              Você pode agendar uma visita, esclarecer dúvidas ou acessar o
-              conteúdo exclusivo para clientes.
-            </p>
-            <img
-              src="images/contato.png"
-              alt="Contato"
-              class="rounded-lg w-full"
-            />
-          </div>
-
-          <div class="md:w-1/2">
-            <form class="space-y-4">
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Nome *</label
+                    >E-mail *</label
                   >
                   <input
-                    type="text"
+                    type="email"
                     class="w-full p-3 border border-gray-300 rounded-md"
                   />
                 </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Telefone para contato *</label
+                    >
+                    <input
+                      type="tel"
+                      class="w-full p-3 border border-gray-300 rounded-md"
+                    />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Tipo de imóvel</label
+                    >
+                    <select
+                      class="w-full p-3 border border-gray-300 rounded-md appearance-none"
+                    >
+                      <option selected disabled>Selecione</option>
+                      <option>Apartamento</option>
+                      <option>Casa</option>
+                      <option>Comercial</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Faixa de preço</label
+                    >
+                    <select
+                      class="w-full p-3 border border-gray-300 rounded-md appearance-none"
+                    >
+                      <option selected disabled>Selecione</option>
+                      <option>Até R$ 1.000</option>
+                      <option>R$ 1.000 - R$ 2.000</option>
+                      <option>R$ 2.000 - R$ 3.000</option>
+                      <option>Acima de R$ 3.000</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1"
+                      >Nº Quartos</label
+                    >
+                    <select
+                      class="w-full p-3 border border-gray-300 rounded-md appearance-none"
+                    >
+                      <option selected disabled>Selecione</option>
+                      <option>1 quarto</option>
+                      <option>2 quartos</option>
+                      <option>3 quartos</option>
+                      <option>4+ quartos</option>
+                    </select>
+                  </div>
+                </div>
+
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Sobrenome</label
+                    >Mensagem *</label
                   >
-                  <input
-                    type="text"
+                  <textarea
+                    rows="4"
                     class="w-full p-3 border border-gray-300 rounded-md"
-                  />
+                  ></textarea>
                 </div>
-              </div>
 
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1"
-                  >E-mail *</label
-                >
-                <input
-                  type="email"
-                  class="w-full p-3 border border-gray-300 rounded-md"
-                />
-              </div>
-
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Telefone para contato *</label
+                <div class="text-right">
+                  <button
+                    type="submit"
+                    aria-label="Enviar formulário de contato"
+                    class="py-3 px-6 bg-cream text-brown font-medium rounded-md hover:bg-opacity-90 transition"
                   >
-                  <input
-                    type="tel"
-                    class="w-full p-3 border border-gray-300 rounded-md"
-                  />
+                    Enviar
+                  </button>
                 </div>
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Tipo de imóvel</label
-                  >
-                  <select
-                    class="w-full p-3 border border-gray-300 rounded-md appearance-none"
-                  >
-                    <option selected disabled>Selecione</option>
-                    <option>Apartamento</option>
-                    <option>Casa</option>
-                    <option>Comercial</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Faixa de preço</label
-                  >
-                  <select
-                    class="w-full p-3 border border-gray-300 rounded-md appearance-none"
-                  >
-                    <option selected disabled>Selecione</option>
-                    <option>Até R$ 1.000</option>
-                    <option>R$ 1.000 - R$ 2.000</option>
-                    <option>R$ 2.000 - R$ 3.000</option>
-                    <option>Acima de R$ 3.000</option>
-                  </select>
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1"
-                    >Nº Quartos</label
-                  >
-                  <select
-                    class="w-full p-3 border border-gray-300 rounded-md appearance-none"
-                  >
-                    <option selected disabled>Selecione</option>
-                    <option>1 quarto</option>
-                    <option>2 quartos</option>
-                    <option>3 quartos</option>
-                    <option>4+ quartos</option>
-                  </select>
-                </div>
-              </div>
-
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1"
-                  >Mensagem *</label
-                >
-                <textarea
-                  rows="4"
-                  class="w-full p-3 border border-gray-300 rounded-md"
-                ></textarea>
-              </div>
-
-              <div class="text-right">
-                <button
-                  type="submit"
-                  class="py-3 px-6 bg-cream text-brown font-medium rounded-md hover:bg-opacity-90 transition"
-                >
-                  Enviar
-                </button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-cream py-12">
@@ -1325,7 +1396,11 @@
               com a excelência.
             </p>
             <div class="flex space-x-4">
-              <a href="#" class="text-black-500 hover:text-brown">
+              <a
+                href="#"
+                aria-label="Twitter"
+                class="text-black-500 hover:text-brown"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -1337,7 +1412,11 @@
                   />
                 </svg>
               </a>
-              <a href="#" class="text-black-500 hover:text-brown">
+              <a
+                href="#"
+                aria-label="Instagram"
+                class="text-black-500 hover:text-brown"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -1351,6 +1430,7 @@
               </a>
               <a href="#" class="text-black-500 hover:text-brown">
                 <svg
+                  aria-label="Facebook"
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
                   fill="currentColor"
@@ -1361,7 +1441,11 @@
                   />
                 </svg>
               </a>
-              <a href="#" class="text-black-500 hover:text-brown">
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                class="text-black-500 hover:text-brown"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -1484,10 +1568,10 @@
               © Urban Lease • Todos os direitos reservados.
             </p>
             <div class="flex space-x-4 text-sm text-gray-600">
-              <a href="#" class="hover:text-brown">Comprar</a>
-              <a href="#" class="hover:text-brown">Alugar</a>
-              <a href="#" class="hover:text-brown">Destaques</a>
-              <a href="#" class="hover:text-brown">Saiba mais</a>
+              <a href="#buscar-imoveis" class="hover:text-brown">Comprar</a>
+              <a href="#buscar-imoveis" class="hover:text-brown">Alugar</a>
+              <a href="#destaques" class="hover:text-brown">Destaques</a>
+              <a href="#quem-somos" class="hover:text-brown">Saiba mais</a>
             </div>
           </div>
         </div>
