@@ -1,5 +1,7 @@
 # Urban Lease - Documentação
 
+![Demonstração](./images/animacao.gif)
+
 ## Visão Geral
 
 Este é um site para a imobiliária Urban Lease, desenvolvido com HTML, Tailwind CSS e JavaScript. O site apresenta uma landing page moderna e responsiva com várias seções, incluindo carrosséis interativos.
@@ -9,12 +11,19 @@ Este é um site para a imobiliária Urban Lease, desenvolvido com HTML, Tailwind
 ```
 urban-lease/
 ├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
+│   └── (arquivos de estilo)
+├── data/
+│   └── mock-data.json
 ├── images/
 │   └── (arquivos de imagem)
-└── index.html
+├── js/
+│   ├── main.js
+│   ├── property-data.js
+│   ├── propertyService.js
+│   └── search-results.js
+├── converter-webp.py
+├── index.html
+└── search-results.html
 ```
 
 ## Tecnologias Utilizadas
@@ -64,6 +73,7 @@ O site foi desenvolvido seguindo o princípio "mobile-first" e é totalmente res
 1. Abra o arquivo `index.html` em um navegador web moderno
 2. Para desenvolvimento, você pode modificar os arquivos CSS e JavaScript conforme necessário
 3. Para adicionar novas imagens, coloque-as na pasta `images/`
+4. Para conversão de imagens para WebP, utilize o script `converter-webp.py`.
 
 ## Notas de Implementação
 
