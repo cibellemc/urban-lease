@@ -1,0 +1,205 @@
+import { FastifyInstance } from "fastify";
+import { propertySchema, Property } from "../schemas/property";
+
+let mockProperties: Property[] = [
+  {
+    id: 1,
+    title: "Apartamento moderno",
+    location: "Perdizes • Condomínio",
+    price: 3500,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 2,
+    type: "Condomínio",
+    parking: 1,
+    area: "65m²",
+    image: "images/apto.webp",
+    status: "À venda",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Casa com jardim",
+    location: "Vila Madalena • Casa",
+    price: 5200,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 3,
+    type: "Casa",
+    parking: 2,
+    area: "120m²",
+    image: "images/casa.webp",
+    status: "Para alugar",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Studio compacto",
+    location: "Centro • Apartamento",
+    price: 2100,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 1,
+    type: "Apartamento",
+    parking: 0,
+    area: "35m²",
+    image: "images/casa.webp",
+    status: "Para alugar",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Cobertura duplex",
+    location: "Pinheiros • Cobertura",
+    price: 1200000,
+    currency: "BRL",
+    bedrooms: 4,
+    type: "Cobertura",
+    parking: 3,
+    area: "180m²",
+    image: "images/apto.webp",
+    status: "À venda",
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "Apartamento com varanda",
+    location: "Moema • Apartamento",
+    price: 4300,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 3,
+    type: "Apartamento",
+    parking: 1,
+    area: "85m²",
+    image: "images/apto.webp",
+    status: "Para alugar",
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Casa em condomínio",
+    location: "Morumbi • Casa",
+    price: 850000,
+    currency: "BRL",
+    bedrooms: 4,
+    type: "Casa",
+    parking: 2,
+    area: "220m²",
+    image: "images/casa.webp",
+    status: "À venda",
+    featured: false,
+  },
+  {
+    id: 7,
+    title: "Loft industrial",
+    location: "Barra Funda • Loft",
+    price: 2800,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 1,
+    type: "Loft",
+    parking: 1,
+    area: "70m²",
+    image: "images/apto.webp",
+    status: "Para alugar",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Apartamento com vista",
+    location: "Brooklin • Apartamento",
+    price: 720000,
+    currency: "BRL",
+    bedrooms: 2,
+    type: "Apartamento",
+    parking: 1,
+    area: "75m²",
+    image: "images/apto.webp",
+    status: "À venda",
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Kitnet mobiliada",
+    location: "Vila Mariana • Kitnet",
+    price: 1800,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 1,
+    type: "Kitnet",
+    parking: 0,
+    area: "30m²",
+    image: "images/casa.webp",
+    status: "Para alugar",
+    featured: false,
+  },
+  {
+    id: 10,
+    title: "Sobrado reformado",
+    location: "Tatuapé • Sobrado",
+    price: 650000,
+    currency: "BRL",
+    bedrooms: 3,
+    type: "Sobrado",
+    parking: 1,
+    area: "140m²",
+    image: "images/casa.webp",
+    status: "À venda",
+    featured: false,
+  },
+  {
+    id: 11,
+    title: "Flat executivo",
+    location: "Itaim Bibi • Flat",
+    price: 3900,
+    currency: "BRL",
+    period: "/mês",
+    bedrooms: 1,
+    type: "Flat",
+    parking: 1,
+    area: "45m²",
+    image: "images/apto.webp",
+    status: "Para alugar",
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "Casa térrea",
+    location: "Santana • Casa",
+    price: 580000,
+    currency: "BRL",
+    bedrooms: 2,
+    type: "Casa",
+    parking: 1,
+    area: "110m²",
+    image: "images/casa.webp",
+    status: "À venda",
+    featured: false,
+  },
+];
+
+export default async function propertyRoutes(fastify: FastifyInstance) {
+  fastify.get("/", async () => {
+    return mockProperties;
+  });
+
+  fastify.get("/featured", async () => {
+    return mockProperties.filter((p) => p.featured);
+  });
+
+  fastify.post("/", async (request, reply) => {
+    const parseResult = propertySchema.safeParse(request.body);
+
+    if (!parseResult.success) {
+      return reply.status(400).send({
+        error: "Invalid property data",
+        details: parseResult.error.errors,
+      });
+    }
+
+    const newProperty = parseResult.data;
+    mockProperties.push(newProperty);
+    return reply.status(201).send(newProperty);
+  });
+}
