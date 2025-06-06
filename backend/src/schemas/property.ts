@@ -1,19 +1,28 @@
 import { z } from "zod";
 
 export const propertySchema = z.object({
-  id: z.number(),
-  title: z.string(),
-  location: z.string(),
-  price: z.number(),
-  currency: z.string(),
-  period: z.string().optional(), // Ex: "/mês"
-  bedrooms: z.number(),
-  type: z.string(),
-  parking: z.number(),
+  id: z.string(),
+  cod: z.string(),
+  titulo: z.string(),
+  localizacao: z.object({
+    logradouro: z.string(),
+    numero: z.string(),
+    complemento: z.string(),
+    bairro: z.string(),
+    cidade: z.string(),
+    estado: z.string(),
+    cep: z.string(),
+  }),
+  preco: z.number(),
+  moeda: z.string(),
+  periodo: z.string().optional(), // Ex: "/mês"
+  quartos: z.number(),
+  tipo: z.string(),
+  estacionamento: z.number(),
   area: z.string(),
-  image: z.string(),
+  images: z.array(z.string()),
   status: z.string(),
-  featured: z.boolean(),
+  destaque: z.boolean(),
 });
 
 export type Property = z.infer<typeof propertySchema>;

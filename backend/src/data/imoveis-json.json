@@ -1,0 +1,2865 @@
+{
+  "imoveis": [
+    {
+      "id": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
+      "cod": "imovel1",
+      "titulo": "Apartamento moderno",
+      "localizacao": {
+        "logradouro": "Rua Tucuna",
+        "numero": "456",
+        "complemento": "Apto 142",
+        "bairro": "Perdizes",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "05021-010"
+      },
+      "preco": 3500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "65m²",
+      "images": [
+        "https://cdn.example.com/images/imovel1/foto1.jpg",
+        "https://cdn.example.com/images/imovel1/foto2.jpg",
+        "https://cdn.example.com/images/imovel1/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "7a82df9e871234bc5678def012345678abcdef01",
+      "cod": "imovel2",
+      "titulo": "Casa com piscina",
+      "localizacao": {
+        "logradouro": "Avenida Atlântica",
+        "numero": "3421",
+        "complemento": "",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22070-001"
+      },
+      "preco": 8500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "280m²",
+      "images": [
+        "https://cdn.example.com/images/imovel2/foto1.jpg",
+        "https://cdn.example.com/images/imovel2/foto2.jpg",
+        "https://cdn.example.com/images/imovel2/foto3.jpg",
+        "https://cdn.example.com/images/imovel2/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9b73cf8d982345cd7890fab123456789bcdef012",
+      "cod": "imovel3",
+      "titulo": "Studio compacto",
+      "localizacao": {
+        "logradouro": "Rua Padre Carapuceiro",
+        "numero": "777",
+        "complemento": "Studio 305",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "51020-900"
+      },
+      "preco": 2200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "32m²",
+      "images": [
+        "https://cdn.example.com/images/imovel3/foto1.jpg",
+        "https://cdn.example.com/images/imovel3/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "3c84df0e093456de8901ghi234567890cdef0123",
+      "cod": "imovel4",
+      "titulo": "Cobertura duplex",
+      "localizacao": {
+        "logradouro": "Rua Sergipe",
+        "numero": "1165",
+        "complemento": "Cobertura",
+        "bairro": "Savassi",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30130-171"
+      },
+      "preco": 12000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Cobertura",
+      "estacionamento": 2,
+      "area": "180m²",
+      "images": [
+        "https://cdn.example.com/images/imovel4/foto1.jpg",
+        "https://cdn.example.com/images/imovel4/foto2.jpg",
+        "https://cdn.example.com/images/imovel4/foto3.jpg",
+        "https://cdn.example.com/images/imovel4/foto4.jpg",
+        "https://cdn.example.com/images/imovel4/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4d95ef1f104567ef9012ijk345678901def01234",
+      "cod": "imovel5",
+      "titulo": "Apartamento térreo",
+      "localizacao": {
+        "logradouro": "Rua Felipe Schmidt",
+        "numero": "303",
+        "complemento": "Térreo",
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88010-001"
+      },
+      "preco": 4200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "75m²",
+      "images": [
+        "https://cdn.example.com/images/imovel5/foto1.jpg",
+        "https://cdn.example.com/images/imovel5/foto2.jpg",
+        "https://cdn.example.com/images/imovel5/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5e06ff20215678f00123klm456789012ef012345",
+      "cod": "imovel6",
+      "titulo": "Casa em condomínio fechado",
+      "localizacao": {
+        "logradouro": "SQSW 304",
+        "numero": "Bloco B",
+        "complemento": "Casa 45",
+        "bairro": "Sudoeste",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70673-402"
+      },
+      "preco": 6800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "220m²",
+      "images": [
+        "https://cdn.example.com/images/imovel6/foto1.jpg",
+        "https://cdn.example.com/images/imovel6/foto2.jpg",
+        "https://cdn.example.com/images/imovel6/foto3.jpg",
+        "https://cdn.example.com/images/imovel6/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6f17gg31326789g11234mno567890123f0123456",
+      "cod": "imovel7",
+      "titulo": "Loft industrial",
+      "localizacao": {
+        "logradouro": "Rua Ramiro Barcelos",
+        "numero": "567",
+        "complemento": "Loft 12",
+        "bairro": "Moinhos de Vento",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90035-001"
+      },
+      "preco": 3800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "85m²",
+      "images": [
+        "https://cdn.example.com/images/imovel7/foto1.jpg",
+        "https://cdn.example.com/images/imovel7/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7g28hh42437890h22345opq678901234g01234567",
+      "cod": "imovel8",
+      "titulo": "Apartamento com varanda gourmet",
+      "localizacao": {
+        "logradouro": "Avenida Tancredo Neves",
+        "numero": "3103",
+        "complemento": "Apto 801",
+        "bairro": "Caminho das Árvores",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "41820-021"
+      },
+      "preco": 5500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "110m²",
+      "images": [
+        "https://cdn.example.com/images/imovel8/foto1.jpg",
+        "https://cdn.example.com/images/imovel8/foto2.jpg",
+        "https://cdn.example.com/images/imovel8/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8h39ii53548901i33456qrs789012345h12345678",
+      "cod": "imovel9",
+      "titulo": "Casa térrea moderna",
+      "localizacao": {
+        "logradouro": "Rua T-37",
+        "numero": "789",
+        "complemento": "",
+        "bairro": "Setor Bueno",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74215-110"
+      },
+      "preco": 7200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "190m²",
+      "images": [
+        "https://cdn.example.com/images/imovel9/foto1.jpg",
+        "https://cdn.example.com/images/imovel9/foto2.jpg",
+        "https://cdn.example.com/images/imovel9/foto3.jpg",
+        "https://cdn.example.com/images/imovel9/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9i40jj64659012j44567stu890123456i23456789",
+      "cod": "imovel10",
+      "titulo": "Studio novo",
+      "localizacao": {
+        "logradouro": "Avenida Beira Mar",
+        "numero": "4050",
+        "complemento": "Studio 1205",
+        "bairro": "Meireles",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60165-121"
+      },
+      "preco": 2800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "38m²",
+      "images": [
+        "https://cdn.example.com/images/imovel10/foto1.jpg",
+        "https://cdn.example.com/images/imovel10/foto2.jpg",
+        "https://cdn.example.com/images/imovel10/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "0j51kk75760123k55678uvw901234567j34567890",
+      "cod": "imovel11",
+      "titulo": "Apartamento garden",
+      "localizacao": {
+        "logradouro": "Rua Mostardeiro",
+        "numero": "473",
+        "complemento": "Garden",
+        "bairro": "Três Figueiras",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "91330-000"
+      },
+      "preco": 6500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "95m²",
+      "images": [
+        "https://cdn.example.com/images/imovel11/foto1.jpg",
+        "https://cdn.example.com/images/imovel11/foto2.jpg",
+        "https://cdn.example.com/images/imovel11/foto3.jpg",
+        "https://cdn.example.com/images/imovel11/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": false
+    },
+    {
+      "id": "1k62ll86871234l66789wxy012345678k45678901",
+      "cod": "imovel12",
+      "titulo": "Cobertura com vista",
+      "localizacao": {
+        "logradouro": "Avenida Boa Viagem",
+        "numero": "5000",
+        "complemento": "Cobertura Duplex",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "51021-000"
+      },
+      "preco": 15000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 3,
+      "area": "250m²",
+      "images": [
+        "https://cdn.example.com/images/imovel12/foto1.jpg",
+        "https://cdn.example.com/images/imovel12/foto2.jpg",
+        "https://cdn.example.com/images/imovel12/foto3.jpg",
+        "https://cdn.example.com/images/imovel12/foto4.jpg",
+        "https://cdn.example.com/images/imovel12/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "2l73mm97982345m77890xyz123456789l56789012",
+      "cod": "imovel13",
+      "titulo": "Casa com quintal",
+      "localizacao": {
+        "logradouro": "Rua Conselheiro Mafra",
+        "numero": "656",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88010-102"
+      },
+      "preco": 5200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Casa",
+      "estacionamento": 1,
+      "area": "150m²",
+      "images": [
+        "https://cdn.example.com/images/imovel13/foto1.jpg",
+        "https://cdn.example.com/images/imovel13/foto2.jpg"
+      ],
+      "status": "À venda",
+      "destaque": false
+    },
+    {
+      "id": "3m84nn08093456n88901abc234567890m67890123",
+      "cod": "imovel14",
+      "titulo": "Apartamento reformado",
+      "localizacao": {
+        "logradouro": "Rua da Bahia",
+        "numero": "1148",
+        "complemento": "Apto 72",
+        "bairro": "Centro",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30160-011"
+      },
+      "preco": 4800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "120m²",
+      "images": [
+        "https://cdn.example.com/images/imovel14/foto1.jpg",
+        "https://cdn.example.com/images/imovel14/foto2.jpg",
+        "https://cdn.example.com/images/imovel14/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "4n95oo19104567o99012bcd345678901n78901234",
+      "cod": "imovel15",
+      "titulo": "Loft moderno",
+      "localizacao": {
+        "logradouro": "Rua das Laranjeiras",
+        "numero": "422",
+        "complemento": "Loft 8",
+        "bairro": "Laranjeiras",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22240-006"
+      },
+      "preco": 4500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "70m²",
+      "images": [
+        "https://cdn.example.com/images/imovel15/foto1.jpg",
+        "https://cdn.example.com/images/imovel15/foto2.jpg",
+        "https://cdn.example.com/images/imovel15/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": false
+    },
+    {
+      "id": "5o06pp20215678p00123cde456789012o89012345",
+      "cod": "imovel16",
+      "titulo": "Casa de vila",
+      "localizacao": {
+        "logradouro": "SQS 308",
+        "numero": "Bloco H",
+        "complemento": "Casa 3",
+        "bairro": "Asa Sul",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70355-080"
+      },
+      "preco": 3900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Casa",
+      "estacionamento": 1,
+      "area": "110m²",
+      "images": [
+        "https://cdn.example.com/images/imovel16/foto1.jpg",
+        "https://cdn.example.com/images/imovel16/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "6p17qq31326789q11234def567890123p90123456",
+      "cod": "imovel17",
+      "titulo": "Apartamento com sacada",
+      "localizacao": {
+        "logradouro": "Avenida Protásio Alves",
+        "numero": "2567",
+        "complemento": "Apto 34",
+        "bairro": "Petrópolis",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90410-002"
+      },
+      "preco": 3200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "70m²",
+      "images": [
+        "https://cdn.example.com/images/imovel17/foto1.jpg",
+        "https://cdn.example.com/images/imovel17/foto2.jpg",
+        "https://cdn.example.com/images/imovel17/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": false
+    },
+    {
+      "id": "7q28rr42437890r22345efg678901234q01234567",
+      "cod": "imovel18",
+      "titulo": "Cobertura triplex",
+      "localizacao": {
+        "logradouro": "Avenida Manoel Dias da Silva",
+        "numero": "1350",
+        "complemento": "Cobertura Triplex",
+        "bairro": "Pituba",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "41830-001"
+      },
+      "preco": 18000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Cobertura",
+      "estacionamento": 4,
+      "area": "350m²",
+      "images": [
+        "https://cdn.example.com/images/imovel18/foto1.jpg",
+        "https://cdn.example.com/images/imovel18/foto2.jpg",
+        "https://cdn.example.com/images/imovel18/foto3.jpg",
+        "https://cdn.example.com/images/imovel18/foto4.jpg",
+        "https://cdn.example.com/images/imovel18/foto5.jpg",
+        "https://cdn.example.com/images/imovel18/foto6.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": true
+    },
+    {
+      "id": "8r39ss53548901s33456fgh789012345r12345678",
+      "cod": "imovel19",
+      "titulo": "Studio com mobília",
+      "localizacao": {
+        "logradouro": "Rua XV de Novembro",
+        "numero": "895",
+        "complemento": "Studio 1809",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80020-310"
+      },
+      "preco": 2500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "35m²",
+      "images": [
+        "https://cdn.example.com/images/imovel19/foto1.jpg",
+        "https://cdn.example.com/images/imovel19/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9s40tt64659012t44567ghi890123456s23456789",
+      "cod": "imovel20",
+      "titulo": "Casa sobrado",
+      "localizacao": {
+        "logradouro": "Rua dos Pinheiros",
+        "numero": "923",
+        "complemento": "",
+        "bairro": "Pinheiros",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "05422-012"
+      },
+      "preco": 4700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "180m²",
+      "images": [
+        "https://cdn.example.com/images/imovel20/foto1.jpg",
+        "https://cdn.example.com/images/imovel20/foto2.jpg",
+        "https://cdn.example.com/images/imovel20/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0t51uu75760123u55678hij901234567t34567890",
+      "cod": "imovel21",
+      "titulo": "Apartamento duplex",
+      "localizacao": {
+        "logradouro": "Rua Visconde de Pirajá",
+        "numero": "550",
+        "complemento": "Duplex 92",
+        "bairro": "Ipanema",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22410-002"
+      },
+      "preco": 3800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Duplex",
+      "estacionamento": 1,
+      "area": "90m²",
+      "images": [
+        "https://cdn.example.com/images/imovel21/foto1.jpg",
+        "https://cdn.example.com/images/imovel21/foto2.jpg",
+        "https://cdn.example.com/images/imovel21/foto3.jpg",
+        "https://cdn.example.com/images/imovel21/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1u62vv86871234v66789ijk012345678u45678901",
+      "cod": "imovel22",
+      "titulo": "Garden com churrasqueira",
+      "localizacao": {
+        "logradouro": "Avenida Getúlio Vargas",
+        "numero": "4530",
+        "complemento": "Garden 2",
+        "bairro": "Funcionários",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30112-021"
+      },
+      "preco": 7500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "130m²",
+      "images": [
+        "https://cdn.example.com/images/imovel22/foto1.jpg",
+        "https://cdn.example.com/images/imovel22/foto2.jpg",
+        "https://cdn.example.com/images/imovel22/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2v73ww97982345w77890jkl123456789v56789012",
+      "cod": "imovel23",
+      "titulo": "Loft com mezanino",
+      "localizacao": {
+        "logradouro": "Rua Hercílio Luz",
+        "numero": "850",
+        "complemento": "Loft 5",
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88015-130"
+      },
+      "preco": 3600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "75m²",
+      "images": [
+        "https://cdn.example.com/images/imovel23/foto1.jpg",
+        "https://cdn.example.com/images/imovel23/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3w84xx08093456x88901klm234567890w67890123",
+      "cod": "imovel24",
+      "titulo": "Casa com edícula",
+      "localizacao": {
+        "logradouro": "Rua 136",
+        "numero": "1711",
+        "complemento": "",
+        "bairro": "Setor Marista",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74180-040"
+      },
+      "preco": 5800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "240m²",
+      "images": [
+        "https://cdn.example.com/images/imovel24/foto1.jpg",
+        "https://cdn.example.com/images/imovel24/foto2.jpg",
+        "https://cdn.example.com/images/imovel24/foto3.jpg",
+        "https://cdn.example.com/images/imovel24/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4x95yy19104567y99012lmn345678901x78901234",
+      "cod": "imovel25",
+      "titulo": "Apartamento novo",
+      "localizacao": {
+        "logradouro": "Avenida Santos Dumont",
+        "numero": "1032",
+        "complemento": "Apto 61",
+        "bairro": "Aldeota",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60150-161"
+      },
+      "preco": 4100,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "78m²",
+      "images": [
+        "https://cdn.example.com/images/imovel25/foto1.jpg",
+        "https://cdn.example.com/images/imovel25/foto2.jpg",
+        "https://cdn.example.com/images/imovel25/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5y06zz20215678z00123mno456789012y89012345",
+      "cod": "imovel26",
+      "titulo": "Cobertura com piscina",
+      "localizacao": {
+        "logradouro": "Avenida Batel",
+        "numero": "1157",
+        "complemento": "Cobertura",
+        "bairro": "Batel",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80420-090"
+      },
+      "preco": 9500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Cobertura",
+      "estacionamento": 2,
+      "area": "200m²",
+      "images": [
+        "https://cdn.example.com/images/imovel26/foto1.jpg",
+        "https://cdn.example.com/images/imovel26/foto2.jpg",
+        "https://cdn.example.com/images/imovel26/foto3.jpg",
+        "https://cdn.example.com/images/imovel26/foto4.jpg",
+        "https://cdn.example.com/images/imovel26/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6z17aa31326789a11234nop567890123z90123456",
+      "cod": "imovel27",
+      "titulo": "Studio decorado",
+      "localizacao": {
+        "logradouro": "Rua Rio Branco",
+        "numero": "156",
+        "complemento": "Studio 405",
+        "bairro": "Centro",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90010-230"
+      },
+      "preco": 2900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "40m²",
+      "images": [
+        "https://cdn.example.com/images/imovel27/foto1.jpg",
+        "https://cdn.example.com/images/imovel27/foto2.jpg",
+        "https://cdn.example.com/images/imovel27/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7a28bb42437890b22345opq678901234a01234567",
+      "cod": "imovel28",
+      "titulo": "Casa com jardim",
+      "localizacao": {
+        "logradouro": "Rua Chile",
+        "numero": "38",
+        "complemento": "",
+        "bairro": "Barra",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40140-130"
+      },
+      "preco": 8900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "300m²",
+      "images": [
+        "https://cdn.example.com/images/imovel28/foto1.jpg",
+        "https://cdn.example.com/images/imovel28/foto2.jpg",
+        "https://cdn.example.com/images/imovel28/foto3.jpg",
+        "https://cdn.example.com/images/imovel28/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8b39cc53548901c33456pqr789012345b12345678",
+      "cod": "imovel29",
+      "titulo": "Apartamento com lazer",
+      "localizacao": {
+        "logradouro": "SQN 216",
+        "numero": "Bloco K",
+        "complemento": "Apto 83",
+        "bairro": "Asa Norte",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70875-110"
+      },
+      "preco": 3700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "72m²",
+      "images": [
+        "https://cdn.example.com/images/imovel29/foto1.jpg",
+        "https://cdn.example.com/images/imovel29/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9c40dd64659012d44567qrs890123456c23456789",
+      "cod": "imovel30",
+      "titulo": "Duplex moderno",
+      "localizacao": {
+        "logradouro": "Avenida Epitácio Pessoa",
+        "numero": "1325",
+        "complemento": "Duplex 15",
+        "bairro": "Lagoa",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22411-072"
+      },
+      "preco": 4300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Duplex",
+      "estacionamento": 1,
+      "area": "95m²",
+      "images": [
+        "https://cdn.example.com/images/imovel30/foto1.jpg",
+        "https://cdn.example.com/images/imovel30/foto2.jpg",
+        "https://cdn.example.com/images/imovel30/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0d51ee75760123e55678rst901234567d34567890",
+      "cod": "imovel31",
+      "titulo": "Casa geminada",
+      "localizacao": {
+        "logradouro": "Rua Desembargador Soares",
+        "numero": "498",
+        "complemento": "Casa B",
+        "bairro": "Cabo Branco",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "cep": "58045-020"
+      },
+      "preco": 4400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "140m²",
+      "images": [
+        "https://cdn.example.com/images/imovel31/foto1.jpg",
+        "https://cdn.example.com/images/imovel31/foto2.jpg",
+        "https://cdn.example.com/images/imovel31/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1e62ff86871234f66789stu012345678e45678901",
+      "cod": "imovel32",
+      "titulo": "Apartamento com home office",
+      "localizacao": {
+        "logradouro": "Avenida Rio Verde",
+        "numero": "411",
+        "complemento": "Apto 1207",
+        "bairro": "Vila dos Alpes",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74310-250"
+      },
+      "preco": 5200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "85m²",
+      "images": [
+        "https://cdn.example.com/images/imovel32/foto1.jpg",
+        "https://cdn.example.com/images/imovel32/foto2.jpg",
+        "https://cdn.example.com/images/imovel32/foto3.jpg",
+        "https://cdn.example.com/images/imovel32/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2f73gg97982345g77890tuv123456789f56789012",
+      "cod": "imovel33",
+      "titulo": "Loft com terraço",
+      "localizacao": {
+        "logradouro": "Rua Pernambuco",
+        "numero": "1002",
+        "complemento": "Loft 7",
+        "bairro": "Savassi",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30130-151"
+      },
+      "preco": 5500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "95m²",
+      "images": [
+        "https://cdn.example.com/images/imovel33/foto1.jpg",
+        "https://cdn.example.com/images/imovel33/foto2.jpg",
+        "https://cdn.example.com/images/imovel33/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3g84hh08093456h88901uvw234567890g67890123",
+      "cod": "imovel34",
+      "titulo": "Cobertura linear",
+      "localizacao": {
+        "logradouro": "Avenida das Américas",
+        "numero": "3959",
+        "complemento": "Cobertura Linear",
+        "bairro": "Barra da Tijuca",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22631-003"
+      },
+      "preco": 11000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 3,
+      "area": "220m²",
+      "images": [
+        "https://cdn.example.com/images/imovel34/foto1.jpg",
+        "https://cdn.example.com/images/imovel34/foto2.jpg",
+        "https://cdn.example.com/images/imovel34/foto3.jpg",
+        "https://cdn.example.com/images/imovel34/foto4.jpg",
+        "https://cdn.example.com/images/imovel34/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4h95ii19104567i99012vwx345678901h78901234",
+      "cod": "imovel35",
+      "titulo": "Studio com varanda",
+      "localizacao": {
+        "logradouro": "Rua Comendador Araújo",
+        "numero": "425",
+        "complemento": "Studio 702",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80420-000"
+      },
+      "preco": 2400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "30m²",
+      "images": [
+        "https://cdn.example.com/images/imovel35/foto1.jpg",
+        "https://cdn.example.com/images/imovel35/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5i06jj20215678j00123wxy456789012i89012345",
+      "cod": "imovel36",
+      "titulo": "Casa colonial",
+      "localizacao": {
+        "logradouro": "Rua das Palmeiras",
+        "numero": "91",
+        "complemento": "",
+        "bairro": "Pelourinho",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40026-240"
+      },
+      "preco": 7800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "250m²",
+      "images": [
+        "https://cdn.example.com/images/imovel36/foto1.jpg",
+        "https://cdn.example.com/images/imovel36/foto2.jpg",
+        "https://cdn.example.com/images/imovel36/foto3.jpg",
+        "https://cdn.example.com/images/imovel36/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6j17kk31326789k11234xyz567890123j90123456",
+      "cod": "imovel37",
+      "titulo": "Apartamento com closet",
+      "localizacao": {
+        "logradouro": "Avenida Dom Pedro II",
+        "numero": "549",
+        "complemento": "Apto 151",
+        "bairro": "Tambaú",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "cep": "58039-181"
+      },
+      "preco": 4600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "100m²",
+      "images": [
+        "https://cdn.example.com/images/imovel37/foto1.jpg",
+        "https://cdn.example.com/images/imovel37/foto2.jpg",
+        "https://cdn.example.com/images/imovel37/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7k28ll42437890l22345yza678901234k01234567",
+      "cod": "imovel38",
+      "titulo": "Garden duplex",
+      "localizacao": {
+        "logradouro": "SHIS QI 11",
+        "numero": "Conjunto 8",
+        "complemento": "Garden Duplex",
+        "bairro": "Lago Sul",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "71625-280"
+      },
+      "preco": 8200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "160m²",
+      "images": [
+        "https://cdn.example.com/images/imovel38/foto1.jpg",
+        "https://cdn.example.com/images/imovel38/foto2.jpg",
+        "https://cdn.example.com/images/imovel38/foto3.jpg",
+        "https://cdn.example.com/images/imovel38/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8l39mm53548901m33456zab789012345l12345678",
+      "cod": "imovel39",
+      "titulo": "Casa com ateliê",
+      "localizacao": {
+        "logradouro": "Rua do Bom Jesus",
+        "numero": "237",
+        "complemento": "",
+        "bairro": "Recife Antigo",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "50030-170"
+      },
+      "preco": 6200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "200m²",
+      "images": [
+        "https://cdn.example.com/images/imovel39/foto1.jpg",
+        "https://cdn.example.com/images/imovel39/foto2.jpg",
+        "https://cdn.example.com/images/imovel39/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9m40nn64659012n44567abc890123456m23456789",
+      "cod": "imovel40",
+      "titulo": "Apartamento com terraço",
+      "localizacao": {
+        "logradouro": "Rua Augusta",
+        "numero": "2516",
+        "complemento": "Apto 181",
+        "bairro": "Consolação",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01412-100"
+      },
+      "preco": 6800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "140m²",
+      "images": [
+        "https://cdn.example.com/images/imovel40/foto1.jpg",
+        "https://cdn.example.com/images/imovel40/foto2.jpg",
+        "https://cdn.example.com/images/imovel40/foto3.jpg",
+        "https://cdn.example.com/images/imovel40/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0n51oo75760123o55678bcd901234567n34567890",
+      "cod": "imovel41",
+      "titulo": "Loft duplex",
+      "localizacao": {
+        "logradouro": "Rua Barata Ribeiro",
+        "numero": "285",
+        "complemento": "Loft Duplex 3",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22040-002"
+      },
+      "preco": 4900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "110m²",
+      "images": [
+        "https://cdn.example.com/images/imovel41/foto1.jpg",
+        "https://cdn.example.com/images/imovel41/foto2.jpg",
+        "https://cdn.example.com/images/imovel41/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1o62pp86871234p66789cde012345678o45678901",
+      "cod": "imovel42",
+      "titulo": "Cobertura com spa",
+      "localizacao": {
+        "logradouro": "Avenida Litorânea",
+        "numero": "699",
+        "complemento": "Cobertura com Spa",
+        "bairro": "Calhau",
+        "cidade": "São Luís",
+        "estado": "MA",
+        "cep": "65071-377"
+      },
+      "preco": 16000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 4,
+      "area": "300m²",
+      "images": [
+        "https://cdn.example.com/images/imovel42/foto1.jpg",
+        "https://cdn.example.com/images/imovel42/foto2.jpg",
+        "https://cdn.example.com/images/imovel42/foto3.jpg",
+        "https://cdn.example.com/images/imovel42/foto4.jpg",
+        "https://cdn.example.com/images/imovel42/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2p73qq97982345q77890def123456789p56789012",
+      "cod": "imovel43",
+      "titulo": "Studio loft",
+      "localizacao": {
+        "logradouro": "Rua João Negrão",
+        "numero": "731",
+        "complemento": "Studio Loft 1103",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80010-200"
+      },
+      "preco": 3100,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "45m²",
+      "images": [
+        "https://cdn.example.com/images/imovel43/foto1.jpg",
+        "https://cdn.example.com/images/imovel43/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3q84rr08093456r88901efg234567890q67890123",
+      "cod": "imovel44",
+      "titulo": "Casa com deck",
+      "localizacao": {
+        "logradouro": "Avenida Porto das Dunas",
+        "numero": "820",
+        "complemento": "",
+        "bairro": "Porto das Dunas",
+        "cidade": "Aquiraz",
+        "estado": "CE",
+        "cep": "61700-000"
+      },
+      "preco": 5900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "210m²",
+      "images": [
+        "https://cdn.example.com/images/imovel44/foto1.jpg",
+        "https://cdn.example.com/images/imovel44/foto2.jpg",
+        "https://cdn.example.com/images/imovel44/foto3.jpg",
+        "https://cdn.example.com/images/imovel44/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4r95ss19104567s99012fgh345678901r78901234",
+      "cod": "imovel45",
+      "titulo": "Apartamento com suíte master",
+      "localizacao": {
+        "logradouro": "Avenida Soares Lopes",
+        "numero": "560",
+        "complemento": "Apto 241",
+        "bairro": "Ilhotas",
+        "cidade": "Teresina",
+        "estado": "PI",
+        "cep": "64001-480"
+      },
+      "preco": 7200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Condomínio",
+      "estacionamento": 3,
+      "area": "180m²",
+      "images": [
+        "https://cdn.example.com/images/imovel45/foto1.jpg",
+        "https://cdn.example.com/images/imovel45/foto2.jpg",
+        "https://cdn.example.com/images/imovel45/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5s06tt20215678t00123ghi456789012s89012345",
+      "cod": "imovel46",
+      "titulo": "Duplex com piscina",
+      "localizacao": {
+        "logradouro": "Rua Desembargador Viriato",
+        "numero": "1666",
+        "complemento": "Duplex 22",
+        "bairro": "Três Figueiras",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "91330-020"
+      },
+      "preco": 8500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 2,
+      "area": "150m²",
+      "images": [
+        "https://cdn.example.com/images/imovel46/foto1.jpg",
+        "https://cdn.example.com/images/imovel46/foto2.jpg",
+        "https://cdn.example.com/images/imovel46/foto3.jpg",
+        "https://cdn.example.com/images/imovel46/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6t17uu31326789u11234hij567890123t90123456",
+      "cod": "imovel47",
+      "titulo": "Casa minimalista",
+      "localizacao": {
+        "logradouro": "Alameda Jaú",
+        "numero": "1583",
+        "complemento": "",
+        "bairro": "Jardim Paulista",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01420-001"
+      },
+      "preco": 9800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "240m²",
+      "images": [
+        "https://cdn.example.com/images/imovel47/foto1.jpg",
+        "https://cdn.example.com/images/imovel47/foto2.jpg",
+        "https://cdn.example.com/images/imovel47/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7u28vv42437890v22345ijk678901234u01234567",
+      "cod": "imovel48",
+      "titulo": "Apartamento com lareira",
+      "localizacao": {
+        "logradouro": "Rua Fernando Ferrari",
+        "numero": "601",
+        "complemento": "Apto 122",
+        "bairro": "Glória",
+        "cidade": "Vitória",
+        "estado": "ES",
+        "cep": "29122-020"
+      },
+      "preco": 5800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "130m²",
+      "images": [
+        "https://cdn.example.com/images/imovel48/foto1.jpg",
+        "https://cdn.example.com/images/imovel48/foto2.jpg",
+        "https://cdn.example.com/images/imovel48/foto3.jpg",
+        "https://cdn.example.com/images/imovel48/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8v39ww53548901w33456jkl789012345v12345678",
+      "cod": "imovel49",
+      "titulo": "Loft com biblioteca",
+      "localizacao": {
+        "logradouro": "Avenida República Argentina",
+        "numero": "159",
+        "complemento": "Loft 6",
+        "bairro": "Água Verde",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80240-210"
+      },
+      "preco": 4200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "80m²",
+      "images": [
+        "https://cdn.example.com/images/imovel49/foto1.jpg",
+        "https://cdn.example.com/images/imovel49/foto2.jpg",
+        "https://cdn.example.com/images/imovel49/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9w40xx64659012x44567klm890123456w23456789",
+      "cod": "imovel50",
+      "titulo": "Cobertura com heliponto",
+      "localizacao": {
+        "logradouro": "Avenida Boa Viagem",
+        "numero": "6000",
+        "complemento": "Cobertura Especial",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "51011-000"
+      },
+      "preco": 25000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Cobertura",
+      "estacionamento": 5,
+      "area": "450m²",
+      "images": [
+        "https://cdn.example.com/images/imovel50/foto1.jpg",
+        "https://cdn.example.com/images/imovel50/foto2.jpg",
+        "https://cdn.example.com/images/imovel50/foto3.jpg",
+        "https://cdn.example.com/images/imovel50/foto4.jpg",
+        "https://cdn.example.com/images/imovel50/foto5.jpg",
+        "https://cdn.example.com/images/imovel50/foto6.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0x51yy75760123y55678lmn901234567x34567890",
+      "cod": "imovel51",
+      "titulo": "Studio com cozinha americana",
+      "localizacao": {
+        "logradouro": "Rua Bocaiúva",
+        "numero": "984",
+        "complemento": "Studio 508",
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88015-530"
+      },
+      "preco": 2600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "34m²",
+      "images": [
+        "https://cdn.example.com/images/imovel51/foto1.jpg",
+        "https://cdn.example.com/images/imovel51/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1y62zz86871234z66789mno012345678y45678901",
+      "cod": "imovel52",
+      "titulo": "Casa com salão de festas",
+      "localizacao": {
+        "logradouro": "Avenida Goiás",
+        "numero": "1560",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74005-010"
+      },
+      "preco": 5400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "230m²",
+      "images": [
+        "https://cdn.example.com/images/imovel52/foto1.jpg",
+        "https://cdn.example.com/images/imovel52/foto2.jpg",
+        "https://cdn.example.com/images/imovel52/foto3.jpg",
+        "https://cdn.example.com/images/imovel52/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2z73aa97982345a77890nop123456789z56789012",
+      "cod": "imovel53",
+      "titulo": "Apartamento com pet place",
+      "localizacao": {
+        "logradouro": "Rua Silva Jardim",
+        "numero": "510",
+        "complemento": "Apto 94",
+        "bairro": "Rebouças",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80230-000"
+      },
+      "preco": 3400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "68m²",
+      "images": [
+        "https://cdn.example.com/images/imovel53/foto1.jpg",
+        "https://cdn.example.com/images/imovel53/foto2.jpg",
+        "https://cdn.example.com/images/imovel53/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3a84bb08093456b88901opq234567890a67890123",
+      "cod": "imovel54",
+      "titulo": "Garden com pomar",
+      "localizacao": {
+        "logradouro": "Avenida Contorno",
+        "numero": "7880",
+        "complemento": "Garden",
+        "bairro": "Gutierrez",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30110-120"
+      },
+      "preco": 7800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "150m²",
+      "images": [
+        "https://cdn.example.com/images/imovel54/foto1.jpg",
+        "https://cdn.example.com/images/imovel54/foto2.jpg",
+        "https://cdn.example.com/images/imovel54/foto3.jpg",
+        "https://cdn.example.com/images/imovel54/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4b95cc19104567c99012pqr345678901b78901234",
+      "cod": "imovel55",
+      "titulo": "Duplex com varanda gourmet",
+      "localizacao": {
+        "logradouro": "Avenida Jorge Amado",
+        "numero": "339",
+        "complemento": "Duplex 17",
+        "bairro": "Imbuí",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "41720-040"
+      },
+      "preco": 5600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 2,
+      "area": "120m²",
+      "images": [
+        "https://cdn.example.com/images/imovel55/foto1.jpg",
+        "https://cdn.example.com/images/imovel55/foto2.jpg",
+        "https://cdn.example.com/images/imovel55/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5c06dd20215678d00123qrs456789012c89012345",
+      "cod": "imovel56",
+      "titulo": "Loft com estúdio",
+      "localizacao": {
+        "logradouro": "Rua Sete de Setembro",
+        "numero": "111",
+        "complemento": "Loft 9",
+        "bairro": "Centro",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90010-191"
+      },
+      "preco": 3900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "88m²",
+      "images": [
+        "https://cdn.example.com/images/imovel56/foto1.jpg",
+        "https://cdn.example.com/images/imovel56/foto2.jpg",
+        "https://cdn.example.com/images/imovel56/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6d17ee31326789e11234rst567890123d90123456",
+      "cod": "imovel57",
+      "titulo": "Casa com spa",
+      "localizacao": {
+        "logradouro": "Avenida Oceânica",
+        "numero": "470",
+        "complemento": "",
+        "bairro": "Ondina",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40140-130"
+      },
+      "preco": 11000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Casa",
+      "estacionamento": 4,
+      "area": "350m²",
+      "images": [
+        "https://cdn.example.com/images/imovel57/foto1.jpg",
+        "https://cdn.example.com/images/imovel57/foto2.jpg",
+        "https://cdn.example.com/images/imovel57/foto3.jpg",
+        "https://cdn.example.com/images/imovel57/foto4.jpg",
+        "https://cdn.example.com/images/imovel57/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7e28ff42437890f22345stu678901234e01234567",
+      "cod": "imovel58",
+      "titulo": "Apartamento face norte",
+      "localizacao": {
+        "logradouro": "Rua Marechal Deodoro",
+        "numero": "323",
+        "complemento": "Apto 75",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80020-320"
+      },
+      "preco": 4000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "75m²",
+      "images": [
+        "https://cdn.example.com/images/imovel58/foto1.jpg",
+        "https://cdn.example.com/images/imovel58/foto2.jpg",
+        "https://cdn.example.com/images/imovel58/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8f39gg53548901g33456tuv789012345f12345678",
+      "cod": "imovel59",
+      "titulo": "Cobertura com cinema",
+      "localizacao": {
+        "logradouro": "Avenida Niemeyer",
+        "numero": "777",
+        "complemento": "Cobertura com Cinema",
+        "bairro": "São Conrado",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22450-221"
+      },
+      "preco": 14000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 3,
+      "area": "280m²",
+      "images": [
+        "https://cdn.example.com/images/imovel59/foto1.jpg",
+        "https://cdn.example.com/images/imovel59/foto2.jpg",
+        "https://cdn.example.com/images/imovel59/foto3.jpg",
+        "https://cdn.example.com/images/imovel59/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9g40hh64659012h44567uvw890123456g23456789",
+      "cod": "imovel60",
+      "titulo": "Studio pet friendly",
+      "localizacao": {
+        "logradouro": "Avenida Delmiro Gouveia",
+        "numero": "555",
+        "complemento": "Studio 809",
+        "bairro": "Ponta Verde",
+        "cidade": "Maceió",
+        "estado": "AL",
+        "cep": "57035-030"
+      },
+      "preco": 3000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "42m²",
+      "images": [
+        "https://cdn.example.com/images/imovel60/foto1.jpg",
+        "https://cdn.example.com/images/imovel60/foto2.jpg",
+        "https://cdn.example.com/images/imovel60/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0h51ii75760123i55678vwx901234567h34567890",
+      "cod": "imovel61",
+      "titulo": "Casa com horta",
+      "localizacao": {
+        "logradouro": "Rua Francisco Glicério",
+        "numero": "303",
+        "complemento": "",
+        "bairro": "Cambui",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "cep": "13012-100"
+      },
+      "preco": 4300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Casa",
+      "estacionamento": 2,
+      "area": "160m²",
+      "images": [
+        "https://cdn.example.com/images/imovel61/foto1.jpg",
+        "https://cdn.example.com/images/imovel61/foto2.jpg",
+        "https://cdn.example.com/images/imovel61/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1i62jj86871234j66789wxy012345678i45678901",
+      "cod": "imovel62",
+      "titulo": "Apartamento com academia",
+      "localizacao": {
+        "logradouro": "Avenida do CPA",
+        "numero": "2051",
+        "complemento": "Apto 164",
+        "bairro": "Centro Político Administrativo",
+        "cidade": "Cuiabá",
+        "estado": "MT",
+        "cep": "78049-916"
+      },
+      "preco": 5900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "110m²",
+      "images": [
+        "https://cdn.example.com/images/imovel62/foto1.jpg",
+        "https://cdn.example.com/images/imovel62/foto2.jpg",
+        "https://cdn.example.com/images/imovel62/foto3.jpg",
+        "https://cdn.example.com/images/imovel62/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2j73kk97982345k77890xyz123456789j56789012",
+      "cod": "imovel63",
+      "titulo": "Loft com galeria",
+      "localizacao": {
+        "logradouro": "SQN 107",
+        "numero": "Bloco I",
+        "complemento": "Loft 4",
+        "bairro": "Asa Norte",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70743-090"
+      },
+      "preco": 4700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "100m²",
+      "images": [
+        "https://cdn.example.com/images/imovel63/foto1.jpg",
+        "https://cdn.example.com/images/imovel63/foto2.jpg",
+        "https://cdn.example.com/images/imovel63/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3k84ll08093456l88901yza234567890k67890123",
+      "cod": "imovel64",
+      "titulo": "Garden com playground",
+      "localizacao": {
+        "logradouro": "Avenida Maria Lacerda de Azevedo",
+        "numero": "671",
+        "complemento": "Garden 3",
+        "bairro": "Nova Parnamirim",
+        "cidade": "Parnamirim",
+        "estado": "RN",
+        "cep": "59151-820"
+      },
+      "preco": 6400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "125m²",
+      "images": [
+        "https://cdn.example.com/images/imovel64/foto1.jpg",
+        "https://cdn.example.com/images/imovel64/foto2.jpg",
+        "https://cdn.example.com/images/imovel64/foto3.jpg",
+        "https://cdn.example.com/images/imovel64/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4l95mm19104567m99012zab345678901l78901234",
+      "cod": "imovel65",
+      "titulo": "Casa com adega",
+      "localizacao": {
+        "logradouro": "Avenida Afonso Pena",
+        "numero": "4100",
+        "complemento": "",
+        "bairro": "Mangabeiras",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30130-009"
+      },
+      "preco": 12000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 4,
+      "area": "320m²",
+      "images": [
+        "https://cdn.example.com/images/imovel65/foto1.jpg",
+        "https://cdn.example.com/images/imovel65/foto2.jpg",
+        "https://cdn.example.com/images/imovel65/foto3.jpg",
+        "https://cdn.example.com/images/imovel65/foto4.jpg",
+        "https://cdn.example.com/images/imovel65/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5m06nn20215678n00123abc456789012m89012345",
+      "cod": "imovel66",
+      "titulo": "Duplex com solarium",
+      "localizacao": {
+        "logradouro": "Avenida Antônio de Góes",
+        "numero": "290",
+        "complemento": "Duplex 19",
+        "bairro": "Pina",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "51110-000"
+      },
+      "preco": 7300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 2,
+      "area": "140m²",
+      "images": [
+        "https://cdn.example.com/images/imovel66/foto1.jpg",
+        "https://cdn.example.com/images/imovel66/foto2.jpg",
+        "https://cdn.example.com/images/imovel66/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6n17oo31326789o11234bcd567890123n90123456",
+      "cod": "imovel67",
+      "titulo": "Apartamento com brinquedoteca",
+      "localizacao": {
+        "logradouro": "Avenida Abolição",
+        "numero": "3831",
+        "complemento": "Apto 43",
+        "bairro": "Meireles",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60165-082"
+      },
+      "preco": 3600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "73m²",
+      "images": [
+        "https://cdn.example.com/images/imovel67/foto1.jpg",
+        "https://cdn.example.com/images/imovel67/foto2.jpg",
+        "https://cdn.example.com/images/imovel67/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7o28pp42437890p22345cde678901234o01234567",
+      "cod": "imovel68",
+      "titulo": "Cobertura com sauna",
+      "localizacao": {
+        "logradouro": "Avenida Lucio Costa",
+        "numero": "3300",
+        "complemento": "Cobertura com Sauna",
+        "bairro": "Barra da Tijuca",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22630-010"
+      },
+      "preco": 13500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 3,
+      "area": "260m²",
+      "images": [
+        "https://cdn.example.com/images/imovel68/foto1.jpg",
+        "https://cdn.example.com/images/imovel68/foto2.jpg",
+        "https://cdn.example.com/images/imovel68/foto3.jpg",
+        "https://cdn.example.com/images/imovel68/foto4.jpg",
+        "https://cdn.example.com/images/imovel68/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8p39qq53548901q33456def789012345p12345678",
+      "cod": "imovel69",
+      "titulo": "Studio com bike place",
+      "localizacao": {
+        "logradouro": "Rua Joinville",
+        "numero": "1995",
+        "complemento": "Studio 606",
+        "bairro": "Vila Buarque",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01203-001"
+      },
+      "preco": 2700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "36m²",
+      "images": [
+        "https://cdn.example.com/images/imovel69/foto1.jpg",
+        "https://cdn.example.com/images/imovel69/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9q40rr64659012r44567efg890123456q23456789",
+      "cod": "imovel70",
+      "titulo": "Casa com quadra",
+      "localizacao": {
+        "logradouro": "Avenida das Castanheiras",
+        "numero": "1030",
+        "complemento": "Casa 12",
+        "bairro": "Águas Claras",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "71936-250"
+      },
+      "preco": 9600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Casa",
+      "estacionamento": 4,
+      "area": "380m²",
+      "images": [
+        "https://cdn.example.com/images/imovel70/foto1.jpg",
+        "https://cdn.example.com/images/imovel70/foto2.jpg",
+        "https://cdn.example.com/images/imovel70/foto3.jpg",
+        "https://cdn.example.com/images/imovel70/foto4.jpg",
+        "https://cdn.example.com/images/imovel70/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0r51ss75760123s55678fgh901234567r34567890",
+      "cod": "imovel71",
+      "titulo": "Loft com rooftop",
+      "localizacao": {
+        "logradouro": "Rua Avanhandava",
+        "numero": "81",
+        "complemento": "Loft 10",
+        "bairro": "Bela Vista",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01306-001"
+      },
+      "preco": 6200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Loft",
+      "estacionamento": 2,
+      "area": "115m²",
+      "images": [
+        "https://cdn.example.com/images/imovel71/foto1.jpg",
+        "https://cdn.example.com/images/imovel71/foto2.jpg",
+        "https://cdn.example.com/images/imovel71/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1s62tt86871234t66789ghi012345678s45678901",
+      "cod": "imovel72",
+      "titulo": "Apartamento com espaço gourmet",
+      "localizacao": {
+        "logradouro": "Avenida Bernardo Vieira de Melo",
+        "numero": "275",
+        "complemento": "Apto 192",
+        "bairro": "Candeias",
+        "cidade": "Jaboatão dos Guararapes",
+        "estado": "PE",
+        "cep": "54430-000"
+      },
+      "preco": 8800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "155m²",
+      "images": [
+        "https://cdn.example.com/images/imovel72/foto1.jpg",
+        "https://cdn.example.com/images/imovel72/foto2.jpg",
+        "https://cdn.example.com/images/imovel72/foto3.jpg",
+        "https://cdn.example.com/images/imovel72/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2t73uu97982345u77890hij123456789t56789012",
+      "cod": "imovel73",
+      "titulo": "Casa com ofurô",
+      "localizacao": {
+        "logradouro": "Rua Monte Castelo",
+        "numero": "2171",
+        "complemento": "",
+        "bairro": "Graça",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40150-000"
+      },
+      "preco": 10500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "290m²",
+      "images": [
+        "https://cdn.example.com/images/imovel73/foto1.jpg",
+        "https://cdn.example.com/images/imovel73/foto2.jpg",
+        "https://cdn.example.com/images/imovel73/foto3.jpg",
+        "https://cdn.example.com/images/imovel73/foto4.jpg",
+        "https://cdn.example.com/images/imovel73/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3u84vv08093456v88901ijk234567890u67890123",
+      "cod": "imovel74",
+      "titulo": "Garden com espaço zen",
+      "localizacao": {
+        "logradouro": "Avenida Saturnino de Brito",
+        "numero": "1033",
+        "complemento": "Garden 4",
+        "bairro": "Praia do Canto",
+        "cidade": "Vitória",
+        "estado": "ES",
+        "cep": "29055-180"
+      },
+      "preco": 7100,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Garden",
+      "estacionamento": 2,
+      "area": "105m²",
+      "images": [
+        "https://cdn.example.com/images/imovel74/foto1.jpg",
+        "https://cdn.example.com/images/imovel74/foto2.jpg",
+        "https://cdn.example.com/images/imovel74/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4v95ww19104567w99012jkl345678901v78901234",
+      "cod": "imovel75",
+      "titulo": "Studio com coworking",
+      "localizacao": {
+        "logradouro": "Avenida Júlio de Castilhos",
+        "numero": "1681",
+        "complemento": "Studio 1007",
+        "bairro": "Centro Histórico",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90030-130"
+      },
+      "preco": 3200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "48m²",
+      "images": [
+        "https://cdn.example.com/images/imovel75/foto1.jpg",
+        "https://cdn.example.com/images/imovel75/foto2.jpg",
+        "https://cdn.example.com/images/imovel75/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5w06xx20215678x00123klm456789012w89012345",
+      "cod": "imovel76",
+      "titulo": "Duplex com adega climatizada",
+      "localizacao": {
+        "logradouro": "Avenida Historiador Rubens de Mendonça",
+        "numero": "674",
+        "complemento": "Duplex 25",
+        "bairro": "Baú",
+        "cidade": "Cuiabá",
+        "estado": "MT",
+        "cep": "78008-000"
+      },
+      "preco": 9200,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 3,
+      "area": "170m²",
+      "images": [
+        "https://cdn.example.com/images/imovel76/foto1.jpg",
+        "https://cdn.example.com/images/imovel76/foto2.jpg",
+        "https://cdn.example.com/images/imovel76/foto3.jpg",
+        "https://cdn.example.com/images/imovel76/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6x17yy31326789y11234lmn567890123x90123456",
+      "cod": "imovel77",
+      "titulo": "Cobertura com observatório",
+      "localizacao": {
+        "logradouro": "Avenida Getúlio Vargas",
+        "numero": "912",
+        "complemento": "Cobertura com Observatório",
+        "bairro": "Santa Efigênia",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30130-093"
+      },
+      "preco": 17000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Cobertura",
+      "estacionamento": 3,
+      "area": "320m²",
+      "images": [
+        "https://cdn.example.com/images/imovel77/foto1.jpg",
+        "https://cdn.example.com/images/imovel77/foto2.jpg",
+        "https://cdn.example.com/images/imovel77/foto3.jpg",
+        "https://cdn.example.com/images/imovel77/foto4.jpg",
+        "https://cdn.example.com/images/imovel77/foto5.jpg",
+        "https://cdn.example.com/images/imovel77/foto6.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7y28zz42437890z22345mno678901234y01234567",
+      "cod": "imovel78",
+      "titulo": "Casa sustentável",
+      "localizacao": {
+        "logradouro": "Rodovia Ilhéus-Itabuna",
+        "numero": "2589",
+        "complemento": "",
+        "bairro": "Salobrinho",
+        "cidade": "Ilhéus",
+        "estado": "BA",
+        "cep": "45658-335"
+      },
+      "preco": 7600,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "260m²",
+      "images": [
+        "https://cdn.example.com/images/imovel78/foto1.jpg",
+        "https://cdn.example.com/images/imovel78/foto2.jpg",
+        "https://cdn.example.com/images/imovel78/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8z39aa53548901a33456nop789012345z12345678",
+      "cod": "imovel79",
+      "titulo": "Apartamento com lavanderia",
+      "localizacao": {
+        "logradouro": "Rua Barão do Rio Branco",
+        "numero": "855",
+        "complemento": "Apto 112",
+        "bairro": "Centro",
+        "cidade": "Joinville",
+        "estado": "SC",
+        "cep": "89201-100"
+      },
+      "preco": 4500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "95m²",
+      "images": [
+        "https://cdn.example.com/images/imovel79/foto1.jpg",
+        "https://cdn.example.com/images/imovel79/foto2.jpg",
+        "https://cdn.example.com/images/imovel79/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9a40bb64659012b44567opq890123456a23456789",
+      "cod": "imovel80",
+      "titulo": "Loft com parede de escalada",
+      "localizacao": {
+        "logradouro": "Avenida do Forte",
+        "numero": "344",
+        "complemento": "Loft 11",
+        "bairro": "Cabo de Santo Agostinho",
+        "cidade": "Cabo de Santo Agostinho",
+        "estado": "PE",
+        "cep": "54590-000"
+      },
+      "preco": 5300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "90m²",
+      "images": [
+        "https://cdn.example.com/images/imovel80/foto1.jpg",
+        "https://cdn.example.com/images/imovel80/foto2.jpg",
+        "https://cdn.example.com/images/imovel80/foto3.jpg",
+        "https://cdn.example.com/images/imovel80/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0b51cc75760123c55678pqr901234567b34567890",
+      "cod": "imovel81",
+      "titulo": "Casa com lago",
+      "localizacao": {
+        "logradouro": "Condomínio Vila Verde",
+        "numero": "890",
+        "complemento": "",
+        "bairro": "Lago Norte",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "71540-400"
+      },
+      "preco": 15000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Casa",
+      "estacionamento": 5,
+      "area": "450m²",
+      "images": [
+        "https://cdn.example.com/images/imovel81/foto1.jpg",
+        "https://cdn.example.com/images/imovel81/foto2.jpg",
+        "https://cdn.example.com/images/imovel81/foto3.jpg",
+        "https://cdn.example.com/images/imovel81/foto4.jpg",
+        "https://cdn.example.com/images/imovel81/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1c62dd86871234d66789qrs012345678c45678901",
+      "cod": "imovel82",
+      "titulo": "Apartamento com espaço kids",
+      "localizacao": {
+        "logradouro": "Avenida Dom Luís",
+        "numero": "2752",
+        "complemento": "Apto 55",
+        "bairro": "Aldeota",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60160-230"
+      },
+      "preco": 3900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "80m²",
+      "images": [
+        "https://cdn.example.com/images/imovel82/foto1.jpg",
+        "https://cdn.example.com/images/imovel82/foto2.jpg",
+        "https://cdn.example.com/images/imovel82/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2d73ee97982345e77890rst123456789d56789012",
+      "cod": "imovel83",
+      "titulo": "Garden com forno de pizza",
+      "localizacao": {
+        "logradouro": "Avenida Sete de Setembro",
+        "numero": "1561",
+        "complemento": "Garden 5",
+        "bairro": "Vitória",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40080-001"
+      },
+      "preco": 8900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Garden",
+      "estacionamento": 3,
+      "area": "175m²",
+      "images": [
+        "https://cdn.example.com/images/imovel83/foto1.jpg",
+        "https://cdn.example.com/images/imovel83/foto2.jpg",
+        "https://cdn.example.com/images/imovel83/foto3.jpg",
+        "https://cdn.example.com/images/imovel83/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3e84ff08093456f88901stu234567890e67890123",
+      "cod": "imovel84",
+      "titulo": "Studio com automação",
+      "localizacao": {
+        "logradouro": "Avenida Doutor Arnaldo",
+        "numero": "302",
+        "complemento": "Studio 1108",
+        "bairro": "Cerqueira César",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01246-903"
+      },
+      "preco": 3500,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "50m²",
+      "images": [
+        "https://cdn.example.com/images/imovel84/foto1.jpg",
+        "https://cdn.example.com/images/imovel84/foto2.jpg",
+        "https://cdn.example.com/images/imovel84/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4f95gg19104567g99012tuv345678901f78901234",
+      "cod": "imovel85",
+      "titulo": "Duplex com sala de jogos",
+      "localizacao": {
+        "logradouro": "Avenida Carlos Gomes",
+        "numero": "836",
+        "complemento": "Duplex 28",
+        "bairro": "Auxiliadora",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90480-000"
+      },
+      "preco": 6700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 2,
+      "area": "135m²",
+      "images": [
+        "https://cdn.example.com/images/imovel85/foto1.jpg",
+        "https://cdn.example.com/images/imovel85/foto2.jpg",
+        "https://cdn.example.com/images/imovel85/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5g06hh20215678h00123uvw456789012g89012345",
+      "cod": "imovel86",
+      "titulo": "Casa com bosque",
+      "localizacao": {
+        "logradouro": "Rua dos Pinhais",
+        "numero": "466",
+        "complemento": "",
+        "bairro": "Gramado",
+        "cidade": "Gramado",
+        "estado": "RS",
+        "cep": "95670-000"
+      },
+      "preco": 18000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 6,
+      "tipo": "Casa",
+      "estacionamento": 5,
+      "area": "500m²",
+      "images": [
+        "https://cdn.example.com/images/imovel86/foto1.jpg",
+        "https://cdn.example.com/images/imovel86/foto2.jpg",
+        "https://cdn.example.com/images/imovel86/foto3.jpg",
+        "https://cdn.example.com/images/imovel86/foto4.jpg",
+        "https://cdn.example.com/images/imovel86/foto5.jpg",
+        "https://cdn.example.com/images/imovel86/foto6.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6h17ii31326789i11234vwx567890123h90123456",
+      "cod": "imovel87",
+      "titulo": "Apartamento com despensa",
+      "localizacao": {
+        "logradouro": "Avenida Efigênio Salles",
+        "numero": "157",
+        "complemento": "Apto 87",
+        "bairro": "Aleixo",
+        "cidade": "Manaus",
+        "estado": "AM",
+        "cep": "69060-020"
+      },
+      "preco": 5100,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "105m²",
+      "images": [
+        "https://cdn.example.com/images/imovel87/foto1.jpg",
+        "https://cdn.example.com/images/imovel87/foto2.jpg",
+        "https://cdn.example.com/images/imovel87/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7i28jj42437890j22345wxy678901234i01234567",
+      "cod": "imovel88",
+      "titulo": "Loft com área externa",
+      "localizacao": {
+        "logradouro": "Avenida Fernando Corrêa da Costa",
+        "numero": "920",
+        "complemento": "Loft 13",
+        "bairro": "Chácara Cachoeira",
+        "cidade": "Campo Grande",
+        "estado": "MS",
+        "cep": "79040-420"
+      },
+      "preco": 4800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "105m²",
+      "images": [
+        "https://cdn.example.com/images/imovel88/foto1.jpg",
+        "https://cdn.example.com/images/imovel88/foto2.jpg",
+        "https://cdn.example.com/images/imovel88/foto3.jpg",
+        "https://cdn.example.com/images/imovel88/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8j39kk53548901k33456xyz789012345j12345678",
+      "cod": "imovel89",
+      "titulo": "Cobertura com deck molhado",
+      "localizacao": {
+        "logradouro": "Avenida Beira Rio",
+        "numero": "448",
+        "complemento": "Cobertura com Deck",
+        "bairro": "Ponta Negra",
+        "cidade": "Natal",
+        "estado": "RN",
+        "cep": "59090-100"
+      },
+      "preco": 20000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Cobertura",
+      "estacionamento": 4,
+      "area": "380m²",
+      "images": [
+        "https://cdn.example.com/images/imovel89/foto1.jpg",
+        "https://cdn.example.com/images/imovel89/foto2.jpg",
+        "https://cdn.example.com/images/imovel89/foto3.jpg",
+        "https://cdn.example.com/images/imovel89/foto4.jpg",
+        "https://cdn.example.com/images/imovel89/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9k40ll64659012l44567yza890123456k23456789",
+      "cod": "imovel90",
+      "titulo": "Casa com campo de futebol",
+      "localizacao": {
+        "logradouro": "Rua das Araras",
+        "numero": "255",
+        "complemento": "Casa 8",
+        "bairro": "Barra do Jacuípe",
+        "cidade": "Camaçari",
+        "estado": "BA",
+        "cep": "42840-000"
+      },
+      "preco": 13000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Casa",
+      "estacionamento": 5,
+      "area": "420m²",
+      "images": [
+        "https://cdn.example.com/images/imovel90/foto1.jpg",
+        "https://cdn.example.com/images/imovel90/foto2.jpg",
+        "https://cdn.example.com/images/imovel90/foto3.jpg",
+        "https://cdn.example.com/images/imovel90/foto4.jpg",
+        "https://cdn.example.com/images/imovel90/foto5.jpg",
+        "https://cdn.example.com/images/imovel90/foto6.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "0l51mm75760123m55678zab901234567l34567890",
+      "cod": "imovel91",
+      "titulo": "Apartamento com sala íntima",
+      "localizacao": {
+        "logradouro": "Avenida Almirante Barroso",
+        "numero": "968",
+        "complemento": "Apto 132",
+        "bairro": "Marco",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66093-020"
+      },
+      "preco": 6300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Condomínio",
+      "estacionamento": 2,
+      "area": "125m²",
+      "images": [
+        "https://cdn.example.com/images/imovel91/foto1.jpg",
+        "https://cdn.example.com/images/imovel91/foto2.jpg",
+        "https://cdn.example.com/images/imovel91/foto3.jpg",
+        "https://cdn.example.com/images/imovel91/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "1m62nn86871234n66789abc012345678m45678901",
+      "cod": "imovel92",
+      "titulo": "Studio com mezanino",
+      "localizacao": {
+        "logradouro": "Avenida Visconde de Souza Franco",
+        "numero": "387",
+        "complemento": "Studio 910",
+        "bairro": "Reduto",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66053-000"
+      },
+      "preco": 2300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 0,
+      "area": "28m²",
+      "images": [
+        "https://cdn.example.com/images/imovel92/foto1.jpg",
+        "https://cdn.example.com/images/imovel92/foto2.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "2n73oo97982345o77890bcd123456789n56789012",
+      "cod": "imovel93",
+      "titulo": "Garden com estufa",
+      "localizacao": {
+        "logradouro": "Avenida das Torres",
+        "numero": "726",
+        "complemento": "Garden 6",
+        "bairro": "Parque Del Rey",
+        "cidade": "São Luís",
+        "estado": "MA",
+        "cep": "65070-695"
+      },
+      "preco": 9700,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Garden",
+      "estacionamento": 3,
+      "area": "180m²",
+      "images": [
+        "https://cdn.example.com/images/imovel93/foto1.jpg",
+        "https://cdn.example.com/images/imovel93/foto2.jpg",
+        "https://cdn.example.com/images/imovel93/foto3.jpg",
+        "https://cdn.example.com/images/imovel93/foto4.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "3o84pp08093456p88901cde234567890o67890123",
+      "cod": "imovel94",
+      "titulo": "Casa com estúdio de música",
+      "localizacao": {
+        "logradouro": "Rua dos Artistas",
+        "numero": "305",
+        "complemento": "",
+        "bairro": "Petrópolis",
+        "cidade": "Petrópolis",
+        "estado": "RJ",
+        "cep": "25610-160"
+      },
+      "preco": 8400,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 4,
+      "tipo": "Casa",
+      "estacionamento": 3,
+      "area": "270m²",
+      "images": [
+        "https://cdn.example.com/images/imovel94/foto1.jpg",
+        "https://cdn.example.com/images/imovel94/foto2.jpg",
+        "https://cdn.example.com/images/imovel94/foto3.jpg",
+        "https://cdn.example.com/images/imovel94/foto4.jpg",
+        "https://cdn.example.com/images/imovel94/foto5.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "4p95qq19104567q99012def345678901p78901234",
+      "cod": "imovel95",
+      "titulo": "Duplex com sala de TV",
+      "localizacao": {
+        "logradouro": "Avenida JK",
+        "numero": "1742",
+        "complemento": "Duplex 31",
+        "bairro": "Centro",
+        "cidade": "Palmas",
+        "estado": "TO",
+        "cep": "77001-090"
+      },
+      "preco": 7900,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 3,
+      "tipo": "Duplex",
+      "estacionamento": 2,
+      "area": "145m²",
+      "images": [
+        "https://cdn.example.com/images/imovel95/foto1.jpg",
+        "https://cdn.example.com/images/imovel95/foto2.jpg",
+        "https://cdn.example.com/images/imovel95/foto3.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "5q06rr20215678r00123efg456789012q89012345",
+      "cod": "imovel96",
+      "titulo": "Loft com parede verde",
+      "localizacao": {
+        "logradouro": "Avenida Norte Sul",
+        "numero": "171",
+        "complemento": "Loft 15",
+        "bairro": "Centro",
+        "cidade": "Campina Grande",
+        "estado": "PB",
+        "cep": "58400-000"
+      },
+      "preco": 4100,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Loft",
+      "estacionamento": 1,
+      "area": "82m²",
+      "images": [
+        "https://cdn.example.com/images/imovel96/foto1.jpg",
+        "https://cdn.example.com/images/imovel96/foto2.jpg",
+        "https://cdn.example.com/images/imovel96/foto3.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "6r17ss31326789s11234fgh567890123r90123456",
+      "cod": "imovel97",
+      "titulo": "Apartamento com depósito",
+      "localizacao": {
+        "logradouro": "Avenida Djalma Batista",
+        "numero": "370",
+        "complemento": "Apto 26",
+        "bairro": "Chapada",
+        "cidade": "Manaus",
+        "estado": "AM",
+        "cep": "69050-010"
+      },
+      "preco": 3300,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 2,
+      "tipo": "Condomínio",
+      "estacionamento": 1,
+      "area": "67m²",
+      "images": [
+        "https://cdn.example.com/images/imovel97/foto1.jpg",
+        "https://cdn.example.com/images/imovel97/foto2.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "7s28tt42437890t22345ghi678901234s01234567",
+      "cod": "imovel98",
+      "titulo": "Cobertura panorâmica",
+      "localizacao": {
+        "logradouro": "Avenida Marechal Câmara",
+        "numero": "350",
+        "complemento": "Cobertura Panorâmica",
+        "bairro": "Centro",
+        "cidade": "Porto Velho",
+        "estado": "RO",
+        "cep": "76801-091"
+      },
+      "preco": 22000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 5,
+      "tipo": "Cobertura",
+      "estacionamento": 4,
+      "area": "400m²",
+      "images": [
+        "https://cdn.example.com/images/imovel98/foto1.jpg",
+        "https://cdn.example.com/images/imovel98/foto2.jpg",
+        "https://cdn.example.com/images/imovel98/foto3.jpg",
+        "https://cdn.example.com/images/imovel98/foto4.jpg",
+        "https://cdn.example.com/images/imovel98/foto5.jpg",
+        "https://cdn.example.com/images/imovel98/foto6.jpg",
+        "https://cdn.example.com/images/imovel98/foto7.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    },
+    {
+      "id": "8t39uu53548901u33456hij789012345t12345678",
+      "cod": "imovel99",
+      "titulo": "Casa com galeria de arte",
+      "localizacao": {
+        "logradouro": "Avenida Ceará",
+        "numero": "200",
+        "complemento": "",
+        "bairro": "Umarizal",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66055-260"
+      },
+      "preco": 16000,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 6,
+      "tipo": "Casa",
+      "estacionamento": 6,
+      "area": "480m²",
+      "images": [
+        "https://cdn.example.com/images/imovel99/foto1.jpg",
+        "https://cdn.example.com/images/imovel99/foto2.jpg",
+        "https://cdn.example.com/images/imovel99/foto3.jpg",
+        "https://cdn.example.com/images/imovel99/foto4.jpg",
+        "https://cdn.example.com/images/imovel99/foto5.jpg"
+      ],
+      "status": "Para alugar",
+      "destaque": false
+    },
+    {
+      "id": "9u40vv64659012v44567ijk890123456u23456789",
+      "cod": "imovel100",
+      "titulo": "Studio com vista para o mar",
+      "localizacao": {
+        "logradouro": "Avenida Vicente de Carvalho",
+        "numero": "1551",
+        "complemento": "Studio 1205",
+        "bairro": "Guarujá",
+        "cidade": "Guarujá",
+        "estado": "SP",
+        "cep": "11450-001"
+      },
+      "preco": 3800,
+      "moeda": "BRL",
+      "periodo": "/mês",
+      "quartos": 1,
+      "tipo": "Studio",
+      "estacionamento": 1,
+      "area": "55m²",
+      "images": [
+        "https://cdn.example.com/images/imovel100/foto1.jpg",
+        "https://cdn.example.com/images/imovel100/foto2.jpg",
+        "https://cdn.example.com/images/imovel100/foto3.jpg",
+        "https://cdn.example.com/images/imovel100/foto4.jpg"
+      ],
+      "status": "À venda",
+      "destaque": true
+    }
+  ]
+}
