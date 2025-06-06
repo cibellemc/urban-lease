@@ -6,6 +6,7 @@ const fastify = Fastify({ logger: true });
 
 // Plugins
 fastify.register(swagger);
+// fastify.register(require('fastify-pagination'))
 
 // Routes
 fastify.register(propertyRoutes, { prefix: "/properties" });
