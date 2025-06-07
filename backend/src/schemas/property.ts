@@ -20,7 +20,6 @@ export const propertySchema = z.object({
   tipo: z.string(),
   estacionamento: z.number(),
   area: z.string(),
-  images: z.array(z.string()),
   status: z.string(),
   destaque: z.boolean(),
 });

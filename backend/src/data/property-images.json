@@ -1,0 +1,466 @@
+{
+  "images": [
+    {
+      "id": "img_001_001",
+      "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
+      "url": "https://cdn.example.com/images/imovel1/foto1.jpg",
+      "description": "Fachada do apartamento",
+      "isPrimary": true
+    },
+    {
+      "id": "img_001_002",
+      "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
+      "url": "https://cdn.example.com/images/imovel1/foto2.jpg",
+      "description": "Sala de estar",
+      "isPrimary": false
+    },
+    {
+      "id": "img_001_003",
+      "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
+      "url": "https://cdn.example.com/images/imovel1/foto3.jpg",
+      "description": "Cozinha americana",
+      "isPrimary": false
+    },
+    {
+      "id": "img_002_001",
+      "propertyId": "7a82df9e871234bc5678def012345678abcdef01",
+      "url": "https://cdn.example.com/images/imovel2/foto1.jpg",
+      "description": "Vista frontal da casa",
+      "isPrimary": true
+    },
+    {
+      "id": "img_002_002",
+      "propertyId": "7a82df9e871234bc5678def012345678abcdef01",
+      "url": "https://cdn.example.com/images/imovel2/foto2.jpg",
+      "description": "Área da piscina",
+      "isPrimary": false
+    },
+    {
+      "id": "img_002_003",
+      "propertyId": "7a82df9e871234bc5678def012345678abcdef01",
+      "url": "https://cdn.example.com/images/imovel2/foto3.jpg",
+      "description": "Sala ampla",
+      "isPrimary": false
+    },
+    {
+      "id": "img_002_004",
+      "propertyId": "7a82df9e871234bc5678def012345678abcdef01",
+      "url": "https://cdn.example.com/images/imovel2/foto4.jpg",
+      "description": "Suíte master",
+      "isPrimary": false
+    },
+    {
+      "id": "img_003_001",
+      "propertyId": "9b73cf8d982345cd7890fab123456789bcdef012",
+      "url": "https://cdn.example.com/images/imovel3/foto1.jpg",
+      "description": "Studio moderno",
+      "isPrimary": true
+    },
+    {
+      "id": "img_003_002",
+      "propertyId": "9b73cf8d982345cd7890fab123456789bcdef012",
+      "url": "https://cdn.example.com/images/imovel3/foto2.jpg",
+      "description": "Área integrada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_004_001",
+      "propertyId": "3c84df0e093456de8901ghi234567890cdef0123",
+      "url": "https://cdn.example.com/images/imovel4/foto1.jpg",
+      "description": "Vista aérea da cobertura",
+      "isPrimary": true
+    },
+    {
+      "id": "img_004_002",
+      "propertyId": "3c84df0e093456de8901ghi234567890cdef0123",
+      "url": "https://cdn.example.com/images/imovel4/foto2.jpg",
+      "description": "Terraço panorâmico",
+      "isPrimary": false
+    },
+    {
+      "id": "img_004_003",
+      "propertyId": "3c84df0e093456de8901ghi234567890cdef0123",
+      "url": "https://cdn.example.com/images/imovel4/foto3.jpg",
+      "description": "Sala duplex",
+      "isPrimary": false
+    },
+    {
+      "id": "img_004_004",
+      "propertyId": "3c84df0e093456de8901ghi234567890cdef0123",
+      "url": "https://cdn.example.com/images/imovel4/foto4.jpg",
+      "description": "Cozinha gourmet",
+      "isPrimary": false
+    },
+    {
+      "id": "img_004_005",
+      "propertyId": "3c84df0e093456de8901ghi234567890cdef0123",
+      "url": "https://cdn.example.com/images/imovel4/foto5.jpg",
+      "description": "Suíte com closet",
+      "isPrimary": false
+    },
+    {
+      "id": "img_005_001",
+      "propertyId": "4d95ef1f104567ef9012ijk345678901def01234",
+      "url": "https://cdn.example.com/images/imovel5/foto1.jpg",
+      "description": "Entrada do apartamento",
+      "isPrimary": true
+    },
+    {
+      "id": "img_005_002",
+      "propertyId": "4d95ef1f104567ef9012ijk345678901def01234",
+      "url": "https://cdn.example.com/images/imovel5/foto2.jpg",
+      "description": "Sala de estar",
+      "isPrimary": false
+    },
+    {
+      "id": "img_005_003",
+      "propertyId": "4d95ef1f104567ef9012ijk345678901def01234",
+      "url": "https://cdn.example.com/images/imovel5/foto3.jpg",
+      "description": "Quintal privativo",
+      "isPrimary": false
+    },
+    {
+      "id": "img_006_001",
+      "propertyId": "5e06ff20215678f00123klm456789012ef012345",
+      "url": "https://cdn.example.com/images/imovel6/foto1.jpg",
+      "description": "Fachada da casa",
+      "isPrimary": true
+    },
+    {
+      "id": "img_006_002",
+      "propertyId": "5e06ff20215678f00123klm456789012ef012345",
+      "url": "https://cdn.example.com/images/imovel6/foto2.jpg",
+      "description": "Área de lazer do condomínio",
+      "isPrimary": false
+    },
+    {
+      "id": "img_006_003",
+      "propertyId": "5e06ff20215678f00123klm456789012ef012345",
+      "url": "https://cdn.example.com/images/imovel6/foto3.jpg",
+      "description": "Sala com pé direito alto",
+      "isPrimary": false
+    },
+    {
+      "id": "img_006_004",
+      "propertyId": "5e06ff20215678f00123klm456789012ef012345",
+      "url": "https://cdn.example.com/images/imovel6/foto4.jpg",
+      "description": "Suíte principal",
+      "isPrimary": false
+    },
+    {
+      "id": "img_007_001",
+      "propertyId": "6f17gg31326789g11234mno567890123f0123456",
+      "url": "https://cdn.example.com/images/imovel7/foto1.jpg",
+      "description": "Loft estilo industrial",
+      "isPrimary": true
+    },
+    {
+      "id": "img_007_002",
+      "propertyId": "6f17gg31326789g11234mno567890123f0123456",
+      "url": "https://cdn.example.com/images/imovel7/foto2.jpg",
+      "description": "Mezanino",
+      "isPrimary": false
+    },
+    {
+      "id": "img_008_001",
+      "propertyId": "7g28hh42437890h22345opq678901234g01234567",
+      "url": "https://cdn.example.com/images/imovel8/foto1.jpg",
+      "description": "Vista do apartamento",
+      "isPrimary": true
+    },
+    {
+      "id": "img_008_002",
+      "propertyId": "7g28hh42437890h22345opq678901234g01234567",
+      "url": "https://cdn.example.com/images/imovel8/foto2.jpg",
+      "description": "Varanda gourmet",
+      "isPrimary": false
+    },
+    {
+      "id": "img_008_003",
+      "propertyId": "7g28hh42437890h22345opq678901234g01234567",
+      "url": "https://cdn.example.com/images/imovel8/foto3.jpg",
+      "description": "Cozinha equipada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_009_001",
+      "propertyId": "8h39ii53548901i33456qrs789012345h12345678",
+      "url": "https://cdn.example.com/images/imovel9/foto1.jpg",
+      "description": "Casa térrea moderna",
+      "isPrimary": true
+    },
+    {
+      "id": "img_009_002",
+      "propertyId": "8h39ii53548901i33456qrs789012345h12345678",
+      "url": "https://cdn.example.com/images/imovel9/foto2.jpg",
+      "description": "Área gourmet",
+      "isPrimary": false
+    },
+    {
+      "id": "img_009_003",
+      "propertyId": "8h39ii53548901i33456qrs789012345h12345678",
+      "url": "https://cdn.example.com/images/imovel9/foto3.jpg",
+      "description": "Jardim",
+      "isPrimary": false
+    },
+    {
+      "id": "img_009_004",
+      "propertyId": "8h39ii53548901i33456qrs789012345h12345678",
+      "url": "https://cdn.example.com/images/imovel9/foto4.jpg",
+      "description": "Garagem coberta",
+      "isPrimary": false
+    },
+    {
+      "id": "img_010_001",
+      "propertyId": "9i40jj64659012j44567stu890123456i23456789",
+      "url": "https://cdn.example.com/images/imovel10/foto1.jpg",
+      "description": "Studio com vista mar",
+      "isPrimary": true
+    },
+    {
+      "id": "img_010_002",
+      "propertyId": "9i40jj64659012j44567stu890123456i23456789",
+      "url": "https://cdn.example.com/images/imovel10/foto2.jpg",
+      "description": "Sacada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_010_003",
+      "propertyId": "9i40jj64659012j44567stu890123456i23456789",
+      "url": "https://cdn.example.com/images/imovel10/foto3.jpg",
+      "description": "Área integrada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_011_001",
+      "propertyId": "0j51kk75760123k55678uvw901234567j34567890",
+      "url": "https://cdn.example.com/images/imovel11/foto1.jpg",
+      "description": "Garden com terraço",
+      "isPrimary": true
+    },
+    {
+      "id": "img_011_002",
+      "propertyId": "0j51kk75760123k55678uvw901234567j34567890",
+      "url": "https://cdn.example.com/images/imovel11/foto2.jpg",
+      "description": "Jardim privativo",
+      "isPrimary": false
+    },
+    {
+      "id": "img_011_003",
+      "propertyId": "0j51kk75760123k55678uvw901234567j34567890",
+      "url": "https://cdn.example.com/images/imovel11/foto3.jpg",
+      "description": "Sala ampla",
+      "isPrimary": false
+    },
+    {
+      "id": "img_011_004",
+      "propertyId": "0j51kk75760123k55678uvw901234567j34567890",
+      "url": "https://cdn.example.com/images/imovel11/foto4.jpg",
+      "description": "Cozinha planejada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_012_001",
+      "propertyId": "1k62ll86871234l66789wxy012345678k45678901",
+      "url": "https://cdn.example.com/images/imovel12/foto1.jpg",
+      "description": "Cobertura vista mar",
+      "isPrimary": true
+    },
+    {
+      "id": "img_012_002",
+      "propertyId": "1k62ll86871234l66789wxy012345678k45678901",
+      "url": "https://cdn.example.com/images/imovel12/foto2.jpg",
+      "description": "Piscina privativa",
+      "isPrimary": false
+    },
+    {
+      "id": "img_012_003",
+      "propertyId": "1k62ll86871234l66789wxy012345678k45678901",
+      "url": "https://cdn.example.com/images/imovel12/foto3.jpg",
+      "description": "Sala de jantar",
+      "isPrimary": false
+    },
+    {
+      "id": "img_012_004",
+      "propertyId": "1k62ll86871234l66789wxy012345678k45678901",
+      "url": "https://cdn.example.com/images/imovel12/foto4.jpg",
+      "description": "Área gourmet",
+      "isPrimary": false
+    },
+    {
+      "id": "img_012_005",
+      "propertyId": "1k62ll86871234l66789wxy012345678k45678901",
+      "url": "https://cdn.example.com/images/imovel12/foto5.jpg",
+      "description": "Suíte master com hidro",
+      "isPrimary": false
+    },
+    {
+      "id": "img_013_001",
+      "propertyId": "2l73mm97982345m77890xyz123456789l56789012",
+      "url": "https://cdn.example.com/images/imovel13/foto1.jpg",
+      "description": "Casa com quintal",
+      "isPrimary": true
+    },
+    {
+      "id": "img_013_002",
+      "propertyId": "2l73mm97982345m77890xyz123456789l56789012",
+      "url": "https://cdn.example.com/images/imovel13/foto2.jpg",
+      "description": "Área externa",
+      "isPrimary": false
+    },
+    {
+      "id": "img_014_001",
+      "propertyId": "3m84nn08093456n88901abc234567890m67890123",
+      "url": "https://cdn.example.com/images/imovel14/foto1.jpg",
+      "description": "Apartamento reformado",
+      "isPrimary": true
+    },
+    {
+      "id": "img_014_002",
+      "propertyId": "3m84nn08093456n88901abc234567890m67890123",
+      "url": "https://cdn.example.com/images/imovel14/foto2.jpg",
+      "description": "Cozinha nova",
+      "isPrimary": false
+    },
+    {
+      "id": "img_014_003",
+      "propertyId": "3m84nn08093456n88901abc234567890m67890123",
+      "url": "https://cdn.example.com/images/imovel14/foto3.jpg",
+      "description": "Banheiro moderno",
+      "isPrimary": false
+    },
+    {
+      "id": "img_015_001",
+      "propertyId": "4n95oo19104567o99012bcd345678901n78901234",
+      "url": "https://cdn.example.com/images/imovel15/foto1.jpg",
+      "description": "Loft contemporâneo",
+      "isPrimary": true
+    },
+    {
+      "id": "img_015_002",
+      "propertyId": "4n95oo19104567o99012bcd345678901n78901234",
+      "url": "https://cdn.example.com/images/imovel15/foto2.jpg",
+      "description": "Espaço aberto",
+      "isPrimary": false
+    },
+    {
+      "id": "img_015_003",
+      "propertyId": "4n95oo19104567o99012bcd345678901n78901234",
+      "url": "https://cdn.example.com/images/imovel15/foto3.jpg",
+      "description": "Home office",
+      "isPrimary": false
+    },
+    {
+      "id": "img_016_001",
+      "propertyId": "5o06pp20215678p00123cde456789012o89012345",
+      "url": "https://cdn.example.com/images/imovel16/foto1.jpg",
+      "description": "Casa de vila charmosa",
+      "isPrimary": true
+    },
+    {
+      "id": "img_016_002",
+      "propertyId": "5o06pp20215678p00123cde456789012o89012345",
+      "url": "https://cdn.example.com/images/imovel16/foto2.jpg",
+      "description": "Pátio interno",
+      "isPrimary": false
+    },
+    {
+      "id": "img_017_001",
+      "propertyId": "6p17qq31326789q11234def567890123p90123456",
+      "url": "https://cdn.example.com/images/imovel17/foto1.jpg",
+      "description": "Vista do apartamento",
+      "isPrimary": true
+    },
+    {
+      "id": "img_017_002",
+      "propertyId": "6p17qq31326789q11234def567890123p90123456",
+      "url": "https://cdn.example.com/images/imovel17/foto2.jpg",
+      "description": "Sacada ampla",
+      "isPrimary": false
+    },
+    {
+      "id": "img_017_003",
+      "propertyId": "6p17qq31326789q11234def567890123p90123456",
+      "url": "https://cdn.example.com/images/imovel17/foto3.jpg",
+      "description": "Living",
+      "isPrimary": false
+    },
+    {
+      "id": "img_018_001",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto1.jpg",
+      "description": "Cobertura triplex luxuosa",
+      "isPrimary": true
+    },
+    {
+      "id": "img_018_002",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto2.jpg",
+      "description": "Piscina com deck",
+      "isPrimary": false
+    },
+    {
+      "id": "img_018_003",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto3.jpg",
+      "description": "Sala de cinema",
+      "isPrimary": false
+    },
+    {
+      "id": "img_018_004",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto4.jpg",
+      "description": "Adega climatizada",
+      "isPrimary": false
+    },
+    {
+      "id": "img_018_005",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto5.jpg",
+      "description": "Spa privativo",
+      "isPrimary": false
+    },
+    {
+      "id": "img_018_006",
+      "propertyId": "7q28rr42437890r22345efg678901234q01234567",
+      "url": "https://cdn.example.com/images/imovel18/foto6.jpg",
+      "description": "Vista panorâmica",
+      "isPrimary": false
+    },
+    {
+      "id": "img_019_001",
+      "propertyId": "8r39ss53548901s33456fgh789012345r12345678",
+      "url": "https://cdn.example.com/images/imovel19/foto1.jpg",
+      "description": "Studio mobiliado",
+      "isPrimary": true
+    },
+    {
+      "id": "img_019_002",
+      "propertyId": "8r39ss53548901s33456fgh789012345r12345678",
+      "url": "https://cdn.example.com/images/imovel19/foto2.jpg",
+      "description": "Cozinha compacta",
+      "isPrimary": false
+    },
+    {
+      "id": "img_020_001",
+      "propertyId": "9s40tt64659012t44567ghi890123456s23456789",
+      "url": "https://cdn.example.com/images/imovel20/foto1.jpg",
+      "description": "Sobrado elegante",
+      "isPrimary": true
+    },
+    {
+      "id": "img_020_002",
+      "propertyId": "9s40tt64659012t44567ghi890123456s23456789",
+      "url": "https://cdn.example.com/images/imovel20/foto2.jpg",
+      "description": "Escada em madeira",
+      "isPrimary": false
+    },
+    {
+      "id": "img_020_003",
+      "propertyId": "9s40tt64659012t44567ghi890123456s23456789",
+      "url": "https://cdn.example.com/images/imovel20/foto3.jpg",
+      "description": "Terraço superior",
+      "isPrimary": false
+    }
+  ]
+}
