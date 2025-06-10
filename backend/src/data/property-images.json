@@ -3,21 +3,21 @@
     {
       "id": "img_001_001",
       "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
-      "url": "https://cdn.example.com/images/imovel1/foto1.jpg",
+      "url": "https://res.cloudinary.com/dzsucacly/image/upload/v1749518186/photo-1601468380191-858e8402be50_lr0mye.webp",
       "description": "Fachada do apartamento",
       "isPrimary": true
     },
     {
       "id": "img_001_002",
       "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
-      "url": "https://cdn.example.com/images/imovel1/foto2.jpg",
-      "description": "Sala de estar",
+      "url": "https://res.cloudinary.com/dzsucacly/image/upload/v1749518210/photo-1708133942890-45d60811f945_mefz7u.webp",
+      "description": "Banheiro moderno",
       "isPrimary": false
     },
     {
       "id": "img_001_003",
       "propertyId": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
-      "url": "https://cdn.example.com/images/imovel1/foto3.jpg",
+      "url": "https://res.cloudinary.com/dzsucacly/image/upload/v1749518229/photo-1616962010322-799af7a33cbd_gustq4.webp",
       "description": "Cozinha americana",
       "isPrimary": false
     },

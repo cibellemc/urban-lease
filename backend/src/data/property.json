@@ -1,8 +1,8 @@
 {
   "imoveis": [
     {
-      "id": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
-      "cod": "imovel1",
+      "cod": "5e63cf6d659572dc6940cdd06f62039b4b700e97",
+      "id": "imovel1",
       "titulo": "Apartamento moderno",
       "localizacao": {
         "logradouro": "Rua Tucuna",
@@ -20,17 +20,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "65m²",
-      "images": [
-        "https://cdn.example.com/images/imovel1/foto1.jpg",
-        "https://cdn.example.com/images/imovel1/foto2.jpg",
-        "https://cdn.example.com/images/imovel1/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "7a82df9e871234bc5678def012345678abcdef01",
-      "cod": "imovel2",
+      "cod": "7a82df9e871234bc5678def012345678abcdef01",
+      "id": "imovel2",
       "titulo": "Casa com piscina",
       "localizacao": {
         "logradouro": "Avenida Atlântica",
@@ -48,18 +43,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "280m²",
-      "images": [
-        "https://cdn.example.com/images/imovel2/foto1.jpg",
-        "https://cdn.example.com/images/imovel2/foto2.jpg",
-        "https://cdn.example.com/images/imovel2/foto3.jpg",
-        "https://cdn.example.com/images/imovel2/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9b73cf8d982345cd7890fab123456789bcdef012",
-      "cod": "imovel3",
+      "cod": "9b73cf8d982345cd7890fab123456789bcdef012",
+      "id": "imovel3",
       "titulo": "Studio compacto",
       "localizacao": {
         "logradouro": "Rua Padre Carapuceiro",
@@ -77,16 +66,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "32m²",
-      "images": [
-        "https://cdn.example.com/images/imovel3/foto1.jpg",
-        "https://cdn.example.com/images/imovel3/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "3c84df0e093456de8901ghi234567890cdef0123",
-      "cod": "imovel4",
+      "cod": "3c84df0e093456de8901ghi234567890cdef0123",
+      "id": "imovel4",
       "titulo": "Cobertura duplex",
       "localizacao": {
         "logradouro": "Rua Sergipe",
@@ -104,19 +89,12 @@
       "tipo": "Cobertura",
       "estacionamento": 2,
       "area": "180m²",
-      "images": [
-        "https://cdn.example.com/images/imovel4/foto1.jpg",
-        "https://cdn.example.com/images/imovel4/foto2.jpg",
-        "https://cdn.example.com/images/imovel4/foto3.jpg",
-        "https://cdn.example.com/images/imovel4/foto4.jpg",
-        "https://cdn.example.com/images/imovel4/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4d95ef1f104567ef9012ijk345678901def01234",
-      "cod": "imovel5",
+      "cod": "4d95ef1f104567ef9012ijk345678901def01234",
+      "id": "imovel5",
       "titulo": "Apartamento térreo",
       "localizacao": {
         "logradouro": "Rua Felipe Schmidt",
@@ -134,17 +112,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "75m²",
-      "images": [
-        "https://cdn.example.com/images/imovel5/foto1.jpg",
-        "https://cdn.example.com/images/imovel5/foto2.jpg",
-        "https://cdn.example.com/images/imovel5/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5e06ff20215678f00123klm456789012ef012345",
-      "cod": "imovel6",
+      "cod": "5e06ff20215678f00123klm456789012ef012345",
+      "id": "imovel6",
       "titulo": "Casa em condomínio fechado",
       "localizacao": {
         "logradouro": "SQSW 304",
@@ -162,18 +135,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "220m²",
-      "images": [
-        "https://cdn.example.com/images/imovel6/foto1.jpg",
-        "https://cdn.example.com/images/imovel6/foto2.jpg",
-        "https://cdn.example.com/images/imovel6/foto3.jpg",
-        "https://cdn.example.com/images/imovel6/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6f17gg31326789g11234mno567890123f0123456",
-      "cod": "imovel7",
+      "cod": "6f17gg31326789g11234mno567890123f0123456",
+      "id": "imovel7",
       "titulo": "Loft industrial",
       "localizacao": {
         "logradouro": "Rua Ramiro Barcelos",
@@ -191,16 +158,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "85m²",
-      "images": [
-        "https://cdn.example.com/images/imovel7/foto1.jpg",
-        "https://cdn.example.com/images/imovel7/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7g28hh42437890h22345opq678901234g01234567",
-      "cod": "imovel8",
+      "cod": "7g28hh42437890h22345opq678901234g01234567",
+      "id": "imovel8",
       "titulo": "Apartamento com varanda gourmet",
       "localizacao": {
         "logradouro": "Avenida Tancredo Neves",
@@ -218,17 +181,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "110m²",
-      "images": [
-        "https://cdn.example.com/images/imovel8/foto1.jpg",
-        "https://cdn.example.com/images/imovel8/foto2.jpg",
-        "https://cdn.example.com/images/imovel8/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8h39ii53548901i33456qrs789012345h12345678",
-      "cod": "imovel9",
+      "cod": "8h39ii53548901i33456qrs789012345h12345678",
+      "id": "imovel9",
       "titulo": "Casa térrea moderna",
       "localizacao": {
         "logradouro": "Rua T-37",
@@ -246,18 +204,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "190m²",
-      "images": [
-        "https://cdn.example.com/images/imovel9/foto1.jpg",
-        "https://cdn.example.com/images/imovel9/foto2.jpg",
-        "https://cdn.example.com/images/imovel9/foto3.jpg",
-        "https://cdn.example.com/images/imovel9/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9i40jj64659012j44567stu890123456i23456789",
-      "cod": "imovel10",
+      "cod": "9i40jj64659012j44567stu890123456i23456789",
+      "id": "imovel10",
       "titulo": "Studio novo",
       "localizacao": {
         "logradouro": "Avenida Beira Mar",
@@ -275,17 +227,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "38m²",
-      "images": [
-        "https://cdn.example.com/images/imovel10/foto1.jpg",
-        "https://cdn.example.com/images/imovel10/foto2.jpg",
-        "https://cdn.example.com/images/imovel10/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "0j51kk75760123k55678uvw901234567j34567890",
-      "cod": "imovel11",
+      "cod": "0j51kk75760123k55678uvw901234567j34567890",
+      "id": "imovel11",
       "titulo": "Apartamento garden",
       "localizacao": {
         "logradouro": "Rua Mostardeiro",
@@ -303,18 +250,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "95m²",
-      "images": [
-        "https://cdn.example.com/images/imovel11/foto1.jpg",
-        "https://cdn.example.com/images/imovel11/foto2.jpg",
-        "https://cdn.example.com/images/imovel11/foto3.jpg",
-        "https://cdn.example.com/images/imovel11/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": false
     },
     {
-      "id": "1k62ll86871234l66789wxy012345678k45678901",
-      "cod": "imovel12",
+      "cod": "1k62ll86871234l66789wxy012345678k45678901",
+      "id": "imovel12",
       "titulo": "Cobertura com vista",
       "localizacao": {
         "logradouro": "Avenida Boa Viagem",
@@ -332,19 +273,12 @@
       "tipo": "Cobertura",
       "estacionamento": 3,
       "area": "250m²",
-      "images": [
-        "https://cdn.example.com/images/imovel12/foto1.jpg",
-        "https://cdn.example.com/images/imovel12/foto2.jpg",
-        "https://cdn.example.com/images/imovel12/foto3.jpg",
-        "https://cdn.example.com/images/imovel12/foto4.jpg",
-        "https://cdn.example.com/images/imovel12/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "2l73mm97982345m77890xyz123456789l56789012",
-      "cod": "imovel13",
+      "cod": "2l73mm97982345m77890xyz123456789l56789012",
+      "id": "imovel13",
       "titulo": "Casa com quintal",
       "localizacao": {
         "logradouro": "Rua Conselheiro Mafra",
@@ -362,16 +296,12 @@
       "tipo": "Casa",
       "estacionamento": 1,
       "area": "150m²",
-      "images": [
-        "https://cdn.example.com/images/imovel13/foto1.jpg",
-        "https://cdn.example.com/images/imovel13/foto2.jpg"
-      ],
       "status": "À venda",
       "destaque": false
     },
     {
-      "id": "3m84nn08093456n88901abc234567890m67890123",
-      "cod": "imovel14",
+      "cod": "3m84nn08093456n88901abc234567890m67890123",
+      "id": "imovel14",
       "titulo": "Apartamento reformado",
       "localizacao": {
         "logradouro": "Rua da Bahia",
@@ -389,17 +319,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "120m²",
-      "images": [
-        "https://cdn.example.com/images/imovel14/foto1.jpg",
-        "https://cdn.example.com/images/imovel14/foto2.jpg",
-        "https://cdn.example.com/images/imovel14/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "4n95oo19104567o99012bcd345678901n78901234",
-      "cod": "imovel15",
+      "cod": "4n95oo19104567o99012bcd345678901n78901234",
+      "id": "imovel15",
       "titulo": "Loft moderno",
       "localizacao": {
         "logradouro": "Rua das Laranjeiras",
@@ -417,17 +342,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "70m²",
-      "images": [
-        "https://cdn.example.com/images/imovel15/foto1.jpg",
-        "https://cdn.example.com/images/imovel15/foto2.jpg",
-        "https://cdn.example.com/images/imovel15/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": false
     },
     {
-      "id": "5o06pp20215678p00123cde456789012o89012345",
-      "cod": "imovel16",
+      "cod": "5o06pp20215678p00123cde456789012o89012345",
+      "id": "imovel16",
       "titulo": "Casa de vila",
       "localizacao": {
         "logradouro": "SQS 308",
@@ -445,16 +365,12 @@
       "tipo": "Casa",
       "estacionamento": 1,
       "area": "110m²",
-      "images": [
-        "https://cdn.example.com/images/imovel16/foto1.jpg",
-        "https://cdn.example.com/images/imovel16/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "6p17qq31326789q11234def567890123p90123456",
-      "cod": "imovel17",
+      "cod": "6p17qq31326789q11234def567890123p90123456",
+      "id": "imovel17",
       "titulo": "Apartamento com sacada",
       "localizacao": {
         "logradouro": "Avenida Protásio Alves",
@@ -472,17 +388,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "70m²",
-      "images": [
-        "https://cdn.example.com/images/imovel17/foto1.jpg",
-        "https://cdn.example.com/images/imovel17/foto2.jpg",
-        "https://cdn.example.com/images/imovel17/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": false
     },
     {
-      "id": "7q28rr42437890r22345efg678901234q01234567",
-      "cod": "imovel18",
+      "cod": "7q28rr42437890r22345efg678901234q01234567",
+      "id": "imovel18",
       "titulo": "Cobertura triplex",
       "localizacao": {
         "logradouro": "Avenida Manoel Dias da Silva",
@@ -500,20 +411,12 @@
       "tipo": "Cobertura",
       "estacionamento": 4,
       "area": "350m²",
-      "images": [
-        "https://cdn.example.com/images/imovel18/foto1.jpg",
-        "https://cdn.example.com/images/imovel18/foto2.jpg",
-        "https://cdn.example.com/images/imovel18/foto3.jpg",
-        "https://cdn.example.com/images/imovel18/foto4.jpg",
-        "https://cdn.example.com/images/imovel18/foto5.jpg",
-        "https://cdn.example.com/images/imovel18/foto6.jpg"
-      ],
       "status": "Para alugar",
       "destaque": true
     },
     {
-      "id": "8r39ss53548901s33456fgh789012345r12345678",
-      "cod": "imovel19",
+      "cod": "8r39ss53548901s33456fgh789012345r12345678",
+      "id": "imovel19",
       "titulo": "Studio com mobília",
       "localizacao": {
         "logradouro": "Rua XV de Novembro",
@@ -531,16 +434,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "35m²",
-      "images": [
-        "https://cdn.example.com/images/imovel19/foto1.jpg",
-        "https://cdn.example.com/images/imovel19/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9s40tt64659012t44567ghi890123456s23456789",
-      "cod": "imovel20",
+      "cod": "9s40tt64659012t44567ghi890123456s23456789",
+      "id": "imovel20",
       "titulo": "Casa sobrado",
       "localizacao": {
         "logradouro": "Rua dos Pinheiros",
@@ -558,17 +457,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "180m²",
-      "images": [
-        "https://cdn.example.com/images/imovel20/foto1.jpg",
-        "https://cdn.example.com/images/imovel20/foto2.jpg",
-        "https://cdn.example.com/images/imovel20/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0t51uu75760123u55678hij901234567t34567890",
-      "cod": "imovel21",
+      "cod": "0t51uu75760123u55678hij901234567t34567890",
+      "id": "imovel21",
       "titulo": "Apartamento duplex",
       "localizacao": {
         "logradouro": "Rua Visconde de Pirajá",
@@ -586,18 +480,12 @@
       "tipo": "Duplex",
       "estacionamento": 1,
       "area": "90m²",
-      "images": [
-        "https://cdn.example.com/images/imovel21/foto1.jpg",
-        "https://cdn.example.com/images/imovel21/foto2.jpg",
-        "https://cdn.example.com/images/imovel21/foto3.jpg",
-        "https://cdn.example.com/images/imovel21/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1u62vv86871234v66789ijk012345678u45678901",
-      "cod": "imovel22",
+      "cod": "1u62vv86871234v66789ijk012345678u45678901",
+      "id": "imovel22",
       "titulo": "Garden com churrasqueira",
       "localizacao": {
         "logradouro": "Avenida Getúlio Vargas",
@@ -615,17 +503,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "130m²",
-      "images": [
-        "https://cdn.example.com/images/imovel22/foto1.jpg",
-        "https://cdn.example.com/images/imovel22/foto2.jpg",
-        "https://cdn.example.com/images/imovel22/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2v73ww97982345w77890jkl123456789v56789012",
-      "cod": "imovel23",
+      "cod": "2v73ww97982345w77890jkl123456789v56789012",
+      "id": "imovel23",
       "titulo": "Loft com mezanino",
       "localizacao": {
         "logradouro": "Rua Hercílio Luz",
@@ -643,16 +526,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "75m²",
-      "images": [
-        "https://cdn.example.com/images/imovel23/foto1.jpg",
-        "https://cdn.example.com/images/imovel23/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3w84xx08093456x88901klm234567890w67890123",
-      "cod": "imovel24",
+      "cod": "3w84xx08093456x88901klm234567890w67890123",
+      "id": "imovel24",
       "titulo": "Casa com edícula",
       "localizacao": {
         "logradouro": "Rua 136",
@@ -670,18 +549,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "240m²",
-      "images": [
-        "https://cdn.example.com/images/imovel24/foto1.jpg",
-        "https://cdn.example.com/images/imovel24/foto2.jpg",
-        "https://cdn.example.com/images/imovel24/foto3.jpg",
-        "https://cdn.example.com/images/imovel24/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4x95yy19104567y99012lmn345678901x78901234",
-      "cod": "imovel25",
+      "cod": "4x95yy19104567y99012lmn345678901x78901234",
+      "id": "imovel25",
       "titulo": "Apartamento novo",
       "localizacao": {
         "logradouro": "Avenida Santos Dumont",
@@ -699,17 +572,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "78m²",
-      "images": [
-        "https://cdn.example.com/images/imovel25/foto1.jpg",
-        "https://cdn.example.com/images/imovel25/foto2.jpg",
-        "https://cdn.example.com/images/imovel25/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5y06zz20215678z00123mno456789012y89012345",
-      "cod": "imovel26",
+      "cod": "5y06zz20215678z00123mno456789012y89012345",
+      "id": "imovel26",
       "titulo": "Cobertura com piscina",
       "localizacao": {
         "logradouro": "Avenida Batel",
@@ -727,19 +595,12 @@
       "tipo": "Cobertura",
       "estacionamento": 2,
       "area": "200m²",
-      "images": [
-        "https://cdn.example.com/images/imovel26/foto1.jpg",
-        "https://cdn.example.com/images/imovel26/foto2.jpg",
-        "https://cdn.example.com/images/imovel26/foto3.jpg",
-        "https://cdn.example.com/images/imovel26/foto4.jpg",
-        "https://cdn.example.com/images/imovel26/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6z17aa31326789a11234nop567890123z90123456",
-      "cod": "imovel27",
+      "cod": "6z17aa31326789a11234nop567890123z90123456",
+      "id": "imovel27",
       "titulo": "Studio decorado",
       "localizacao": {
         "logradouro": "Rua Rio Branco",
@@ -757,17 +618,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "40m²",
-      "images": [
-        "https://cdn.example.com/images/imovel27/foto1.jpg",
-        "https://cdn.example.com/images/imovel27/foto2.jpg",
-        "https://cdn.example.com/images/imovel27/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7a28bb42437890b22345opq678901234a01234567",
-      "cod": "imovel28",
+      "cod": "7a28bb42437890b22345opq678901234a01234567",
+      "id": "imovel28",
       "titulo": "Casa com jardim",
       "localizacao": {
         "logradouro": "Rua Chile",
@@ -785,18 +641,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "300m²",
-      "images": [
-        "https://cdn.example.com/images/imovel28/foto1.jpg",
-        "https://cdn.example.com/images/imovel28/foto2.jpg",
-        "https://cdn.example.com/images/imovel28/foto3.jpg",
-        "https://cdn.example.com/images/imovel28/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8b39cc53548901c33456pqr789012345b12345678",
-      "cod": "imovel29",
+      "cod": "8b39cc53548901c33456pqr789012345b12345678",
+      "id": "imovel29",
       "titulo": "Apartamento com lazer",
       "localizacao": {
         "logradouro": "SQN 216",
@@ -814,16 +664,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "72m²",
-      "images": [
-        "https://cdn.example.com/images/imovel29/foto1.jpg",
-        "https://cdn.example.com/images/imovel29/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9c40dd64659012d44567qrs890123456c23456789",
-      "cod": "imovel30",
+      "cod": "9c40dd64659012d44567qrs890123456c23456789",
+      "id": "imovel30",
       "titulo": "Duplex moderno",
       "localizacao": {
         "logradouro": "Avenida Epitácio Pessoa",
@@ -841,17 +687,12 @@
       "tipo": "Duplex",
       "estacionamento": 1,
       "area": "95m²",
-      "images": [
-        "https://cdn.example.com/images/imovel30/foto1.jpg",
-        "https://cdn.example.com/images/imovel30/foto2.jpg",
-        "https://cdn.example.com/images/imovel30/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0d51ee75760123e55678rst901234567d34567890",
-      "cod": "imovel31",
+      "cod": "0d51ee75760123e55678rst901234567d34567890",
+      "id": "imovel31",
       "titulo": "Casa geminada",
       "localizacao": {
         "logradouro": "Rua Desembargador Soares",
@@ -869,17 +710,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "140m²",
-      "images": [
-        "https://cdn.example.com/images/imovel31/foto1.jpg",
-        "https://cdn.example.com/images/imovel31/foto2.jpg",
-        "https://cdn.example.com/images/imovel31/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1e62ff86871234f66789stu012345678e45678901",
-      "cod": "imovel32",
+      "cod": "1e62ff86871234f66789stu012345678e45678901",
+      "id": "imovel32",
       "titulo": "Apartamento com home office",
       "localizacao": {
         "logradouro": "Avenida Rio Verde",
@@ -897,18 +733,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "85m²",
-      "images": [
-        "https://cdn.example.com/images/imovel32/foto1.jpg",
-        "https://cdn.example.com/images/imovel32/foto2.jpg",
-        "https://cdn.example.com/images/imovel32/foto3.jpg",
-        "https://cdn.example.com/images/imovel32/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2f73gg97982345g77890tuv123456789f56789012",
-      "cod": "imovel33",
+      "cod": "2f73gg97982345g77890tuv123456789f56789012",
+      "id": "imovel33",
       "titulo": "Loft com terraço",
       "localizacao": {
         "logradouro": "Rua Pernambuco",
@@ -926,17 +756,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "95m²",
-      "images": [
-        "https://cdn.example.com/images/imovel33/foto1.jpg",
-        "https://cdn.example.com/images/imovel33/foto2.jpg",
-        "https://cdn.example.com/images/imovel33/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3g84hh08093456h88901uvw234567890g67890123",
-      "cod": "imovel34",
+      "cod": "3g84hh08093456h88901uvw234567890g67890123",
+      "id": "imovel34",
       "titulo": "Cobertura linear",
       "localizacao": {
         "logradouro": "Avenida das Américas",
@@ -954,19 +779,12 @@
       "tipo": "Cobertura",
       "estacionamento": 3,
       "area": "220m²",
-      "images": [
-        "https://cdn.example.com/images/imovel34/foto1.jpg",
-        "https://cdn.example.com/images/imovel34/foto2.jpg",
-        "https://cdn.example.com/images/imovel34/foto3.jpg",
-        "https://cdn.example.com/images/imovel34/foto4.jpg",
-        "https://cdn.example.com/images/imovel34/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4h95ii19104567i99012vwx345678901h78901234",
-      "cod": "imovel35",
+      "cod": "4h95ii19104567i99012vwx345678901h78901234",
+      "id": "imovel35",
       "titulo": "Studio com varanda",
       "localizacao": {
         "logradouro": "Rua Comendador Araújo",
@@ -984,16 +802,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "30m²",
-      "images": [
-        "https://cdn.example.com/images/imovel35/foto1.jpg",
-        "https://cdn.example.com/images/imovel35/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5i06jj20215678j00123wxy456789012i89012345",
-      "cod": "imovel36",
+      "cod": "5i06jj20215678j00123wxy456789012i89012345",
+      "id": "imovel36",
       "titulo": "Casa colonial",
       "localizacao": {
         "logradouro": "Rua das Palmeiras",
@@ -1011,18 +825,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "250m²",
-      "images": [
-        "https://cdn.example.com/images/imovel36/foto1.jpg",
-        "https://cdn.example.com/images/imovel36/foto2.jpg",
-        "https://cdn.example.com/images/imovel36/foto3.jpg",
-        "https://cdn.example.com/images/imovel36/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6j17kk31326789k11234xyz567890123j90123456",
-      "cod": "imovel37",
+      "cod": "6j17kk31326789k11234xyz567890123j90123456",
+      "id": "imovel37",
       "titulo": "Apartamento com closet",
       "localizacao": {
         "logradouro": "Avenida Dom Pedro II",
@@ -1040,17 +848,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "100m²",
-      "images": [
-        "https://cdn.example.com/images/imovel37/foto1.jpg",
-        "https://cdn.example.com/images/imovel37/foto2.jpg",
-        "https://cdn.example.com/images/imovel37/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7k28ll42437890l22345yza678901234k01234567",
-      "cod": "imovel38",
+      "cod": "7k28ll42437890l22345yza678901234k01234567",
+      "id": "imovel38",
       "titulo": "Garden duplex",
       "localizacao": {
         "logradouro": "SHIS QI 11",
@@ -1068,18 +871,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "160m²",
-      "images": [
-        "https://cdn.example.com/images/imovel38/foto1.jpg",
-        "https://cdn.example.com/images/imovel38/foto2.jpg",
-        "https://cdn.example.com/images/imovel38/foto3.jpg",
-        "https://cdn.example.com/images/imovel38/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8l39mm53548901m33456zab789012345l12345678",
-      "cod": "imovel39",
+      "cod": "8l39mm53548901m33456zab789012345l12345678",
+      "id": "imovel39",
       "titulo": "Casa com ateliê",
       "localizacao": {
         "logradouro": "Rua do Bom Jesus",
@@ -1097,17 +894,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "200m²",
-      "images": [
-        "https://cdn.example.com/images/imovel39/foto1.jpg",
-        "https://cdn.example.com/images/imovel39/foto2.jpg",
-        "https://cdn.example.com/images/imovel39/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9m40nn64659012n44567abc890123456m23456789",
-      "cod": "imovel40",
+      "cod": "9m40nn64659012n44567abc890123456m23456789",
+      "id": "imovel40",
       "titulo": "Apartamento com terraço",
       "localizacao": {
         "logradouro": "Rua Augusta",
@@ -1125,18 +917,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "140m²",
-      "images": [
-        "https://cdn.example.com/images/imovel40/foto1.jpg",
-        "https://cdn.example.com/images/imovel40/foto2.jpg",
-        "https://cdn.example.com/images/imovel40/foto3.jpg",
-        "https://cdn.example.com/images/imovel40/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0n51oo75760123o55678bcd901234567n34567890",
-      "cod": "imovel41",
+      "cod": "0n51oo75760123o55678bcd901234567n34567890",
+      "id": "imovel41",
       "titulo": "Loft duplex",
       "localizacao": {
         "logradouro": "Rua Barata Ribeiro",
@@ -1154,17 +940,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "110m²",
-      "images": [
-        "https://cdn.example.com/images/imovel41/foto1.jpg",
-        "https://cdn.example.com/images/imovel41/foto2.jpg",
-        "https://cdn.example.com/images/imovel41/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1o62pp86871234p66789cde012345678o45678901",
-      "cod": "imovel42",
+      "cod": "1o62pp86871234p66789cde012345678o45678901",
+      "id": "imovel42",
       "titulo": "Cobertura com spa",
       "localizacao": {
         "logradouro": "Avenida Litorânea",
@@ -1182,19 +963,12 @@
       "tipo": "Cobertura",
       "estacionamento": 4,
       "area": "300m²",
-      "images": [
-        "https://cdn.example.com/images/imovel42/foto1.jpg",
-        "https://cdn.example.com/images/imovel42/foto2.jpg",
-        "https://cdn.example.com/images/imovel42/foto3.jpg",
-        "https://cdn.example.com/images/imovel42/foto4.jpg",
-        "https://cdn.example.com/images/imovel42/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2p73qq97982345q77890def123456789p56789012",
-      "cod": "imovel43",
+      "cod": "2p73qq97982345q77890def123456789p56789012",
+      "id": "imovel43",
       "titulo": "Studio loft",
       "localizacao": {
         "logradouro": "Rua João Negrão",
@@ -1212,16 +986,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "45m²",
-      "images": [
-        "https://cdn.example.com/images/imovel43/foto1.jpg",
-        "https://cdn.example.com/images/imovel43/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3q84rr08093456r88901efg234567890q67890123",
-      "cod": "imovel44",
+      "cod": "3q84rr08093456r88901efg234567890q67890123",
+      "id": "imovel44",
       "titulo": "Casa com deck",
       "localizacao": {
         "logradouro": "Avenida Porto das Dunas",
@@ -1239,18 +1009,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "210m²",
-      "images": [
-        "https://cdn.example.com/images/imovel44/foto1.jpg",
-        "https://cdn.example.com/images/imovel44/foto2.jpg",
-        "https://cdn.example.com/images/imovel44/foto3.jpg",
-        "https://cdn.example.com/images/imovel44/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4r95ss19104567s99012fgh345678901r78901234",
-      "cod": "imovel45",
+      "cod": "4r95ss19104567s99012fgh345678901r78901234",
+      "id": "imovel45",
       "titulo": "Apartamento com suíte master",
       "localizacao": {
         "logradouro": "Avenida Soares Lopes",
@@ -1268,17 +1032,12 @@
       "tipo": "Condomínio",
       "estacionamento": 3,
       "area": "180m²",
-      "images": [
-        "https://cdn.example.com/images/imovel45/foto1.jpg",
-        "https://cdn.example.com/images/imovel45/foto2.jpg",
-        "https://cdn.example.com/images/imovel45/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5s06tt20215678t00123ghi456789012s89012345",
-      "cod": "imovel46",
+      "cod": "5s06tt20215678t00123ghi456789012s89012345",
+      "id": "imovel46",
       "titulo": "Duplex com piscina",
       "localizacao": {
         "logradouro": "Rua Desembargador Viriato",
@@ -1296,18 +1055,12 @@
       "tipo": "Duplex",
       "estacionamento": 2,
       "area": "150m²",
-      "images": [
-        "https://cdn.example.com/images/imovel46/foto1.jpg",
-        "https://cdn.example.com/images/imovel46/foto2.jpg",
-        "https://cdn.example.com/images/imovel46/foto3.jpg",
-        "https://cdn.example.com/images/imovel46/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6t17uu31326789u11234hij567890123t90123456",
-      "cod": "imovel47",
+      "cod": "6t17uu31326789u11234hij567890123t90123456",
+      "id": "imovel47",
       "titulo": "Casa minimalista",
       "localizacao": {
         "logradouro": "Alameda Jaú",
@@ -1325,17 +1078,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "240m²",
-      "images": [
-        "https://cdn.example.com/images/imovel47/foto1.jpg",
-        "https://cdn.example.com/images/imovel47/foto2.jpg",
-        "https://cdn.example.com/images/imovel47/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7u28vv42437890v22345ijk678901234u01234567",
-      "cod": "imovel48",
+      "cod": "7u28vv42437890v22345ijk678901234u01234567",
+      "id": "imovel48",
       "titulo": "Apartamento com lareira",
       "localizacao": {
         "logradouro": "Rua Fernando Ferrari",
@@ -1353,18 +1101,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "130m²",
-      "images": [
-        "https://cdn.example.com/images/imovel48/foto1.jpg",
-        "https://cdn.example.com/images/imovel48/foto2.jpg",
-        "https://cdn.example.com/images/imovel48/foto3.jpg",
-        "https://cdn.example.com/images/imovel48/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8v39ww53548901w33456jkl789012345v12345678",
-      "cod": "imovel49",
+      "cod": "8v39ww53548901w33456jkl789012345v12345678",
+      "id": "imovel49",
       "titulo": "Loft com biblioteca",
       "localizacao": {
         "logradouro": "Avenida República Argentina",
@@ -1382,17 +1124,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "80m²",
-      "images": [
-        "https://cdn.example.com/images/imovel49/foto1.jpg",
-        "https://cdn.example.com/images/imovel49/foto2.jpg",
-        "https://cdn.example.com/images/imovel49/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9w40xx64659012x44567klm890123456w23456789",
-      "cod": "imovel50",
+      "cod": "9w40xx64659012x44567klm890123456w23456789",
+      "id": "imovel50",
       "titulo": "Cobertura com heliponto",
       "localizacao": {
         "logradouro": "Avenida Boa Viagem",
@@ -1410,20 +1147,12 @@
       "tipo": "Cobertura",
       "estacionamento": 5,
       "area": "450m²",
-      "images": [
-        "https://cdn.example.com/images/imovel50/foto1.jpg",
-        "https://cdn.example.com/images/imovel50/foto2.jpg",
-        "https://cdn.example.com/images/imovel50/foto3.jpg",
-        "https://cdn.example.com/images/imovel50/foto4.jpg",
-        "https://cdn.example.com/images/imovel50/foto5.jpg",
-        "https://cdn.example.com/images/imovel50/foto6.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0x51yy75760123y55678lmn901234567x34567890",
-      "cod": "imovel51",
+      "cod": "0x51yy75760123y55678lmn901234567x34567890",
+      "id": "imovel51",
       "titulo": "Studio com cozinha americana",
       "localizacao": {
         "logradouro": "Rua Bocaiúva",
@@ -1441,16 +1170,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "34m²",
-      "images": [
-        "https://cdn.example.com/images/imovel51/foto1.jpg",
-        "https://cdn.example.com/images/imovel51/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1y62zz86871234z66789mno012345678y45678901",
-      "cod": "imovel52",
+      "cod": "1y62zz86871234z66789mno012345678y45678901",
+      "id": "imovel52",
       "titulo": "Casa com salão de festas",
       "localizacao": {
         "logradouro": "Avenida Goiás",
@@ -1468,18 +1193,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "230m²",
-      "images": [
-        "https://cdn.example.com/images/imovel52/foto1.jpg",
-        "https://cdn.example.com/images/imovel52/foto2.jpg",
-        "https://cdn.example.com/images/imovel52/foto3.jpg",
-        "https://cdn.example.com/images/imovel52/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2z73aa97982345a77890nop123456789z56789012",
-      "cod": "imovel53",
+      "cod": "2z73aa97982345a77890nop123456789z56789012",
+      "id": "imovel53",
       "titulo": "Apartamento com pet place",
       "localizacao": {
         "logradouro": "Rua Silva Jardim",
@@ -1497,17 +1216,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "68m²",
-      "images": [
-        "https://cdn.example.com/images/imovel53/foto1.jpg",
-        "https://cdn.example.com/images/imovel53/foto2.jpg",
-        "https://cdn.example.com/images/imovel53/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3a84bb08093456b88901opq234567890a67890123",
-      "cod": "imovel54",
+      "cod": "3a84bb08093456b88901opq234567890a67890123",
+      "id": "imovel54",
       "titulo": "Garden com pomar",
       "localizacao": {
         "logradouro": "Avenida Contorno",
@@ -1525,18 +1239,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "150m²",
-      "images": [
-        "https://cdn.example.com/images/imovel54/foto1.jpg",
-        "https://cdn.example.com/images/imovel54/foto2.jpg",
-        "https://cdn.example.com/images/imovel54/foto3.jpg",
-        "https://cdn.example.com/images/imovel54/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4b95cc19104567c99012pqr345678901b78901234",
-      "cod": "imovel55",
+      "cod": "4b95cc19104567c99012pqr345678901b78901234",
+      "id": "imovel55",
       "titulo": "Duplex com varanda gourmet",
       "localizacao": {
         "logradouro": "Avenida Jorge Amado",
@@ -1554,17 +1262,12 @@
       "tipo": "Duplex",
       "estacionamento": 2,
       "area": "120m²",
-      "images": [
-        "https://cdn.example.com/images/imovel55/foto1.jpg",
-        "https://cdn.example.com/images/imovel55/foto2.jpg",
-        "https://cdn.example.com/images/imovel55/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5c06dd20215678d00123qrs456789012c89012345",
-      "cod": "imovel56",
+      "cod": "5c06dd20215678d00123qrs456789012c89012345",
+      "id": "imovel56",
       "titulo": "Loft com estúdio",
       "localizacao": {
         "logradouro": "Rua Sete de Setembro",
@@ -1582,17 +1285,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "88m²",
-      "images": [
-        "https://cdn.example.com/images/imovel56/foto1.jpg",
-        "https://cdn.example.com/images/imovel56/foto2.jpg",
-        "https://cdn.example.com/images/imovel56/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6d17ee31326789e11234rst567890123d90123456",
-      "cod": "imovel57",
+      "cod": "6d17ee31326789e11234rst567890123d90123456",
+      "id": "imovel57",
       "titulo": "Casa com spa",
       "localizacao": {
         "logradouro": "Avenida Oceânica",
@@ -1610,19 +1308,12 @@
       "tipo": "Casa",
       "estacionamento": 4,
       "area": "350m²",
-      "images": [
-        "https://cdn.example.com/images/imovel57/foto1.jpg",
-        "https://cdn.example.com/images/imovel57/foto2.jpg",
-        "https://cdn.example.com/images/imovel57/foto3.jpg",
-        "https://cdn.example.com/images/imovel57/foto4.jpg",
-        "https://cdn.example.com/images/imovel57/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7e28ff42437890f22345stu678901234e01234567",
-      "cod": "imovel58",
+      "cod": "7e28ff42437890f22345stu678901234e01234567",
+      "id": "imovel58",
       "titulo": "Apartamento face norte",
       "localizacao": {
         "logradouro": "Rua Marechal Deodoro",
@@ -1640,17 +1331,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "75m²",
-      "images": [
-        "https://cdn.example.com/images/imovel58/foto1.jpg",
-        "https://cdn.example.com/images/imovel58/foto2.jpg",
-        "https://cdn.example.com/images/imovel58/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8f39gg53548901g33456tuv789012345f12345678",
-      "cod": "imovel59",
+      "cod": "8f39gg53548901g33456tuv789012345f12345678",
+      "id": "imovel59",
       "titulo": "Cobertura com cinema",
       "localizacao": {
         "logradouro": "Avenida Niemeyer",
@@ -1668,18 +1354,12 @@
       "tipo": "Cobertura",
       "estacionamento": 3,
       "area": "280m²",
-      "images": [
-        "https://cdn.example.com/images/imovel59/foto1.jpg",
-        "https://cdn.example.com/images/imovel59/foto2.jpg",
-        "https://cdn.example.com/images/imovel59/foto3.jpg",
-        "https://cdn.example.com/images/imovel59/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9g40hh64659012h44567uvw890123456g23456789",
-      "cod": "imovel60",
+      "cod": "9g40hh64659012h44567uvw890123456g23456789",
+      "id": "imovel60",
       "titulo": "Studio pet friendly",
       "localizacao": {
         "logradouro": "Avenida Delmiro Gouveia",
@@ -1697,17 +1377,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "42m²",
-      "images": [
-        "https://cdn.example.com/images/imovel60/foto1.jpg",
-        "https://cdn.example.com/images/imovel60/foto2.jpg",
-        "https://cdn.example.com/images/imovel60/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0h51ii75760123i55678vwx901234567h34567890",
-      "cod": "imovel61",
+      "cod": "0h51ii75760123i55678vwx901234567h34567890",
+      "id": "imovel61",
       "titulo": "Casa com horta",
       "localizacao": {
         "logradouro": "Rua Francisco Glicério",
@@ -1725,17 +1400,12 @@
       "tipo": "Casa",
       "estacionamento": 2,
       "area": "160m²",
-      "images": [
-        "https://cdn.example.com/images/imovel61/foto1.jpg",
-        "https://cdn.example.com/images/imovel61/foto2.jpg",
-        "https://cdn.example.com/images/imovel61/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1i62jj86871234j66789wxy012345678i45678901",
-      "cod": "imovel62",
+      "cod": "1i62jj86871234j66789wxy012345678i45678901",
+      "id": "imovel62",
       "titulo": "Apartamento com academia",
       "localizacao": {
         "logradouro": "Avenida do CPA",
@@ -1753,18 +1423,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "110m²",
-      "images": [
-        "https://cdn.example.com/images/imovel62/foto1.jpg",
-        "https://cdn.example.com/images/imovel62/foto2.jpg",
-        "https://cdn.example.com/images/imovel62/foto3.jpg",
-        "https://cdn.example.com/images/imovel62/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2j73kk97982345k77890xyz123456789j56789012",
-      "cod": "imovel63",
+      "cod": "2j73kk97982345k77890xyz123456789j56789012",
+      "id": "imovel63",
       "titulo": "Loft com galeria",
       "localizacao": {
         "logradouro": "SQN 107",
@@ -1782,17 +1446,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "100m²",
-      "images": [
-        "https://cdn.example.com/images/imovel63/foto1.jpg",
-        "https://cdn.example.com/images/imovel63/foto2.jpg",
-        "https://cdn.example.com/images/imovel63/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3k84ll08093456l88901yza234567890k67890123",
-      "cod": "imovel64",
+      "cod": "3k84ll08093456l88901yza234567890k67890123",
+      "id": "imovel64",
       "titulo": "Garden com playground",
       "localizacao": {
         "logradouro": "Avenida Maria Lacerda de Azevedo",
@@ -1810,18 +1469,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "125m²",
-      "images": [
-        "https://cdn.example.com/images/imovel64/foto1.jpg",
-        "https://cdn.example.com/images/imovel64/foto2.jpg",
-        "https://cdn.example.com/images/imovel64/foto3.jpg",
-        "https://cdn.example.com/images/imovel64/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4l95mm19104567m99012zab345678901l78901234",
-      "cod": "imovel65",
+      "cod": "4l95mm19104567m99012zab345678901l78901234",
+      "id": "imovel65",
       "titulo": "Casa com adega",
       "localizacao": {
         "logradouro": "Avenida Afonso Pena",
@@ -1839,19 +1492,12 @@
       "tipo": "Casa",
       "estacionamento": 4,
       "area": "320m²",
-      "images": [
-        "https://cdn.example.com/images/imovel65/foto1.jpg",
-        "https://cdn.example.com/images/imovel65/foto2.jpg",
-        "https://cdn.example.com/images/imovel65/foto3.jpg",
-        "https://cdn.example.com/images/imovel65/foto4.jpg",
-        "https://cdn.example.com/images/imovel65/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5m06nn20215678n00123abc456789012m89012345",
-      "cod": "imovel66",
+      "cod": "5m06nn20215678n00123abc456789012m89012345",
+      "id": "imovel66",
       "titulo": "Duplex com solarium",
       "localizacao": {
         "logradouro": "Avenida Antônio de Góes",
@@ -1869,17 +1515,12 @@
       "tipo": "Duplex",
       "estacionamento": 2,
       "area": "140m²",
-      "images": [
-        "https://cdn.example.com/images/imovel66/foto1.jpg",
-        "https://cdn.example.com/images/imovel66/foto2.jpg",
-        "https://cdn.example.com/images/imovel66/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6n17oo31326789o11234bcd567890123n90123456",
-      "cod": "imovel67",
+      "cod": "6n17oo31326789o11234bcd567890123n90123456",
+      "id": "imovel67",
       "titulo": "Apartamento com brinquedoteca",
       "localizacao": {
         "logradouro": "Avenida Abolição",
@@ -1897,17 +1538,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "73m²",
-      "images": [
-        "https://cdn.example.com/images/imovel67/foto1.jpg",
-        "https://cdn.example.com/images/imovel67/foto2.jpg",
-        "https://cdn.example.com/images/imovel67/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7o28pp42437890p22345cde678901234o01234567",
-      "cod": "imovel68",
+      "cod": "7o28pp42437890p22345cde678901234o01234567",
+      "id": "imovel68",
       "titulo": "Cobertura com sauna",
       "localizacao": {
         "logradouro": "Avenida Lucio Costa",
@@ -1925,19 +1561,12 @@
       "tipo": "Cobertura",
       "estacionamento": 3,
       "area": "260m²",
-      "images": [
-        "https://cdn.example.com/images/imovel68/foto1.jpg",
-        "https://cdn.example.com/images/imovel68/foto2.jpg",
-        "https://cdn.example.com/images/imovel68/foto3.jpg",
-        "https://cdn.example.com/images/imovel68/foto4.jpg",
-        "https://cdn.example.com/images/imovel68/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8p39qq53548901q33456def789012345p12345678",
-      "cod": "imovel69",
+      "cod": "8p39qq53548901q33456def789012345p12345678",
+      "id": "imovel69",
       "titulo": "Studio com bike place",
       "localizacao": {
         "logradouro": "Rua Joinville",
@@ -1955,16 +1584,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "36m²",
-      "images": [
-        "https://cdn.example.com/images/imovel69/foto1.jpg",
-        "https://cdn.example.com/images/imovel69/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9q40rr64659012r44567efg890123456q23456789",
-      "cod": "imovel70",
+      "cod": "9q40rr64659012r44567efg890123456q23456789",
+      "id": "imovel70",
       "titulo": "Casa com quadra",
       "localizacao": {
         "logradouro": "Avenida das Castanheiras",
@@ -1982,19 +1607,12 @@
       "tipo": "Casa",
       "estacionamento": 4,
       "area": "380m²",
-      "images": [
-        "https://cdn.example.com/images/imovel70/foto1.jpg",
-        "https://cdn.example.com/images/imovel70/foto2.jpg",
-        "https://cdn.example.com/images/imovel70/foto3.jpg",
-        "https://cdn.example.com/images/imovel70/foto4.jpg",
-        "https://cdn.example.com/images/imovel70/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0r51ss75760123s55678fgh901234567r34567890",
-      "cod": "imovel71",
+      "cod": "0r51ss75760123s55678fgh901234567r34567890",
+      "id": "imovel71",
       "titulo": "Loft com rooftop",
       "localizacao": {
         "logradouro": "Rua Avanhandava",
@@ -2012,17 +1630,12 @@
       "tipo": "Loft",
       "estacionamento": 2,
       "area": "115m²",
-      "images": [
-        "https://cdn.example.com/images/imovel71/foto1.jpg",
-        "https://cdn.example.com/images/imovel71/foto2.jpg",
-        "https://cdn.example.com/images/imovel71/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1s62tt86871234t66789ghi012345678s45678901",
-      "cod": "imovel72",
+      "cod": "1s62tt86871234t66789ghi012345678s45678901",
+      "id": "imovel72",
       "titulo": "Apartamento com espaço gourmet",
       "localizacao": {
         "logradouro": "Avenida Bernardo Vieira de Melo",
@@ -2040,18 +1653,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "155m²",
-      "images": [
-        "https://cdn.example.com/images/imovel72/foto1.jpg",
-        "https://cdn.example.com/images/imovel72/foto2.jpg",
-        "https://cdn.example.com/images/imovel72/foto3.jpg",
-        "https://cdn.example.com/images/imovel72/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2t73uu97982345u77890hij123456789t56789012",
-      "cod": "imovel73",
+      "cod": "2t73uu97982345u77890hij123456789t56789012",
+      "id": "imovel73",
       "titulo": "Casa com ofurô",
       "localizacao": {
         "logradouro": "Rua Monte Castelo",
@@ -2069,19 +1676,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "290m²",
-      "images": [
-        "https://cdn.example.com/images/imovel73/foto1.jpg",
-        "https://cdn.example.com/images/imovel73/foto2.jpg",
-        "https://cdn.example.com/images/imovel73/foto3.jpg",
-        "https://cdn.example.com/images/imovel73/foto4.jpg",
-        "https://cdn.example.com/images/imovel73/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3u84vv08093456v88901ijk234567890u67890123",
-      "cod": "imovel74",
+      "cod": "3u84vv08093456v88901ijk234567890u67890123",
+      "id": "imovel74",
       "titulo": "Garden com espaço zen",
       "localizacao": {
         "logradouro": "Avenida Saturnino de Brito",
@@ -2099,17 +1699,12 @@
       "tipo": "Garden",
       "estacionamento": 2,
       "area": "105m²",
-      "images": [
-        "https://cdn.example.com/images/imovel74/foto1.jpg",
-        "https://cdn.example.com/images/imovel74/foto2.jpg",
-        "https://cdn.example.com/images/imovel74/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4v95ww19104567w99012jkl345678901v78901234",
-      "cod": "imovel75",
+      "cod": "4v95ww19104567w99012jkl345678901v78901234",
+      "id": "imovel75",
       "titulo": "Studio com coworking",
       "localizacao": {
         "logradouro": "Avenida Júlio de Castilhos",
@@ -2127,17 +1722,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "48m²",
-      "images": [
-        "https://cdn.example.com/images/imovel75/foto1.jpg",
-        "https://cdn.example.com/images/imovel75/foto2.jpg",
-        "https://cdn.example.com/images/imovel75/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5w06xx20215678x00123klm456789012w89012345",
-      "cod": "imovel76",
+      "cod": "5w06xx20215678x00123klm456789012w89012345",
+      "id": "imovel76",
       "titulo": "Duplex com adega climatizada",
       "localizacao": {
         "logradouro": "Avenida Historiador Rubens de Mendonça",
@@ -2155,18 +1745,12 @@
       "tipo": "Duplex",
       "estacionamento": 3,
       "area": "170m²",
-      "images": [
-        "https://cdn.example.com/images/imovel76/foto1.jpg",
-        "https://cdn.example.com/images/imovel76/foto2.jpg",
-        "https://cdn.example.com/images/imovel76/foto3.jpg",
-        "https://cdn.example.com/images/imovel76/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6x17yy31326789y11234lmn567890123x90123456",
-      "cod": "imovel77",
+      "cod": "6x17yy31326789y11234lmn567890123x90123456",
+      "id": "imovel77",
       "titulo": "Cobertura com observatório",
       "localizacao": {
         "logradouro": "Avenida Getúlio Vargas",
@@ -2184,20 +1768,12 @@
       "tipo": "Cobertura",
       "estacionamento": 3,
       "area": "320m²",
-      "images": [
-        "https://cdn.example.com/images/imovel77/foto1.jpg",
-        "https://cdn.example.com/images/imovel77/foto2.jpg",
-        "https://cdn.example.com/images/imovel77/foto3.jpg",
-        "https://cdn.example.com/images/imovel77/foto4.jpg",
-        "https://cdn.example.com/images/imovel77/foto5.jpg",
-        "https://cdn.example.com/images/imovel77/foto6.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7y28zz42437890z22345mno678901234y01234567",
-      "cod": "imovel78",
+      "cod": "7y28zz42437890z22345mno678901234y01234567",
+      "id": "imovel78",
       "titulo": "Casa sustentável",
       "localizacao": {
         "logradouro": "Rodovia Ilhéus-Itabuna",
@@ -2215,17 +1791,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "260m²",
-      "images": [
-        "https://cdn.example.com/images/imovel78/foto1.jpg",
-        "https://cdn.example.com/images/imovel78/foto2.jpg",
-        "https://cdn.example.com/images/imovel78/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8z39aa53548901a33456nop789012345z12345678",
-      "cod": "imovel79",
+      "cod": "8z39aa53548901a33456nop789012345z12345678",
+      "id": "imovel79",
       "titulo": "Apartamento com lavanderia",
       "localizacao": {
         "logradouro": "Rua Barão do Rio Branco",
@@ -2243,17 +1814,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "95m²",
-      "images": [
-        "https://cdn.example.com/images/imovel79/foto1.jpg",
-        "https://cdn.example.com/images/imovel79/foto2.jpg",
-        "https://cdn.example.com/images/imovel79/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9a40bb64659012b44567opq890123456a23456789",
-      "cod": "imovel80",
+      "cod": "9a40bb64659012b44567opq890123456a23456789",
+      "id": "imovel80",
       "titulo": "Loft com parede de escalada",
       "localizacao": {
         "logradouro": "Avenida do Forte",
@@ -2271,18 +1837,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "90m²",
-      "images": [
-        "https://cdn.example.com/images/imovel80/foto1.jpg",
-        "https://cdn.example.com/images/imovel80/foto2.jpg",
-        "https://cdn.example.com/images/imovel80/foto3.jpg",
-        "https://cdn.example.com/images/imovel80/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0b51cc75760123c55678pqr901234567b34567890",
-      "cod": "imovel81",
+      "cod": "0b51cc75760123c55678pqr901234567b34567890",
+      "id": "imovel81",
       "titulo": "Casa com lago",
       "localizacao": {
         "logradouro": "Condomínio Vila Verde",
@@ -2300,19 +1860,12 @@
       "tipo": "Casa",
       "estacionamento": 5,
       "area": "450m²",
-      "images": [
-        "https://cdn.example.com/images/imovel81/foto1.jpg",
-        "https://cdn.example.com/images/imovel81/foto2.jpg",
-        "https://cdn.example.com/images/imovel81/foto3.jpg",
-        "https://cdn.example.com/images/imovel81/foto4.jpg",
-        "https://cdn.example.com/images/imovel81/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1c62dd86871234d66789qrs012345678c45678901",
-      "cod": "imovel82",
+      "cod": "1c62dd86871234d66789qrs012345678c45678901",
+      "id": "imovel82",
       "titulo": "Apartamento com espaço kids",
       "localizacao": {
         "logradouro": "Avenida Dom Luís",
@@ -2330,17 +1883,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "80m²",
-      "images": [
-        "https://cdn.example.com/images/imovel82/foto1.jpg",
-        "https://cdn.example.com/images/imovel82/foto2.jpg",
-        "https://cdn.example.com/images/imovel82/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2d73ee97982345e77890rst123456789d56789012",
-      "cod": "imovel83",
+      "cod": "2d73ee97982345e77890rst123456789d56789012",
+      "id": "imovel83",
       "titulo": "Garden com forno de pizza",
       "localizacao": {
         "logradouro": "Avenida Sete de Setembro",
@@ -2358,18 +1906,12 @@
       "tipo": "Garden",
       "estacionamento": 3,
       "area": "175m²",
-      "images": [
-        "https://cdn.example.com/images/imovel83/foto1.jpg",
-        "https://cdn.example.com/images/imovel83/foto2.jpg",
-        "https://cdn.example.com/images/imovel83/foto3.jpg",
-        "https://cdn.example.com/images/imovel83/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3e84ff08093456f88901stu234567890e67890123",
-      "cod": "imovel84",
+      "cod": "3e84ff08093456f88901stu234567890e67890123",
+      "id": "imovel84",
       "titulo": "Studio com automação",
       "localizacao": {
         "logradouro": "Avenida Doutor Arnaldo",
@@ -2387,17 +1929,12 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "50m²",
-      "images": [
-        "https://cdn.example.com/images/imovel84/foto1.jpg",
-        "https://cdn.example.com/images/imovel84/foto2.jpg",
-        "https://cdn.example.com/images/imovel84/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4f95gg19104567g99012tuv345678901f78901234",
-      "cod": "imovel85",
+      "cod": "4f95gg19104567g99012tuv345678901f78901234",
+      "id": "imovel85",
       "titulo": "Duplex com sala de jogos",
       "localizacao": {
         "logradouro": "Avenida Carlos Gomes",
@@ -2415,17 +1952,12 @@
       "tipo": "Duplex",
       "estacionamento": 2,
       "area": "135m²",
-      "images": [
-        "https://cdn.example.com/images/imovel85/foto1.jpg",
-        "https://cdn.example.com/images/imovel85/foto2.jpg",
-        "https://cdn.example.com/images/imovel85/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5g06hh20215678h00123uvw456789012g89012345",
-      "cod": "imovel86",
+      "cod": "5g06hh20215678h00123uvw456789012g89012345",
+      "id": "imovel86",
       "titulo": "Casa com bosque",
       "localizacao": {
         "logradouro": "Rua dos Pinhais",
@@ -2443,20 +1975,12 @@
       "tipo": "Casa",
       "estacionamento": 5,
       "area": "500m²",
-      "images": [
-        "https://cdn.example.com/images/imovel86/foto1.jpg",
-        "https://cdn.example.com/images/imovel86/foto2.jpg",
-        "https://cdn.example.com/images/imovel86/foto3.jpg",
-        "https://cdn.example.com/images/imovel86/foto4.jpg",
-        "https://cdn.example.com/images/imovel86/foto5.jpg",
-        "https://cdn.example.com/images/imovel86/foto6.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6h17ii31326789i11234vwx567890123h90123456",
-      "cod": "imovel87",
+      "cod": "6h17ii31326789i11234vwx567890123h90123456",
+      "id": "imovel87",
       "titulo": "Apartamento com despensa",
       "localizacao": {
         "logradouro": "Avenida Efigênio Salles",
@@ -2474,17 +1998,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "105m²",
-      "images": [
-        "https://cdn.example.com/images/imovel87/foto1.jpg",
-        "https://cdn.example.com/images/imovel87/foto2.jpg",
-        "https://cdn.example.com/images/imovel87/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7i28jj42437890j22345wxy678901234i01234567",
-      "cod": "imovel88",
+      "cod": "7i28jj42437890j22345wxy678901234i01234567",
+      "id": "imovel88",
       "titulo": "Loft com área externa",
       "localizacao": {
         "logradouro": "Avenida Fernando Corrêa da Costa",
@@ -2502,18 +2021,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "105m²",
-      "images": [
-        "https://cdn.example.com/images/imovel88/foto1.jpg",
-        "https://cdn.example.com/images/imovel88/foto2.jpg",
-        "https://cdn.example.com/images/imovel88/foto3.jpg",
-        "https://cdn.example.com/images/imovel88/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8j39kk53548901k33456xyz789012345j12345678",
-      "cod": "imovel89",
+      "cod": "8j39kk53548901k33456xyz789012345j12345678",
+      "id": "imovel89",
       "titulo": "Cobertura com deck molhado",
       "localizacao": {
         "logradouro": "Avenida Beira Rio",
@@ -2531,19 +2044,12 @@
       "tipo": "Cobertura",
       "estacionamento": 4,
       "area": "380m²",
-      "images": [
-        "https://cdn.example.com/images/imovel89/foto1.jpg",
-        "https://cdn.example.com/images/imovel89/foto2.jpg",
-        "https://cdn.example.com/images/imovel89/foto3.jpg",
-        "https://cdn.example.com/images/imovel89/foto4.jpg",
-        "https://cdn.example.com/images/imovel89/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9k40ll64659012l44567yza890123456k23456789",
-      "cod": "imovel90",
+      "cod": "9k40ll64659012l44567yza890123456k23456789",
+      "id": "imovel90",
       "titulo": "Casa com campo de futebol",
       "localizacao": {
         "logradouro": "Rua das Araras",
@@ -2561,20 +2067,12 @@
       "tipo": "Casa",
       "estacionamento": 5,
       "area": "420m²",
-      "images": [
-        "https://cdn.example.com/images/imovel90/foto1.jpg",
-        "https://cdn.example.com/images/imovel90/foto2.jpg",
-        "https://cdn.example.com/images/imovel90/foto3.jpg",
-        "https://cdn.example.com/images/imovel90/foto4.jpg",
-        "https://cdn.example.com/images/imovel90/foto5.jpg",
-        "https://cdn.example.com/images/imovel90/foto6.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "0l51mm75760123m55678zab901234567l34567890",
-      "cod": "imovel91",
+      "cod": "0l51mm75760123m55678zab901234567l34567890",
+      "id": "imovel91",
       "titulo": "Apartamento com sala íntima",
       "localizacao": {
         "logradouro": "Avenida Almirante Barroso",
@@ -2592,18 +2090,12 @@
       "tipo": "Condomínio",
       "estacionamento": 2,
       "area": "125m²",
-      "images": [
-        "https://cdn.example.com/images/imovel91/foto1.jpg",
-        "https://cdn.example.com/images/imovel91/foto2.jpg",
-        "https://cdn.example.com/images/imovel91/foto3.jpg",
-        "https://cdn.example.com/images/imovel91/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "1m62nn86871234n66789abc012345678m45678901",
-      "cod": "imovel92",
+      "cod": "1m62nn86871234n66789abc012345678m45678901",
+      "id": "imovel92",
       "titulo": "Studio com mezanino",
       "localizacao": {
         "logradouro": "Avenida Visconde de Souza Franco",
@@ -2621,16 +2113,12 @@
       "tipo": "Studio",
       "estacionamento": 0,
       "area": "28m²",
-      "images": [
-        "https://cdn.example.com/images/imovel92/foto1.jpg",
-        "https://cdn.example.com/images/imovel92/foto2.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "2n73oo97982345o77890bcd123456789n56789012",
-      "cod": "imovel93",
+      "cod": "2n73oo97982345o77890bcd123456789n56789012",
+      "id": "imovel93",
       "titulo": "Garden com estufa",
       "localizacao": {
         "logradouro": "Avenida das Torres",
@@ -2648,18 +2136,12 @@
       "tipo": "Garden",
       "estacionamento": 3,
       "area": "180m²",
-      "images": [
-        "https://cdn.example.com/images/imovel93/foto1.jpg",
-        "https://cdn.example.com/images/imovel93/foto2.jpg",
-        "https://cdn.example.com/images/imovel93/foto3.jpg",
-        "https://cdn.example.com/images/imovel93/foto4.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "3o84pp08093456p88901cde234567890o67890123",
-      "cod": "imovel94",
+      "cod": "3o84pp08093456p88901cde234567890o67890123",
+      "id": "imovel94",
       "titulo": "Casa com estúdio de música",
       "localizacao": {
         "logradouro": "Rua dos Artistas",
@@ -2677,19 +2159,12 @@
       "tipo": "Casa",
       "estacionamento": 3,
       "area": "270m²",
-      "images": [
-        "https://cdn.example.com/images/imovel94/foto1.jpg",
-        "https://cdn.example.com/images/imovel94/foto2.jpg",
-        "https://cdn.example.com/images/imovel94/foto3.jpg",
-        "https://cdn.example.com/images/imovel94/foto4.jpg",
-        "https://cdn.example.com/images/imovel94/foto5.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "4p95qq19104567q99012def345678901p78901234",
-      "cod": "imovel95",
+      "cod": "4p95qq19104567q99012def345678901p78901234",
+      "id": "imovel95",
       "titulo": "Duplex com sala de TV",
       "localizacao": {
         "logradouro": "Avenida JK",
@@ -2707,17 +2182,12 @@
       "tipo": "Duplex",
       "estacionamento": 2,
       "area": "145m²",
-      "images": [
-        "https://cdn.example.com/images/imovel95/foto1.jpg",
-        "https://cdn.example.com/images/imovel95/foto2.jpg",
-        "https://cdn.example.com/images/imovel95/foto3.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "5q06rr20215678r00123efg456789012q89012345",
-      "cod": "imovel96",
+      "cod": "5q06rr20215678r00123efg456789012q89012345",
+      "id": "imovel96",
       "titulo": "Loft com parede verde",
       "localizacao": {
         "logradouro": "Avenida Norte Sul",
@@ -2735,17 +2205,12 @@
       "tipo": "Loft",
       "estacionamento": 1,
       "area": "82m²",
-      "images": [
-        "https://cdn.example.com/images/imovel96/foto1.jpg",
-        "https://cdn.example.com/images/imovel96/foto2.jpg",
-        "https://cdn.example.com/images/imovel96/foto3.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "6r17ss31326789s11234fgh567890123r90123456",
-      "cod": "imovel97",
+      "cod": "6r17ss31326789s11234fgh567890123r90123456",
+      "id": "imovel97",
       "titulo": "Apartamento com depósito",
       "localizacao": {
         "logradouro": "Avenida Djalma Batista",
@@ -2763,16 +2228,12 @@
       "tipo": "Condomínio",
       "estacionamento": 1,
       "area": "67m²",
-      "images": [
-        "https://cdn.example.com/images/imovel97/foto1.jpg",
-        "https://cdn.example.com/images/imovel97/foto2.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "7s28tt42437890t22345ghi678901234s01234567",
-      "cod": "imovel98",
+      "cod": "7s28tt42437890t22345ghi678901234s01234567",
+      "id": "imovel98",
       "titulo": "Cobertura panorâmica",
       "localizacao": {
         "logradouro": "Avenida Marechal Câmara",
@@ -2790,21 +2251,12 @@
       "tipo": "Cobertura",
       "estacionamento": 4,
       "area": "400m²",
-      "images": [
-        "https://cdn.example.com/images/imovel98/foto1.jpg",
-        "https://cdn.example.com/images/imovel98/foto2.jpg",
-        "https://cdn.example.com/images/imovel98/foto3.jpg",
-        "https://cdn.example.com/images/imovel98/foto4.jpg",
-        "https://cdn.example.com/images/imovel98/foto5.jpg",
-        "https://cdn.example.com/images/imovel98/foto6.jpg",
-        "https://cdn.example.com/images/imovel98/foto7.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     },
     {
-      "id": "8t39uu53548901u33456hij789012345t12345678",
-      "cod": "imovel99",
+      "cod": "8t39uu53548901u33456hij789012345t12345678",
+      "id": "imovel99",
       "titulo": "Casa com galeria de arte",
       "localizacao": {
         "logradouro": "Avenida Ceará",
@@ -2822,19 +2274,12 @@
       "tipo": "Casa",
       "estacionamento": 6,
       "area": "480m²",
-      "images": [
-        "https://cdn.example.com/images/imovel99/foto1.jpg",
-        "https://cdn.example.com/images/imovel99/foto2.jpg",
-        "https://cdn.example.com/images/imovel99/foto3.jpg",
-        "https://cdn.example.com/images/imovel99/foto4.jpg",
-        "https://cdn.example.com/images/imovel99/foto5.jpg"
-      ],
       "status": "Para alugar",
       "destaque": false
     },
     {
-      "id": "9u40vv64659012v44567ijk890123456u23456789",
-      "cod": "imovel100",
+      "cod": "9u40vv64659012v44567ijk890123456u23456789",
+      "id": "imovel100",
       "titulo": "Studio com vista para o mar",
       "localizacao": {
         "logradouro": "Avenida Vicente de Carvalho",
@@ -2852,12 +2297,6 @@
       "tipo": "Studio",
       "estacionamento": 1,
       "area": "55m²",
-      "images": [
-        "https://cdn.example.com/images/imovel100/foto1.jpg",
-        "https://cdn.example.com/images/imovel100/foto2.jpg",
-        "https://cdn.example.com/images/imovel100/foto3.jpg",
-        "https://cdn.example.com/images/imovel100/foto4.jpg"
-      ],
       "status": "À venda",
       "destaque": true
     }
