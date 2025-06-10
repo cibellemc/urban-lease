@@ -2,89 +2,127 @@
 
 ![Demonstração](./images/animacao.gif)
 
-## Visão Geral
+## 📌 Visão Geral
 
-Este é um site para a imobiliária Urban Lease, desenvolvido com HTML, Tailwind CSS e JavaScript. O site apresenta uma landing page moderna e responsiva com várias seções, incluindo carrosséis interativos.
+**Urban Lease** é um site para uma imobiliária que apresenta uma **landing page moderna e responsiva** com carrosséis interativos, formulários e listagem dinâmica de imóveis. O projeto utiliza um **frontend com HTML, Tailwind CSS e JavaScript puro**, integrado a um **backend em Node.js com Fastify** que serve dados via API.
 
-## Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 urban-lease/
-├── css/
-│   └── (arquivos de estilo)
-├── data/
-│   └── mock-data.json
-├── images/
-│   └── (arquivos de imagem)
-├── js/
-│   ├── main.js
-│   ├── property-data.js
-│   ├── propertyService.js
-│   └── search-results.js
-├── converter-webp.py
-├── index.html
-└── search-results.html
+├── backend/
+│   ├── src/
+│   │   ├── data/
+│   │   │   ├── property.json
+│   │   │   └── property-images.json
+│   │   ├── plugins/
+│   │   │   └── swagger.ts
+│   │   ├── routes/
+│   │   │   └── property.route.ts
+│   │   ├── schemas/
+│   │   │   ├── property.ts
+│   │   │   └── property-image.ts
+│   │   └── server.ts
+│   ├── package.json
+│   └── tsconfig.json
+├── frontend/
+│   ├── css/
+│   ├── data/
+│   ├── images/
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── property-data.js
+│   │   ├── propertyService.js
+│   │   └── search-results.js
+│   ├── index.html
+│   └── search-results.html
+└── converter-webp.py
 ```
 
-## Tecnologias Utilizadas
+---
 
-- HTML5 semântico
-- Tailwind CSS (via CDN)
-- JavaScript vanilla
-- Fonte DM Sans (Google Fonts)
+## 🚀 Tecnologias Utilizadas
 
-## Cores Principais
+### Frontend:
+- **HTML5 Semântico**
+- **Tailwind CSS** (via CDN)
+- **JavaScript Vanilla**
+- **Google Fonts** – DM Sans
 
-- Marrom: #58381a
-- Creme: #f4ebd7
+### Backend:
+- **Node.js + Fastify**
+- **Swagger** – documentação acessível em `/docs`
+- **Cloudinary** – hospedagem de imagens
+- **TypeScript**
+- **JSON mock data** com 100 imóveis (51 em destaque)
 
-## Funcionalidades Implementadas
+---
 
-1. **Carrosséis Interativos**
+## 🧪 API REST
 
-   - Carrossel principal na seção hero
-   - Carrossel de imóveis em destaque
-   - Carrossel de depoimentos de clientes
+- **Endpoint principal**: [`http://localhost:3000/properties`](http://localhost:3000/properties)
+- **Swagger UI**: [`http://localhost:3000/docs`](http://localhost:3000/docs)
 
-2. **Formulários**
+A API disponibiliza os dados dos imóveis em formato JSON. Imagens são hospedadas na Cloudinary e associadas por `propertyId`.
 
-   - Formulário de busca de imóveis
-   - Formulário de contato
+---
 
-3. **Menu Responsivo**
+## ⚙️ Como Rodar o Projeto
 
-   - Menu de navegação adaptável para dispositivos móveis
+### 📦 Backend
 
-4. **Elementos Interativos**
-   - Botões de navegação nos carrosséis
-   - Botão de WhatsApp flutuante
-   - Tabs na seção "Para você"
+```bash
+# Instalar dependências
+npm install
 
-## Responsividade
+# Iniciar servidor backend
+npm run dev
+```
 
-O site foi desenvolvido seguindo o princípio "mobile-first" e é totalmente responsivo, adaptando-se a diferentes tamanhos de tela:
+O servidor será iniciado em `http://localhost:3000/`.
 
+---
+
+### 🌐 Frontend
+
+Use a extensão **Live Server** (VSCode) ou servidor local para abrir o `index.html`.
+
+---
+
+## 🎨 Cores Principais
+
+- **Marrom:** `#58381a`
+- **Creme:** `#f4ebd7`
+
+---
+
+## ✅ Funcionalidades Implementadas
+
+### 🖼️ Carrosséis
+- Hero principal
+- Imóveis em destaque (51 itens)
+- Depoimentos de clientes
+
+### 🔍 Busca de Imóveis
+- Formulário dinâmico com filtragem
+- Redirecionamento para `search-results.html` com resultados
+
+### 💬 Formulários
+- Contato
+- Busca
+
+### 📱 Responsividade
+Site 100% responsivo com abordagem *mobile-first*:
 - Dispositivos móveis (< 768px)
 - Tablets (768px - 1024px)
 - Desktops (> 1024px)
 
-## Como Usar
+---
 
-1. Abra o arquivo `index.html` em um navegador web moderno
-2. Para desenvolvimento, você pode modificar os arquivos CSS e JavaScript conforme necessário
-3. Para adicionar novas imagens, coloque-as na pasta `images/`
-4. Para conversão de imagens para WebP, utilize o script `converter-webp.py`.
+## 🛠️ Melhorias Futuras
 
-## Notas de Implementação
-
-- Os carrosséis são implementados com JavaScript puro, sem dependências externas
-- O Tailwind CSS é carregado via CDN para facilitar a implementação
-- A fonte DM Sans é carregada do Google Fonts
-- O site utiliza HTML semântico para melhor acessibilidade e SEO
-
-## Melhorias Futuras
-
-- Implementar backend para os formulários
-- Adicionar páginas internas para detalhes dos imóveis
-- Implementar sistema de filtragem avançada
-- Adicionar autenticação de usuários
+- Página de detalhes do imóvel
+- Página de busca 
+- Formulário para compra/aluguel consumindo dados da API
