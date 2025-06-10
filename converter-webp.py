@@ -4,7 +4,7 @@ from PIL import Image
 def convert_png_to_webp(folder_path, quality=80, recursive=False):
     for root, dirs, files in os.walk(folder_path):
         for file in files:
-            if file.lower().endswith('.png'):
+            if file.lower().endswith('.png') or file.lower().endswith('.jpg'):
                 png_path = os.path.join(root, file)
                 webp_path = os.path.splitext(png_path)[0] + '.webp'
                 
@@ -20,5 +20,5 @@ def convert_png_to_webp(folder_path, quality=80, recursive=False):
 
 # === EXEMPLO DE USO ===
 # Altere o caminho da pasta abaixo:
-pasta = 'images/'
+pasta = './images/'
 convert_png_to_webp(pasta, quality=80, recursive=True)
