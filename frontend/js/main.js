@@ -61,10 +61,11 @@ function initCarouselScrollBy(carouselId) {
 
   if (!container || !prevBtn || !nextBtn) return;
 
-  const slide = container.querySelector(".carousel-slide");
   const gap = parseInt(getComputedStyle(container).gap) || 0;
 
   prevBtn.addEventListener("click", () => {
+    const slide = container.querySelector(".carousel-slide");
+    if (!slide) return; 
     container.scrollBy({
       left: -(slide.offsetWidth + gap),
       behavior: "smooth",
@@ -72,6 +73,8 @@ function initCarouselScrollBy(carouselId) {
   });
 
   nextBtn.addEventListener("click", () => {
+    const slide = container.querySelector(".carousel-slide");
+    if (!slide) return;
     container.scrollBy({
       left: slide.offsetWidth + gap,
       behavior: "smooth",
@@ -88,7 +91,7 @@ function initMobileMenu() {
   mobileMenu.innerHTML = `
         <div class="flex justify-between items-center p-4 border-b">
             <div class="logo">
-                <img src="images/logo.png" alt="Urban Lease" class="h-8">
+                <img src="https://res.cloudinary.com/dzsucacly/image/upload/v1749495643/logo_rzgatm.webp" alt="Urban Lease" class="h-8">
             </div>
             <button id="close-menu-button" class="text-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
