@@ -45,7 +45,7 @@ async function getProperties(): Promise<Property[]> {
   if (propertiesCache) return propertiesCache;
   
   try {
-    const json = await import("../data/imoveis-json.json");
+    const json = await import("../data/property.json");
     propertiesCache = json.imoveis;
     return propertiesCache;
   } catch (error) {
@@ -74,7 +74,7 @@ async function getPropertiesWithImages(): Promise<PropertyWithImages[]> {
   ]);
   
   // Cria um mapa de imagens por propertyId para performance
-  const imagesByPropertyId = images.reduce((acc, image) => {
+  const imagesPropertyCod = images.reduce((acc, image) => {
     if (!acc[image.propertyId]) {
       acc[image.propertyId] = [];
     }
@@ -85,7 +85,7 @@ async function getPropertiesWithImages(): Promise<PropertyWithImages[]> {
   // Combina propriedades com suas imagens
   return properties.map(property => ({
     ...property,
-    images: imagesByPropertyId[property.id] || []
+    images: imagesPropertyCod[property.cod] || []
   }));
 }
 
